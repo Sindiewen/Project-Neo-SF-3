@@ -80,7 +80,7 @@ public class PlayerInputManager : MonoBehaviour
     /// </summary>
     private void Update()
     {
-        // Gets player movement
+        // Gets input from the player
         getInput();
     }
 
