@@ -4,65 +4,57 @@ public class PlayerMovement : MonoBehaviour
 {
 
     // variables
-    public float moveSpeed = 5f;
+    #region Variables
 
+    // public Variables
+    // ---------------------------------------------
 
-
+    [Header("Player Movement Values")]
+    public float moveSpeed = 5f;        //How fast the player will move
     // Private variables
-
-    // Player movement variables
-    private Vector2 moveDirection;
+    // ---------------------------------------------
 
     // Component references
-    private Rigidbody2D rb2d;       // Reference to the player rigidbody component   
+    private PlayerInputManager inputmanager;    // Reference to the player input manager component
+    private Rigidbody2D rb2d;                   // Reference to the player rigidbody component   
+
+    #endregion
 
 
+    #region Private Methods
+
+
+    /// <summary>
+    /// Unity start method
+    /// 
+    /// Runs once when the scene starts
+    /// </summary>
     private void Start()
     {
         // Initialize components
+        inputmanager = GetComponent<PlayerInputManager>();
         rb2d = GetComponent<Rigidbody2D>();
     }
 
+    #endregion
 
-    /// <summary>
-    /// UPdates every frame
-    /// </summary>
-    private void Update()
-    {
-        // Gets player movement
-        getInput();
-    }
+    #region Public Methods 
 
-    /// <summary>
-    /// Fixed update function
-    /// runs every frame, but executed on a fixed timer
-    /// </summary>
-    private void FixedUpdate()
-    {
-        initiatiteMovement();
-    }
-    
-
-
-    // Player Movement
+    // Initiate player Input
     // ----------------------------------------------------------
 
     /// <summary>
-    /// Gets any input from the player
+    /// Initiates player movement
     /// </summary>
-    private void getInput()
-    {
-        // Get horizontal and vertical input
-        moveDirection.x = Input.GetAxisRaw("Horizontal");
-        moveDirection.y = Input.GetAxisRaw("Vertical");
-    }
-
-    private void initiatiteMovement()
+    public void initiatiteMovement(Vector2 moveDirection)
     {
         // Move player position based on the current player position + the direction the playe ris moving,
         // Then multiply that by the speed the player will move, and then multiplay that by deltaTime to ensure
         // it's moving at realtime
         rb2d.MovePosition(rb2d.position + moveDirection * moveSpeed * Time.fixedDeltaTime);
     }
+
+
+    #endregion
 
 }

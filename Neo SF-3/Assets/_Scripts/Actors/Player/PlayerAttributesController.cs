@@ -1,18 +1,26 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PlayerAttributesController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    // Variables
+    #region Variables
+    // Public Variables
+    // --------------------------------
+    [Header("Player Attributes")]
+    public int playerHealth;            // Current player health
+    public int playerHealthMax;         // Max player health
+
+    [Header("Player Combat Values")]
+    public int AttackStrength;          // Player attack strength
+    public float comboResetCooldown;    // How long it takes before the attack's can be used again outside of combo
+    public float midComboAtkCooldown;   // How long it takes before the next attack in the combo chain can be initiated
+
+
+    // Private Variables
+    // ---------------------------------
+    // Component references
+
+    #endregion
+
 }
