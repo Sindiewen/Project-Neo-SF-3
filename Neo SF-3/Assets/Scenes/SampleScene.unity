@@ -684,7 +684,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13a494fde86b9ce4ca69fc490fa5dff5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player_number: 0
   moveSpeed: 5
+  moveHorizontal: Horizontal
+  moveVertical: Vertical
+  attackKey: Fire1
 --- !u!50 &2101285489
 Rigidbody2D:
   serializedVersion: 4
