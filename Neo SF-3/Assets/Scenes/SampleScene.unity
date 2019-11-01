@@ -602,7 +602,10 @@ GameObject:
   - component: {fileID: 2101285485}
   - component: {fileID: 2101285489}
   - component: {fileID: 2101285490}
+  - component: {fileID: 2101285491}
   - component: {fileID: 2101285488}
+  - component: {fileID: 2101285493}
+  - component: {fileID: 2101285492}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -684,11 +687,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13a494fde86b9ce4ca69fc490fa5dff5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player_number: 0
   moveSpeed: 5
-  moveHorizontal: Horizontal
-  moveVertical: Vertical
-  attackKey: Fire1
 --- !u!50 &2101285489
 Rigidbody2D:
   serializedVersion: 4
@@ -736,6 +735,53 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &2101285491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2101285484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d643d4a68e6c4e54086f3e893b25dd73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player_number: 0
+  moveHorizontal: Horizontal
+  moveVertical: Vertical
+  attackKey: Fire1
+  moveDirection: {x: 0, y: 0}
+  isAttacking: 0
+--- !u!114 &2101285492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2101285484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57711c35cd4454649bf06e8054d666cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2101285493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2101285484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcb4dbb691c3d0b4a84cd38d0aed57a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: 0
+  playerHealthMax: 0
+  AttackStrength: 0
+  comboResetCooldown: 0
+  midComboAtkCooldown: 0
 --- !u!1001 &7610150886088418241
 PrefabInstance:
   m_ObjectHideFlags: 0
