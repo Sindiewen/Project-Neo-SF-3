@@ -1,5 +1,11 @@
 ﻿using UnityEngine;
 
+
+/// <summary>
+/// Manages and defines the input manager of the player
+/// 
+/// 
+/// </summary>
 public class PlayerInputManager : MonoBehaviour
 {
 
@@ -25,14 +31,14 @@ public class PlayerInputManager : MonoBehaviour
     public PLAYER_NUMBER player_number; // Defines which number the player is
 
     [Header("InputManager References")]
-    public string moveHorizontal = "Horizontal";
-    public string moveVertical = "Vertical";
-    public string attackKey = "Fire1";
+    [SerializeField] private string moveHorizontal = "Horizontal";
+    [SerializeField] private string moveVertical = "Vertical";
+    [SerializeField] private string attackKey = "Fire1";
 
 
     // Player input data
-    [HideInInspector] public Vector2 moveDirection;
-    [HideInInspector] public bool isAttacking;
+    private Vector2 moveDirection;
+    private bool isAttacking;
 
 
     #endregion
@@ -99,6 +105,22 @@ public class PlayerInputManager : MonoBehaviour
         isAttacking = Input.GetButtonDown(attackKey);
     }
 
+
+    #endregion
+
+    // Getters and Setters
+    #region Getters/Setters
+
+    // Get all input data
+    public Vector2 MoveDirection
+    {
+        get { return moveDirection; }
+    }
+
+    public bool IsAttacking
+    {
+        get { return isAttacking; }
+    }
 
     #endregion
 
