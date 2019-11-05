@@ -2,6 +2,16 @@
 
 public class PlayerMovement : MonoBehaviour
 {
+    // Enums
+    #region Enums
+
+    // Enum of current facing direction
+    public enum PLAYER_FACING_DIRECTION
+    {
+        UP = 0, DOWN = 1, LEFT = 2, RIGHT = 3
+    };
+
+    #endregion
 
     // variables
     #region Variables
@@ -10,7 +20,8 @@ public class PlayerMovement : MonoBehaviour
     // ---------------------------------------------
 
     [Header("Player Movement Values")]
-    public float moveSpeed = 5f;        //How fast the player will move
+    public float moveSpeed = 5f;                    // How fast the player will move
+    [SerializeField] private PLAYER_FACING_DIRECTION facingDirection; // Stores the current facing direction
     // Private variables
     // ---------------------------------------------
 
@@ -51,9 +62,39 @@ public class PlayerMovement : MonoBehaviour
         // Move player position based on the current player position + the direction the playe ris moving,
         // Then multiply that by the speed the player will move, and then multiplay that by deltaTime to ensure
         // it's moving at realtime
+
+        // Player moving and facing upwards, moving up diagonals left or right
+        if (moveDirection.y > 0 && (moveDirection.x <= 0.5f || moveDirection.x >= -0.5f))
+        {
+            facingDirection = PLAYER_FACING_DIRECTION.UP;
+        }
+        else if (moveDirection.y < 0 && (moveDirection.x <= 0.5f || moveDirection.x >= -0.5f))
+        {
+            facingDirection = PLAYER_FACING_DIRECTION.DOWN;
+        }
+        // If player if moving anf facing right, moving right diagonals up or down
+        else if (moveDirection.x > 0 && (moveDirection.y <= 0.5f || moveDirection.y >= -0.5f))
+        {
+            facingDirection = PLAYER_FACING_DIRECTION.RIGHT;
+        }
+        else if (moveDirection.x < 0 && (moveDirection.y <= 0.5f || moveDirection.y >= -0.5f))
+        {
+            facingDirection = PLAYER_FACING_DIRECTION.LEFT;
+        }
+
         rb2d.MovePosition(rb2d.position + moveDirection * moveSpeed * Time.fixedDeltaTime);
     }
 
+
+    #endregion
+
+    #region getters/setters
+
+    // Get player facing direction
+    public int FacingDirection
+    {
+        get { return (int)facingDirection; }
+    }
 
     #endregion
 

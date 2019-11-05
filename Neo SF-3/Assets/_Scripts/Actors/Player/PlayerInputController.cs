@@ -44,7 +44,8 @@ public class PlayerInputController : MonoBehaviour
     private void Update()
     {
         // If player attacks, initiate atttack
-        if (inputManager.IsAttacking) playerCombat.initiateAttack();
+        if (inputManager.IsAttacking) playerCombat.initiateAttack(playerMovement.FacingDirection);
+        playerCombat.FacingDir = playerMovement.FacingDirection;
     }
 
     /// <summary>
