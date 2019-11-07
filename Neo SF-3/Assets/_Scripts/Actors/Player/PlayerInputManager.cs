@@ -33,7 +33,8 @@ public class PlayerInputManager : MonoBehaviour
     [Header("InputManager References")]
     [SerializeField] private string moveHorizontal = "Horizontal";
     [SerializeField] private string moveVertical = "Vertical";
-    [SerializeField] private string attackKey = "Fire1";
+    //[SerializeField] private string attackKey = "Fire1";
+    [SerializeField] private KeyCode attackKey;
 
 
     // Player input data
@@ -60,14 +61,14 @@ public class PlayerInputManager : MonoBehaviour
         {
             moveHorizontal += "_p2";
             moveVertical += "_p2";
-            attackKey += "_p2";
+            attackKey = KeyCode.Joystick2Button0;
         }
         // Player 1 = "_p1"
         else
         {
             moveHorizontal += "_p1";
             moveVertical += "_p1";
-            attackKey += "_p1";
+            attackKey = KeyCode.Joystick1Button0;
         }
 
     }
@@ -102,7 +103,8 @@ public class PlayerInputManager : MonoBehaviour
 
         // check for attackInput
         // If the player presses the attack key, set attacking to true
-        isAttacking = Input.GetButtonDown(attackKey);
+        //isAttacking = Input.GetButtonDown(attackKey);
+        isAttacking = Input.GetKeyDown(attackKey);
     }
 
 
