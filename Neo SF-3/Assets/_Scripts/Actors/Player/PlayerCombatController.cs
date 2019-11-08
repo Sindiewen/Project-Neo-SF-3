@@ -14,6 +14,9 @@ public class PlayerCombatController : MonoBehaviour
     public float attackDistance;        // Distance of the attack
     public LayerMask collisionMask;     // What the attacks can hit using Unity's layer system
 
+    [Header("Combat Attributes")]
+    public float attackCooldownRate;    // How long it takes before the attack can be attacked again
+
 
     // Private variables
 
@@ -99,6 +102,28 @@ public class PlayerCombatController : MonoBehaviour
     {
         // Get component references
         playerAttributesController = GetComponent<PlayerAttributesController>();
+    }
+
+    /// <summary>
+    /// Unity update method
+    /// 
+    /// Runs every frame
+    /// </summary>
+    private void Update()
+    {
+    
+    }
+
+
+    /// <summary>
+    /// Updates the timer for attacking
+    /// </summary>
+    private void attackTimerUpdate()
+    {
+        if (attackCooldownRate >= 0)
+        {
+
+        }
     }
 
 
