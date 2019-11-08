@@ -14,10 +14,20 @@ public class PlayerCombatController : MonoBehaviour
     public float attackDistance;        // Distance of the attack
     public LayerMask collisionMask;     // What the attacks can hit using Unity's layer system
 
+    [Header("Combat Attributes")]
+    public int maxNumOfChainAttacks = 3;    // How many attacks the player can initiate before needing to cooldown
+    public float attackCooldownRate;    // How long it takes before the attack can be attacked again
+    public float attackChainAttackStartTimer;   // how long the player has before the chain attack can start (cooldown rate - start timer = when the player can start chain attacks)
+
 
     // Private variables
 
-    [SerializeField] private int lastFacingDir;          // Srores the last facing direction
+    private int lastFacingDir;          // Srores the last facing direction
+
+    // Combat timers
+    private float combatResetCooldownTimer;             // How long it takes before the combat resets
+    private float combatChainAttackCooldownTimer;       // 
+    private int currentAttackChainCount;                // Counts current attack chain count
 
     // Component references
     private PlayerAttributesController playerAttributesController;
@@ -32,55 +42,69 @@ public class PlayerCombatController : MonoBehaviour
     /// </summary>
     public void initiateAttack(int facingDirection)
     {
-        // Initiates player attack
-        Debug.Log("Player " + this.name + " Attacking");
-
-        /*
-         * Player attack direction is determined based on the enum set in Player movement
-         * for facing direction.
-         * If the player is facing up, the player will attack upwards, and
-         * so forth to the other directions.
-         */
-
-
-        // -----------------------------------------------------------------
-        // this code is smiliar to code I use on my personal proejcts for combat.
-        // It's kinda a mess, but it works really, really well
-
-        // Get current vector2 location of where the attack will start
-        Vector2 rayOrigin = (Vector2)transform.position + attackRect[facingDirection].center;
-
-        // Create raycast box for chcking if enemy has been hit
-        RaycastHit2D[] hit = Physics2D.BoxCastAll(rayOrigin, attackRect[facingDirection].size, 0, attackDirection, attackDistance, collisionMask);
-
-
-        // Have player stop moving when attacking
-        // Start attack animation
-        // Have enemy enter invul frames
-        // end attack animq
-        // remove raycast box
-
-        // If has hit enemies
-        if (hit.Length > 0)
+        if (combatChainAttackCooldownTimer <= 0 && currentAttackChainCount < maxNumOfChainAttacks)
         {
-            // Successfully hit enemies
+            // Resets attack cooldown timer
+            combatResetCooldownTimer = attackCooldownRate;
+            
+            // Resets chain attack timer
+            combatChainAttackCooldownTimer = attackChainAttackStartTimer;
 
-            // Create list of enemies to attack
-            List<EnemyAttributes> enemyList = new List<EnemyAttributes>();
+            // Increment attack chain count
+            currentAttackChainCount += 1;
 
-            // Stores enemyes into list
-            for (int i = 0; i < hit.Length; ++i)
+
+
+
+            // Initiates player attack
+            Debug.Log("Player " + this.name + " Attacking");
+
+            /*
+             * Player attack direction is determined based on the enum set in Player movement
+             * for facing direction.
+             * If the player is facing up, the player will attack upwards, and
+             * so forth to the other directions.
+             */
+
+
+            // -----------------------------------------------------------------
+            // this code is smiliar to code I use on my personal proejcts for combat.
+            // It's kinda a mess, but it works really, really well
+
+            // Get current vector2 location of where the attack will start
+            Vector2 rayOrigin = (Vector2)transform.position + attackRect[facingDirection].center;
+
+            // Create raycast box for chcking if enemy has been hit
+            RaycastHit2D[] hit = Physics2D.BoxCastAll(rayOrigin, attackRect[facingDirection].size, 0, attackDirection, attackDistance, collisionMask);
+
+
+            // Have player stop moving when attacking
+            // Start attack animation
+            // Have enemy enter invul frames
+            // end attack animq
+            // remove raycast box
+
+            // If has hit enemies
+            if (hit.Length > 0)
             {
-                enemyList.Add(hit[i].transform.GetComponent<EnemyAttributes>());
-            }
+                // Successfully hit enemies
 
-            // Deal damage to the enemies
-            for (int i = 0; i < enemyList.Count; ++i)
-            {
-                enemyList[i].takeDamage(playerAttributesController.AttackStrength);
-            }
-        }   
+                // Create list of enemies to attack
+                List<EnemyAttributes> enemyList = new List<EnemyAttributes>();
 
+                // Stores enemyes into list
+                for (int i = 0; i < hit.Length; ++i)
+                {
+                    enemyList.Add(hit[i].transform.GetComponent<EnemyAttributes>());
+                }
+
+                // Deal damage to the enemies
+                for (int i = 0; i < enemyList.Count; ++i)
+                {
+                    enemyList[i].takeDamage(playerAttributesController.AttackStrength);
+                }
+            }   
+        }
     }
 
     #endregion
@@ -99,6 +123,42 @@ public class PlayerCombatController : MonoBehaviour
     {
         // Get component references
         playerAttributesController = GetComponent<PlayerAttributesController>();
+
+        // Init combat variables
+        combatResetCooldownTimer = 0;
+        combatChainAttackCooldownTimer = 0;
+        currentAttackChainCount = 0;
+    }
+
+    /// <summary>
+    /// Unity update method
+    /// 
+    /// Runs every frame
+    /// </summary>
+    private void Update()
+    {
+        attackTimerUpdate();    // Updates the 
+    }
+
+
+    /// <summary>
+    /// Updates the timer for attacking
+    /// </summary>
+    private void attackTimerUpdate()
+    {
+        // If player has attacked, reseting the timer
+        if (combatResetCooldownTimer >= 0 || combatChainAttackCooldownTimer >= 0)
+        {
+            // Decrement combat timer
+            combatResetCooldownTimer -= Time.deltaTime;
+            combatChainAttackCooldownTimer -= Time.deltaTime;
+
+            // When reached end of cooldown timer, reset chain count
+            if (combatResetCooldownTimer <= 0)
+            {
+                currentAttackChainCount = 0;
+            }
+        }
     }
 
 
