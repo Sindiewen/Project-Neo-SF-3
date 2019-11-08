@@ -31,6 +31,7 @@ public class PlayerInputManager : MonoBehaviour
     public PLAYER_NUMBER player_number; // Defines which number the player is
 
     [Header("InputManager References")]
+    [SerializeField] private bool usingKeyboard;
     [SerializeField] private string moveHorizontal = "Horizontal";
     [SerializeField] private string moveVertical = "Vertical";
     //[SerializeField] private string attackKey = "Fire1";
@@ -61,14 +62,20 @@ public class PlayerInputManager : MonoBehaviour
         {
             moveHorizontal += "_p2";
             moveVertical += "_p2";
-            attackKey = KeyCode.Joystick2Button0;
+            if (!usingKeyboard)
+                attackKey = KeyCode.Joystick2Button0;
+            else
+                attackKey = KeyCode.RightAlt;
         }
         // Player 1 = "_p1"
         else
         {
             moveHorizontal += "_p1";
             moveVertical += "_p1";
-            attackKey = KeyCode.Joystick1Button0;
+            if (!usingKeyboard)
+                attackKey = KeyCode.Joystick1Button0;
+            else
+                attackKey = KeyCode.LeftControl;
         }
 
     }
