@@ -28,6 +28,7 @@ public class PlayerMovement : MonoBehaviour
     // Component references
     private PlayerInputManager inputmanager;    // Reference to the player input manager component
     private Rigidbody2D rb2d;                   // Reference to the player rigidbody component   
+    [SerializeField] private Animator anim;     // Reference to child animator
 
     #endregion
 
@@ -45,6 +46,10 @@ public class PlayerMovement : MonoBehaviour
         // Initialize components
         inputmanager = GetComponent<PlayerInputManager>();
         rb2d = GetComponent<Rigidbody2D>();
+
+        // Setting facing direction
+        facingDirection = PLAYER_FACING_DIRECTION.UP;
+        anim.SetFloat("Vertical", 1);
     }
 
     #endregion
@@ -83,6 +88,9 @@ public class PlayerMovement : MonoBehaviour
         }
 
         rb2d.MovePosition(rb2d.position + moveDirection * moveSpeed * Time.fixedDeltaTime);
+        anim.SetFloat("Horizontal", moveDirection.x);
+        anim.SetFloat("Vertical", moveDirection.y);
+
     }
 
 
