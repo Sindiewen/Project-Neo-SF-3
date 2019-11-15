@@ -59,7 +59,8 @@ public class PlayerInputController : MonoBehaviour
     {
         // Iniitate player movement (NOTE: Unity Physics must be kept inside of FixedUpdate()
         // to ensure physics are not tied to the frame rate)
-        playerMovement.initiatiteMovement(inputManager.MoveDirection);
+        if (inputManager.IsAttacking || playerCombat.cooldownTimer <= 0)
+            playerMovement.initiatiteMovement(inputManager.MoveDirection);
     }
 
 

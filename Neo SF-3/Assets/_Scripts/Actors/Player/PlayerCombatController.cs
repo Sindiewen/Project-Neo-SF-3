@@ -27,10 +27,11 @@ public class PlayerCombatController : MonoBehaviour
     // Combat timers
     private float combatResetCooldownTimer;             // How long it takes before the combat resets
     private float combatChainAttackCooldownTimer;       // 
-    private int currentAttackChainCount;                // Counts current attack chain count
+    [SerializeField] private int currentAttackChainCount;                // Counts current attack chain count
 
     // Component references
     private PlayerAttributesController playerAttributesController;
+    [SerializeField] private Animator anim;
 
     #endregion
 
@@ -53,11 +54,28 @@ public class PlayerCombatController : MonoBehaviour
             // Increment attack chain count
             currentAttackChainCount += 1;
 
-
-
-
             // Initiates player attack
             Debug.Log("Player " + this.name + " Attacking");
+            Debug.Log("Attack State: " + currentAttackChainCount.ToString());
+
+
+            // Initiate animations
+            // -----------------------------------------------
+            anim.SetTrigger("Attack");
+            switch(currentAttackChainCount)
+            {
+                case 1:
+                    anim.SetFloat("AttackState", 0);
+                    break;
+
+                case 2:
+                    anim.SetFloat("AttackState", 0.5f);
+                    break;
+                case 3:
+                    anim.SetFloat("AttackState", 1);
+                    break;
+            }
+
 
             /*
              * Player attack direction is determined based on the enum set in Player movement
@@ -157,6 +175,8 @@ public class PlayerCombatController : MonoBehaviour
             if (combatResetCooldownTimer <= 0)
             {
                 currentAttackChainCount = 0;
+                anim.SetFloat("AttackState", 0);
+
             }
         }
     }
@@ -184,6 +204,11 @@ public class PlayerCombatController : MonoBehaviour
     public int FacingDir
     {
         set { lastFacingDir = value; }
+    }
+
+    public float cooldownTimer
+    {
+        get { return combatResetCooldownTimer; }
     }
 
     #endregion
