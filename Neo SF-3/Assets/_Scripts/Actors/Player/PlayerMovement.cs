@@ -96,6 +96,9 @@ public class PlayerMovement : MonoBehaviour
             anim.SetFloat("Vertical", 0);
         }
 
+        // If the players are too far away from each other, players cannot separate any longer. Can only move each other closer
+
+        // Moves player with rigirbody
         rb2d.MovePosition(rb2d.position + moveDirection * moveSpeed * Time.fixedDeltaTime);
 
     }
