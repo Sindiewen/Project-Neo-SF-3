@@ -28,6 +28,7 @@ public class PlayerMovement : MonoBehaviour
     // Component references
     private PlayerInputManager inputmanager;    // Reference to the player input manager component
     private Rigidbody2D rb2d;                   // Reference to the player rigidbody component   
+    [SerializeField] private Animator anim;     // Reference to child animator
 
     #endregion
 
@@ -45,6 +46,11 @@ public class PlayerMovement : MonoBehaviour
         // Initialize components
         inputmanager = GetComponent<PlayerInputManager>();
         rb2d = GetComponent<Rigidbody2D>();
+
+        // Setting facing direction
+        facingDirection = PLAYER_FACING_DIRECTION.UP;
+        anim.SetFloat("Vertical", 1);
+        anim.SetFloat("Horizontal", 0);
     }
 
     #endregion
@@ -67,22 +73,31 @@ public class PlayerMovement : MonoBehaviour
         if (moveDirection.y > 0 && (moveDirection.x <= 0.5f || moveDirection.x >= -0.5f))
         {
             facingDirection = PLAYER_FACING_DIRECTION.UP;
+            anim.SetFloat("Horizontal", 0);
+            anim.SetFloat("Vertical", 1);
         }
         else if (moveDirection.y < 0 && (moveDirection.x <= 0.5f || moveDirection.x >= -0.5f))
         {
             facingDirection = PLAYER_FACING_DIRECTION.DOWN;
+            anim.SetFloat("Horizontal", 0);
+            anim.SetFloat("Vertical", -1);
         }
         // If player if moving anf facing right, moving right diagonals up or down
         else if (moveDirection.x > 0 && (moveDirection.y <= 0.5f || moveDirection.y >= -0.5f))
         {
             facingDirection = PLAYER_FACING_DIRECTION.RIGHT;
+            anim.SetFloat("Horizontal", 1);
+            anim.SetFloat("Vertical", 0);
         }
         else if (moveDirection.x < 0 && (moveDirection.y <= 0.5f || moveDirection.y >= -0.5f))
         {
             facingDirection = PLAYER_FACING_DIRECTION.LEFT;
+            anim.SetFloat("Horizontal", -1);
+            anim.SetFloat("Vertical", 0);
         }
 
         rb2d.MovePosition(rb2d.position + moveDirection * moveSpeed * Time.fixedDeltaTime);
+
     }
 
 

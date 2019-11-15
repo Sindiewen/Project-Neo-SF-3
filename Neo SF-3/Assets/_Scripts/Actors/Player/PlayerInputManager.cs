@@ -32,11 +32,19 @@ public class PlayerInputManager : MonoBehaviour
 
     [Header("InputManager References")]
     [SerializeField] private bool usingKeyboard;
+
+    [Header("Movement")]
     [SerializeField] private string moveHorizontal = "Horizontal";
     [SerializeField] private string moveVertical = "Vertical";
-    //[SerializeField] private string attackKey = "Fire1";
-    [SerializeField] private KeyCode attackKey;
 
+    [Header("Keyboard Input")]
+    [SerializeField] private KeyCode attackKeyKB;
+
+    [Header("Gamepad Input")]
+    [SerializeField] private KeyCode attackKeyGP;
+
+
+    private KeyCode attackKey;
 
     // Player input data
     private Vector2 moveDirection;
@@ -63,9 +71,9 @@ public class PlayerInputManager : MonoBehaviour
             moveHorizontal += "_p2";
             moveVertical += "_p2";
             if (!usingKeyboard)
-                attackKey = KeyCode.Joystick2Button0;
+                attackKey = attackKeyGP;
             else
-                attackKey = KeyCode.RightAlt;
+                attackKey = attackKeyKB;
         }
         // Player 1 = "_p1"
         else
@@ -73,9 +81,9 @@ public class PlayerInputManager : MonoBehaviour
             moveHorizontal += "_p1";
             moveVertical += "_p1";
             if (!usingKeyboard)
-                attackKey = KeyCode.Joystick1Button0;
+                attackKey = attackKeyGP;
             else
-                attackKey = KeyCode.LeftControl;
+                attackKey = attackKeyKB;
         }
 
     }
