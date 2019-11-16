@@ -1057,27 +1057,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6081397553521547239, guid: b55d0dd1fe8d2774b96d09be4d61e694,
+    - target: {fileID: 5547097442054274423, guid: b55d0dd1fe8d2774b96d09be4d61e694,
         type: 3}
-      propertyPath: sprintKeyKB
-      value: 304
+      propertyPath: playerMaxDistance
+      value: 90
       objectReference: {fileID: 0}
-    - target: {fileID: 6081397553521547239, guid: b55d0dd1fe8d2774b96d09be4d61e694,
+    - target: {fileID: 5547097442054274423, guid: b55d0dd1fe8d2774b96d09be4d61e694,
         type: 3}
-      propertyPath: sprintKeyGP
-      value: 353
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6081397553810543138, guid: b55d0dd1fe8d2774b96d09be4d61e694,
+    - target: {fileID: 1476901699437905629, guid: b55d0dd1fe8d2774b96d09be4d61e694,
         type: 3}
-      propertyPath: sprintKeyKB
-      value: 32
+      propertyPath: playerMaxDistance
+      value: 90
       objectReference: {fileID: 0}
-    - target: {fileID: 6081397553810543138, guid: b55d0dd1fe8d2774b96d09be4d61e694,
+    - target: {fileID: 1476901699437905629, guid: b55d0dd1fe8d2774b96d09be4d61e694,
         type: 3}
-      propertyPath: sprintKeyGP
-      value: 373
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1476901699437905629, guid: b55d0dd1fe8d2774b96d09be4d61e694, type: 3}
+    - {fileID: 5547097442054274423, guid: b55d0dd1fe8d2774b96d09be4d61e694, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: b55d0dd1fe8d2774b96d09be4d61e694, type: 3}
 --- !u!1001 &7610150886088418241
 PrefabInstance:

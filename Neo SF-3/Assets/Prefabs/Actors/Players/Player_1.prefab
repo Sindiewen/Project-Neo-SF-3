@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5468335431432126351}
   - component: {fileID: 5468335431432126350}
   - component: {fileID: 5468335431432126347}
+  - component: {fileID: 6016008088027010334}
   - component: {fileID: 5468335431432126349}
   - component: {fileID: 5468335431432126344}
   - component: {fileID: 5468335431432126345}
@@ -103,7 +104,9 @@ MonoBehaviour:
   moveHorizontal: Horizontal
   moveVertical: Vertical
   attackKeyKB: 306
+  sprintKeyKB: 0
   attackKeyGP: 330
+  sprintKeyGP: 0
 --- !u!114 &5468335431432126347
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -116,6 +119,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c82ec32b52a08348a1dd29320772b19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &6016008088027010334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5468335431432126353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29c7a3b093866cc49a6f3548f4be601a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherPlayer: {fileID: 0}
+  playerMaxDistance: 20
+  playerDistanceTotal: 0
 --- !u!114 &5468335431432126349
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -129,6 +147,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
+  sprintSpeed: 10
   facingDirection: 0
   anim: {fileID: 1763673419902731617}
 --- !u!114 &5468335431432126344
