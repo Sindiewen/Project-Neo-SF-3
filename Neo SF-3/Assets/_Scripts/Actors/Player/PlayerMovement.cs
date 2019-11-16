@@ -21,6 +21,7 @@ public class PlayerMovement : MonoBehaviour
 
     [Header("Player Movement Values")]
     public float moveSpeed = 5f;                    // How fast the player will move
+    public float sprintSpeed = 10f;                 // How fast the player will sprint
     [SerializeField] private PLAYER_FACING_DIRECTION facingDirection; // Stores the current facing direction
     // Private variables
     // ---------------------------------------------
@@ -63,7 +64,7 @@ public class PlayerMovement : MonoBehaviour
     /// <summary>
     /// Initiates player movement
     /// </summary>
-    public void initiatiteMovement(Vector2 moveDirection)
+    public void initiatiteMovement(Vector2 moveDirection, bool isSprinting)
     {
         // Move player position based on the current player position + the direction the playe ris moving,
         // Then multiply that by the speed the player will move, and then multiplay that by deltaTime to ensure
@@ -99,7 +100,14 @@ public class PlayerMovement : MonoBehaviour
         // If the players are too far away from each other, players cannot separate any longer. Can only move each other closer
 
         // Moves player with rigirbody
-        rb2d.MovePosition(rb2d.position + moveDirection * moveSpeed * Time.fixedDeltaTime);
+        if (!isSprinting)
+        {
+            rb2d.MovePosition(rb2d.position + moveDirection * moveSpeed * Time.fixedDeltaTime);
+        }
+        else
+        {
+            rb2d.MovePosition(rb2d.position + moveDirection * sprintSpeed * Time.fixedDeltaTime);
+        }
 
     }
 
