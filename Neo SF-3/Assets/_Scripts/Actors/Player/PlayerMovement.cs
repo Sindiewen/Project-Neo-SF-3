@@ -21,6 +21,7 @@ public class PlayerMovement : MonoBehaviour
 
     [Header("Player Movement Values")]
     public float moveSpeed = 5f;                    // How fast the player will move
+    public float sprintSpeed = 10f;                 // How fast the player will sprint
     [SerializeField] private PLAYER_FACING_DIRECTION facingDirection; // Stores the current facing direction
     // Private variables
     // ---------------------------------------------
@@ -28,6 +29,7 @@ public class PlayerMovement : MonoBehaviour
     // Component references
     private PlayerInputManager inputmanager;    // Reference to the player input manager component
     private Rigidbody2D rb2d;                   // Reference to the player rigidbody component   
+    //private PlayerTetherController _tether;     // Gets the tether controller reference
     [SerializeField] private Animator anim;     // Reference to child animator
 
     #endregion
@@ -46,6 +48,7 @@ public class PlayerMovement : MonoBehaviour
         // Initialize components
         inputmanager = GetComponent<PlayerInputManager>();
         rb2d = GetComponent<Rigidbody2D>();
+        //_tether = GetComponent<PlayerTetherController>();
 
         // Setting facing direction
         facingDirection = PLAYER_FACING_DIRECTION.UP;
@@ -63,8 +66,10 @@ public class PlayerMovement : MonoBehaviour
     /// <summary>
     /// Initiates player movement
     /// </summary>
-    public void initiatiteMovement(Vector2 moveDirection)
+    public void initiatiteMovement(Vector2 moveDirection, bool isSprinting)
     {
+        
+        
         // Move player position based on the current player position + the direction the playe ris moving,
         // Then multiply that by the speed the player will move, and then multiplay that by deltaTime to ensure
         // it's moving at realtime
@@ -98,10 +103,45 @@ public class PlayerMovement : MonoBehaviour
 
         // If the players are too far away from each other, players cannot separate any longer. Can only move each other closer
 
-        // Moves player with rigirbody
-        rb2d.MovePosition(rb2d.position + moveDirection * moveSpeed * Time.fixedDeltaTime);
+        // Stores the temp move position
+        Vector2 tempMove = Vector2.zero;
+
+        // Defines movement - normal speed vs sprinting
+        if (!isSprinting)
+        {
+            tempMove = rb2d.position + moveDirection * moveSpeed * Time.fixedDeltaTime;
+        }
+        else
+        {
+            tempMove = rb2d.position + moveDirection * sprintSpeed * Time.fixedDeltaTime;
+        }
+
+        
+        // Move the player
+        if (tempMove != Vector2.zero)// && movementAllowed(ref tempMove))
+        {
+            // Sets position, moves player
+            rb2d.MovePosition(tempMove);
+        }
+
 
     }
+
+    /*
+    /// <summary>
+    /// Determines movement is allowed when players are tehtered together
+    /// </summary>
+    /// <returns></returns>
+    private bool movementAllowed(ref Vector2 tempMove)
+    {
+
+        if (_tether.isCloser(tempMove * 5 + (Vector2)transform.position))
+            return true;
+
+        tempMove = Vector2.zero;
+            return false;
+    }
+    */
 
 
     #endregion

@@ -39,16 +39,21 @@ public class PlayerInputManager : MonoBehaviour
 
     [Header("Keyboard Input")]
     [SerializeField] private KeyCode attackKeyKB;
+    [SerializeField] private KeyCode sprintKeyKB;
 
     [Header("Gamepad Input")]
     [SerializeField] private KeyCode attackKeyGP;
+    [SerializeField] private KeyCode sprintKeyGP;
 
-
+    
+    // Input definitions
     private KeyCode attackKey;
+    private KeyCode sprintKey;
 
     // Player input data
     private Vector2 moveDirection;
     private bool isAttacking;
+    private bool isSprinting;
 
 
     #endregion
@@ -71,9 +76,16 @@ public class PlayerInputManager : MonoBehaviour
             moveHorizontal += "_p2";
             moveVertical += "_p2";
             if (!usingKeyboard)
+            {
                 attackKey = attackKeyGP;
+                sprintKey = sprintKeyGP;
+            }
             else
+            {
                 attackKey = attackKeyKB;
+                sprintKey = sprintKeyKB;
+            }
+
         }
         // Player 1 = "_p1"
         else
@@ -81,9 +93,16 @@ public class PlayerInputManager : MonoBehaviour
             moveHorizontal += "_p1";
             moveVertical += "_p1";
             if (!usingKeyboard)
+            {
                 attackKey = attackKeyGP;
+                sprintKey = sprintKeyGP;
+            }
+            
             else
+            {
                 attackKey = attackKeyKB;
+                sprintKey = sprintKeyKB;
+            }
         }
 
     }
@@ -120,6 +139,7 @@ public class PlayerInputManager : MonoBehaviour
         // If the player presses the attack key, set attacking to true
         //isAttacking = Input.GetButtonDown(attackKey);
         isAttacking = Input.GetKeyDown(attackKey);
+        isSprinting = Input.GetKey(sprintKey);
     }
 
 
@@ -137,6 +157,11 @@ public class PlayerInputManager : MonoBehaviour
     public bool IsAttacking
     {
         get { return isAttacking; }
+    }
+
+    public bool IsSprinting
+    {
+        get { return isSprinting; }
     }
 
     #endregion
