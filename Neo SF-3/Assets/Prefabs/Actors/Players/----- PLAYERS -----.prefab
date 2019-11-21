@@ -124,8 +124,17 @@ PrefabInstance:
       propertyPath: sprintKeyGP
       value: 353
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 6016008088027010334, guid: bdb8b9f9d0888684a88d7fc1ffbfd406, type: 3}
+    - target: {fileID: 1794696877077404385, guid: bdb8b9f9d0888684a88d7fc1ffbfd406,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: 831263577
+      objectReference: {fileID: 0}
+    - target: {fileID: 1794696877077404385, guid: bdb8b9f9d0888684a88d7fc1ffbfd406,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bdb8b9f9d0888684a88d7fc1ffbfd406, type: 3}
 --- !u!4 &6081397553521547259 stripped
 Transform:
@@ -205,15 +214,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2513967531357711608, guid: 4737104da701be349bb4666aabdf648e,
+    - target: {fileID: 8342760653828272510, guid: 4737104da701be349bb4666aabdf648e,
         type: 3}
-      propertyPath: sprintKeyKB
-      value: 32
-      objectReference: {fileID: 0}
-    - target: {fileID: 2513967531357711608, guid: 4737104da701be349bb4666aabdf648e,
-        type: 3}
-      propertyPath: sprintKeyGP
-      value: 373
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2513967531357711610, guid: 4737104da701be349bb4666aabdf648e,
         type: 3}
@@ -225,13 +229,27 @@ PrefabInstance:
       propertyPath: sprintSpeed
       value: 14
       objectReference: {fileID: 0}
-    - target: {fileID: 8342760653828272510, guid: 4737104da701be349bb4666aabdf648e,
+    - target: {fileID: 2513967531357711608, guid: 4737104da701be349bb4666aabdf648e,
         type: 3}
-      propertyPath: m_IsActive
-      value: 0
+      propertyPath: sprintKeyKB
+      value: 32
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 7131763070050072583, guid: 4737104da701be349bb4666aabdf648e, type: 3}
+    - target: {fileID: 2513967531357711608, guid: 4737104da701be349bb4666aabdf648e,
+        type: 3}
+      propertyPath: sprintKeyGP
+      value: 373
+      objectReference: {fileID: 0}
+    - target: {fileID: 7439064337325298113, guid: 4737104da701be349bb4666aabdf648e,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: 831263577
+      objectReference: {fileID: 0}
+    - target: {fileID: 7439064337325298113, guid: 4737104da701be349bb4666aabdf648e,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4737104da701be349bb4666aabdf648e, type: 3}
 --- !u!4 &6081397553810543151 stripped
 Transform:
