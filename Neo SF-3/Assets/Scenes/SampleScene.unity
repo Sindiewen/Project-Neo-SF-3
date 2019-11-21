@@ -750,6 +750,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c741fa11dec45dd448281c7081d5f4c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  curHealth: 0
+  maxHealth: 0
+  atkStrength: 0
+  atkSpeed: 0
+  physDefense: 0
 --- !u!61 &1104657153
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1057,29 +1062,7 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5547097442054274423, guid: b55d0dd1fe8d2774b96d09be4d61e694,
-        type: 3}
-      propertyPath: playerMaxDistance
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 5547097442054274423, guid: b55d0dd1fe8d2774b96d09be4d61e694,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1476901699437905629, guid: b55d0dd1fe8d2774b96d09be4d61e694,
-        type: 3}
-      propertyPath: playerMaxDistance
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 1476901699437905629, guid: b55d0dd1fe8d2774b96d09be4d61e694,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 1476901699437905629, guid: b55d0dd1fe8d2774b96d09be4d61e694, type: 3}
-    - {fileID: 5547097442054274423, guid: b55d0dd1fe8d2774b96d09be4d61e694, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b55d0dd1fe8d2774b96d09be4d61e694, type: 3}
 --- !u!1001 &7610150886088418241
 PrefabInstance:

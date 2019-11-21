@@ -41,3 +41,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: BelowFloor
+    uniqueID: 3043610539
+    locked: 0
+  - name: Floor
+    uniqueID: 3361414463
+    locked: 0
+  - name: Actors
+    uniqueID: 831263577
+    locked: 0
+  - name: AboveFloor
+    uniqueID: 1874065017
+    locked: 0
