@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2d5751a2c961df945a34295ccf5e576d, type: 3}
-  m_Name: N_Mid_building
+  m_Name: Mid_building_NW
   m_EditorClassIdentifier: 
   m_Prefabs:
-  - {fileID: 4765135394502207691, guid: 118f8dc2b77b98b4fb31a05a16320f24, type: 3}
+  - {fileID: 5562923702270765337, guid: d104a9bcc30490048a022fb39cde3868, type: 3}
   m_PerlinScale: 0.191
   m_X: -0.5
   m_y: 1.5

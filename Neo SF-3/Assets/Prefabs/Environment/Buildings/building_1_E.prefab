@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6344057565789921698}
   - component: {fileID: 5614055363565697244}
   m_Layer: 0
-  m_Name: building_1_NW
+  m_Name: building_1_E
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -69,13 +69,13 @@ SpriteRenderer:
   m_SortingLayerID: -1909194583
   m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: -6327981996369901119, guid: e81553213c55db54589e6e148c802ea4,
+  m_Sprite: {fileID: -7070597395084135078, guid: ec8d456fe260cc24e9227b580e00a797,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 12.26, y: 21.04}
+  m_Size: {x: 12.25, y: 21.04}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1

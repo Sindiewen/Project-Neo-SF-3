@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2d5751a2c961df945a34295ccf5e576d, type: 3}
-  m_Name: NW_Sky_building
+  m_Name: Sky_building_N
   m_EditorClassIdentifier: 
   m_Prefabs:
-  - {fileID: 6079387820234307365, guid: 7c3948176d3b0f640bf078db45ab18b9, type: 3}
+  - {fileID: 7973236785924485764, guid: 9214f1d5174cfb84b93b38cfe0265427, type: 3}
   m_PerlinScale: 0.191
-  m_X: 0
-  m_y: 2
-  m_Z: -0.5
+  m_X: 2.5
+  m_y: -1.5
+  m_Z: 0
   m_rotX: 0
   m_rotY: 0
-  m_rotZ: 0
+  m_rotZ: -135
