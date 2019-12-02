@@ -9,9 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6081397554420875556}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: '----- PLAYERS -----'
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -99,6 +99,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6016008088027010334, guid: bdb8b9f9d0888684a88d7fc1ffbfd406,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5468335431432126349, guid: bdb8b9f9d0888684a88d7fc1ffbfd406,
         type: 3}
       propertyPath: moveSpeed
@@ -109,21 +114,6 @@ PrefabInstance:
       propertyPath: sprintSpeed
       value: 14
       objectReference: {fileID: 0}
-    - target: {fileID: 5468335431432126350, guid: bdb8b9f9d0888684a88d7fc1ffbfd406,
-        type: 3}
-      propertyPath: sprintKeyKB
-      value: 304
-      objectReference: {fileID: 0}
-    - target: {fileID: 5468335431432126350, guid: bdb8b9f9d0888684a88d7fc1ffbfd406,
-        type: 3}
-      propertyPath: attackKeyGP
-      value: 350
-      objectReference: {fileID: 0}
-    - target: {fileID: 5468335431432126350, guid: bdb8b9f9d0888684a88d7fc1ffbfd406,
-        type: 3}
-      propertyPath: sprintKeyGP
-      value: 353
-      objectReference: {fileID: 0}
     - target: {fileID: 1794696877077404385, guid: bdb8b9f9d0888684a88d7fc1ffbfd406,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -132,7 +122,7 @@ PrefabInstance:
     - target: {fileID: 1794696877077404385, guid: bdb8b9f9d0888684a88d7fc1ffbfd406,
         type: 3}
       propertyPath: m_SortingLayer
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bdb8b9f9d0888684a88d7fc1ffbfd406, type: 3}
@@ -162,7 +152,7 @@ PrefabInstance:
     - target: {fileID: 2513967531357711605, guid: 4737104da701be349bb4666aabdf648e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 2513967531357711605, guid: 4737104da701be349bb4666aabdf648e,
         type: 3}
@@ -219,6 +209,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7131763070050072583, guid: 4737104da701be349bb4666aabdf648e,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2513967531357711610, guid: 4737104da701be349bb4666aabdf648e,
         type: 3}
       propertyPath: moveSpeed
@@ -229,16 +224,6 @@ PrefabInstance:
       propertyPath: sprintSpeed
       value: 14
       objectReference: {fileID: 0}
-    - target: {fileID: 2513967531357711608, guid: 4737104da701be349bb4666aabdf648e,
-        type: 3}
-      propertyPath: sprintKeyKB
-      value: 32
-      objectReference: {fileID: 0}
-    - target: {fileID: 2513967531357711608, guid: 4737104da701be349bb4666aabdf648e,
-        type: 3}
-      propertyPath: sprintKeyGP
-      value: 373
-      objectReference: {fileID: 0}
     - target: {fileID: 7439064337325298113, guid: 4737104da701be349bb4666aabdf648e,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -247,7 +232,7 @@ PrefabInstance:
     - target: {fileID: 7439064337325298113, guid: 4737104da701be349bb4666aabdf648e,
         type: 3}
       propertyPath: m_SortingLayer
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4737104da701be349bb4666aabdf648e, type: 3}
