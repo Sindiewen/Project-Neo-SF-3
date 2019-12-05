@@ -13,11 +13,11 @@ GameObject:
   - component: {fileID: 6844405014202232081}
   - component: {fileID: 5822291308698055009}
   - component: {fileID: 5822291308698055038}
-  - component: {fileID: 5822291308698055039}
   - component: {fileID: 5822291308698055036}
-  m_Layer: 0
+  - component: {fileID: 5822291308698055039}
+  m_Layer: 9
   m_Name: HipsterBackpacker 1
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -71,8 +71,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1909194583
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: -5744340447670342355, guid: 46849e310cea7744e9a262b8f4c7b76a,
     type: 3}
@@ -114,7 +114,7 @@ Rigidbody2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6844405014202232083}
   m_BodyType: 1
-  m_Simulated: 0
+  m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
@@ -152,6 +152,25 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.9, y: 0.9}
   m_EdgeRadius: 0
+--- !u!114 &5822291308698055036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6844405014202232083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad59210f315f4474fa870539e81152bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveTime: 0.1
+  blockingLayer:
+    serializedVersion: 2
+    m_Bits: 512
+  playerDamage: 20
+  attackSound1: {fileID: 0}
+  attackSound2: {fileID: 0}
 --- !u!114 &5822291308698055039
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -169,22 +188,3 @@ MonoBehaviour:
   atkStrength: 0
   atkSpeed: 0
   physDefense: 0
---- !u!114 &5822291308698055036
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6844405014202232083}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad59210f315f4474fa870539e81152bf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveTime: 0.1
-  blockingLayer:
-    serializedVersion: 2
-    m_Bits: 0
-  playerDamage: 0
-  attackSound1: {fileID: 0}
-  attackSound2: {fileID: 0}

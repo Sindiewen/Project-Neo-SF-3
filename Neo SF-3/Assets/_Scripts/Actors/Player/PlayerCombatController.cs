@@ -15,19 +15,19 @@ public class PlayerCombatController : MonoBehaviour
     public LayerMask collisionMask;     // What the attacks can hit using Unity's layer system
 
     [Header("Combat Attributes")]
-    public int maxNumOfChainAttacks = 3;    // How many attacks the player can initiate before needing to cooldown
-    public float attackCooldownRate;    // How long it takes before the attack can be attacked again
-    public float attackChainAttackStartTimer;   // how long the player has before the chain attack can start (cooldown rate - start timer = when the player can start chain attacks)
-
+    public int maxNumOfChainAttacks = 3;        // How many attacks the player can initiate before needing to cooldown
+    public float attackCooldownRate;            // How long it takes before the attack can be attacked again
+    public float attackChainAttackStartTimer;   // how long the player has before the chain attack can start 
+                                                // (cooldown rate - start timer = when the player can start chain attacks)
 
     // Private variables
 
-    private int lastFacingDir;          // Srores the last facing direction
+    private int lastFacingDir;          // Stores the last facing direction
 
     // Combat timers
-    private float combatResetCooldownTimer;             // How long it takes before the combat resets
-    private float combatChainAttackCooldownTimer;       // 
-    [SerializeField] private int currentAttackChainCount;                // Counts current attack chain count
+    private float combatResetCooldownTimer;                 // How long it takes before the combat resets
+    private float combatChainAttackCooldownTimer;           // 
+    [SerializeField] private int currentAttackChainCount;   // Counts current attack chain count
 
     // Component references
     private PlayerAttributesController playerAttributesController;
@@ -92,7 +92,7 @@ public class PlayerCombatController : MonoBehaviour
             // Get current vector2 location of where the attack will start
             Vector2 rayOrigin = (Vector2)transform.position + attackRect[facingDirection].center;
 
-            // Create raycast box for chcking if enemy has been hit
+            // Create raycast box for checking if enemy has been hit
             RaycastHit2D[] hit = Physics2D.BoxCastAll(rayOrigin, attackRect[facingDirection].size, 0, attackDirection, attackDistance, collisionMask);
 
 
