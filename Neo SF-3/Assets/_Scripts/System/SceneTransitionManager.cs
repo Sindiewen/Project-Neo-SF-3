@@ -22,6 +22,8 @@ public class SceneTransitionManager : MonoBehaviour
     private GameObject TransitionCheckerGO;
     [SerializeField] private SceneTransitionChecker[] transitionChecker;
 
+    public float WaitForSeconds { get; private set; }
+
 
     #endregion
 
@@ -96,8 +98,9 @@ public class SceneTransitionManager : MonoBehaviour
         {
             players[i].transform.position = nextScene.location + new Vector2(i * 2, 0);
         }
+        transitionChecker = new SceneTransitionChecker[0];
+        TransitionCheckerGO = null;
         StartCoroutine(transitionAsync());
-        //SceneManager.LoadScene(nextScenToTransition);
         
     }
 
@@ -113,17 +116,12 @@ public class SceneTransitionManager : MonoBehaviour
                 operation.allowSceneActivation = true;
                 fadeAnim.SetTrigger("IntoGame");
             }
-
             yield return null;
         }
-
     }
 
     public void load()
     {
-        //fadeAnim.SetTrigger("IntoGame");
-        transitionChecker = new SceneTransitionChecker[0];
-        TransitionCheckerGO = null;
         getTransitionCheckers();
     }
 
