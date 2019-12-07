@@ -15,6 +15,7 @@ public class PlayerInputController : MonoBehaviour
     private PlayerInputManager inputManager;
     private PlayerMovement playerMovement;
     private PlayerCombatController playerCombat;
+    private PlayerAttributesController playerAttributes;
 
 
     #endregion
@@ -47,6 +48,9 @@ public class PlayerInputController : MonoBehaviour
         if (inputManager.IsAttacking)
             playerCombat.initiateAttack(playerMovement.FacingDirection);
         playerCombat.FacingDir = playerMovement.FacingDirection;
+
+        if (inputManager.KillPlayer)
+            playerAttributes.takeDamage(99999);
     }
 
     /// <summary>
@@ -59,7 +63,8 @@ public class PlayerInputController : MonoBehaviour
     {
         // Iniitate player movement (NOTE: Unity Physics must be kept inside of FixedUpdate()
         // to ensure physics are not tied to the frame rate)
-        if (inputManager.IsAttacking || playerCombat.cooldownTimer <= 0)
+        if (!inputManager.IsAttacking || playerCombat.cooldownTimer <= 0 
+            || !playerAttributes.playerStaggered || !playerAttributes.PlayerDied)
             playerMovement.initiatiteMovement(inputManager.MoveDirection, inputManager.IsSprinting);
     }
 
