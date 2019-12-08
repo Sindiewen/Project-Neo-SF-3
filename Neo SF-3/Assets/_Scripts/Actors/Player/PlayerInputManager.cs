@@ -8,8 +8,6 @@
 /// </summary>
 public class PlayerInputManager : MonoBehaviour
 {
-
-
     /// <summary>
     /// TODO: Prepare code for the new unity input system
     /// </summary>

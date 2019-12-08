@@ -17,7 +17,6 @@ public class PlayerInputController : MonoBehaviour
     private PlayerCombatController playerCombat;
     private PlayerAttributesController playerAttributes;
 
-
     #endregion
 
 
@@ -48,6 +47,7 @@ public class PlayerInputController : MonoBehaviour
         // If player attacks, initiate atttack
         if (inputManager.IsAttacking)
             playerCombat.initiateAttack(playerMovement.FacingDirection);
+
         if (!inputManager.IsAttacking || playerCombat.cooldownTimer <= 0 || !playerAttributes.playerStaggered || !playerAttributes.PlayerDied)
             playerCombat.FacingDir = playerMovement.FacingDirection;
 

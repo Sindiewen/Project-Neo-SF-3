@@ -1,0 +1,6547 @@
+fileFormatVersion: 2
+guid: 4d76dfffbe849bf46bb604246ebdfaac
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5205400408435442708
+    second: r2c_female_weapon_yoyo_0
+  - first:
+      213: 5707342872946698111
+    second: r2c_female_weapon_yoyo_1
+  - first:
+      213: 5006355896217627664
+    second: r2c_female_weapon_yoyo_2
+  - first:
+      213: -6706618836695004631
+    second: r2c_female_weapon_yoyo_3
+  - first:
+      213: -152804429852911516
+    second: r2c_female_weapon_yoyo_4
+  - first:
+      213: -410219125969855641
+    second: r2c_female_weapon_yoyo_5
+  - first:
+      213: -8674002926623005578
+    second: r2c_female_weapon_yoyo_6
+  - first:
+      213: -6268426893675362079
+    second: r2c_female_weapon_yoyo_7
+  - first:
+      213: -265648407496959653
+    second: r2c_female_weapon_yoyo_8
+  - first:
+      213: 7260481601506785355
+    second: r2c_female_weapon_yoyo_9
+  - first:
+      213: -7354403989643098950
+    second: r2c_female_weapon_yoyo_10
+  - first:
+      213: 7316214109589974069
+    second: r2c_female_weapon_yoyo_11
+  - first:
+      213: -3443075616947047101
+    second: r2c_female_weapon_yoyo_12
+  - first:
+      213: 7101365194298016683
+    second: r2c_female_weapon_yoyo_13
+  - first:
+      213: -5759665927467946927
+    second: r2c_female_weapon_yoyo_14
+  - first:
+      213: -1186331244395107163
+    second: r2c_female_weapon_yoyo_15
+  - first:
+      213: 2775295986905370983
+    second: r2c_female_weapon_yoyo_16
+  - first:
+      213: 3741379540916701149
+    second: r2c_female_weapon_yoyo_17
+  - first:
+      213: -9120329275556684545
+    second: r2c_female_weapon_yoyo_18
+  - first:
+      213: -7942631034710281335
+    second: r2c_female_weapon_yoyo_19
+  - first:
+      213: 2463926306824883961
+    second: r2c_female_weapon_yoyo_20
+  - first:
+      213: 2192768124407009913
+    second: r2c_female_weapon_yoyo_21
+  - first:
+      213: -8070429366878586638
+    second: r2c_female_weapon_yoyo_22
+  - first:
+      213: -3489018434572669013
+    second: r2c_female_weapon_yoyo_23
+  - first:
+      213: -7309570052145566943
+    second: r2c_female_weapon_yoyo_24
+  - first:
+      213: 5431256509740755666
+    second: r2c_female_weapon_yoyo_25
+  - first:
+      213: -8383009217601836372
+    second: r2c_female_weapon_yoyo_26
+  - first:
+      213: -2161386415941065879
+    second: r2c_female_weapon_yoyo_27
+  - first:
+      213: 6463328344466002498
+    second: r2c_female_weapon_yoyo_28
+  - first:
+      213: -7504445607556070590
+    second: r2c_female_weapon_yoyo_29
+  - first:
+      213: 6134957210325049718
+    second: r2c_female_weapon_yoyo_30
+  - first:
+      213: 3820152700580101465
+    second: r2c_female_weapon_yoyo_31
+  - first:
+      213: -241966276254591290
+    second: r2c_female_weapon_yoyo_32
+  - first:
+      213: -7812247712872689367
+    second: r2c_female_weapon_yoyo_33
+  - first:
+      213: 9071179064024747374
+    second: r2c_female_weapon_yoyo_34
+  - first:
+      213: 4566728042466960821
+    second: r2c_female_weapon_yoyo_35
+  - first:
+      213: 8788926615952068901
+    second: r2c_female_weapon_yoyo_36
+  - first:
+      213: -813685188306846286
+    second: r2c_female_weapon_yoyo_37
+  - first:
+      213: 3818627959013819224
+    second: r2c_female_weapon_yoyo_38
+  - first:
+      213: -7528571594464823830
+    second: r2c_female_weapon_yoyo_39
+  - first:
+      213: -6969948958184492925
+    second: r2c_female_weapon_yoyo_40
+  - first:
+      213: 6637127213505100906
+    second: r2c_female_weapon_yoyo_41
+  - first:
+      213: 5828360261850524246
+    second: r2c_female_weapon_yoyo_42
+  - first:
+      213: 2398635240673145315
+    second: r2c_female_weapon_yoyo_43
+  - first:
+      213: -7169305189467088342
+    second: r2c_female_weapon_yoyo_44
+  - first:
+      213: -4091542950528252120
+    second: r2c_female_weapon_yoyo_45
+  - first:
+      213: 535559470768091703
+    second: r2c_female_weapon_yoyo_46
+  - first:
+      213: -816405864325880088
+    second: r2c_female_weapon_yoyo_47
+  - first:
+      213: 5344682845735696316
+    second: r2c_female_weapon_yoyo_48
+  - first:
+      213: -7525951278932528993
+    second: r2c_female_weapon_yoyo_49
+  - first:
+      213: -1574177995958859463
+    second: r2c_female_weapon_yoyo_50
+  - first:
+      213: -374336480257503315
+    second: r2c_female_weapon_yoyo_51
+  - first:
+      213: 5042908970926945459
+    second: r2c_female_weapon_yoyo_52
+  - first:
+      213: 8662243368500183282
+    second: r2c_female_weapon_yoyo_53
+  - first:
+      213: -4200439251717214907
+    second: r2c_female_weapon_yoyo_54
+  - first:
+      213: -3162730221279355127
+    second: r2c_female_weapon_yoyo_55
+  - first:
+      213: 5207943939033642590
+    second: r2c_female_weapon_yoyo_56
+  - first:
+      213: -5970649044005710774
+    second: r2c_female_weapon_yoyo_57
+  - first:
+      213: 7910774266389873402
+    second: r2c_female_weapon_yoyo_58
+  - first:
+      213: -8745057596500052600
+    second: r2c_female_weapon_yoyo_59
+  - first:
+      213: -8022930300798104288
+    second: r2c_female_weapon_yoyo_60
+  - first:
+      213: -913513758642522348
+    second: r2c_female_weapon_yoyo_61
+  - first:
+      213: -4953704042933826166
+    second: r2c_female_weapon_yoyo_62
+  - first:
+      213: 361660531002873073
+    second: r2c_female_weapon_yoyo_63
+  - first:
+      213: 993013733335370522
+    second: r2c_female_weapon_yoyo_64
+  - first:
+      213: 1975867335387864655
+    second: r2c_female_weapon_yoyo_65
+  - first:
+      213: 271109213592848332
+    second: r2c_female_weapon_yoyo_66
+  - first:
+      213: 5179325003544365635
+    second: r2c_female_weapon_yoyo_67
+  - first:
+      213: 5663403651109041513
+    second: r2c_female_weapon_yoyo_68
+  - first:
+      213: -927524754707969388
+    second: r2c_female_weapon_yoyo_69
+  - first:
+      213: 7194904526111028836
+    second: r2c_female_weapon_yoyo_70
+  - first:
+      213: 2314239213656510679
+    second: r2c_female_weapon_yoyo_71
+  - first:
+      213: 4908661548479976136
+    second: r2c_female_weapon_yoyo_72
+  - first:
+      213: -946326137603562847
+    second: r2c_female_weapon_yoyo_73
+  - first:
+      213: -2925201172187780326
+    second: r2c_female_weapon_yoyo_74
+  - first:
+      213: -7326990139515648136
+    second: r2c_female_weapon_yoyo_75
+  - first:
+      213: 3227950206179606084
+    second: r2c_female_weapon_yoyo_76
+  - first:
+      213: -284721348678481401
+    second: r2c_female_weapon_yoyo_77
+  - first:
+      213: 4976576603310338393
+    second: r2c_female_weapon_yoyo_78
+  - first:
+      213: -3542002153785087568
+    second: r2c_female_weapon_yoyo_79
+  - first:
+      213: 2957539555748384424
+    second: r2c_female_weapon_yoyo_80
+  - first:
+      213: 8459641977024031024
+    second: r2c_female_weapon_yoyo_81
+  - first:
+      213: -3117379416500076338
+    second: r2c_female_weapon_yoyo_82
+  - first:
+      213: 2106724123118993587
+    second: r2c_female_weapon_yoyo_83
+  - first:
+      213: 7876914858354322858
+    second: r2c_female_weapon_yoyo_84
+  - first:
+      213: -4553201201805550352
+    second: r2c_female_weapon_yoyo_85
+  - first:
+      213: -3149649532171208496
+    second: r2c_female_weapon_yoyo_86
+  - first:
+      213: 8192349192159765338
+    second: r2c_female_weapon_yoyo_87
+  - first:
+      213: 4606154100997717480
+    second: r2c_female_weapon_yoyo_88
+  - first:
+      213: -1600744394760473860
+    second: r2c_female_weapon_yoyo_89
+  - first:
+      213: -6170388239340547079
+    second: r2c_female_weapon_yoyo_90
+  - first:
+      213: -6163946918271030230
+    second: r2c_female_weapon_yoyo_91
+  - first:
+      213: -5764846117433289003
+    second: r2c_female_weapon_yoyo_92
+  - first:
+      213: 2431637454490018414
+    second: r2c_female_weapon_yoyo_93
+  - first:
+      213: 2288146479247236739
+    second: r2c_female_weapon_yoyo_94
+  - first:
+      213: 8739294211364882961
+    second: r2c_female_weapon_yoyo_95
+  - first:
+      213: 2157591532981343572
+    second: r2c_female_weapon_yoyo_96
+  - first:
+      213: -2861658503484921900
+    second: r2c_female_weapon_yoyo_97
+  - first:
+      213: -2550148487417484193
+    second: r2c_female_weapon_yoyo_98
+  - first:
+      213: -8477266660886483312
+    second: r2c_female_weapon_yoyo_99
+  - first:
+      213: 1145308975101667567
+    second: r2c_female_weapon_yoyo_100
+  - first:
+      213: -8815650564561022207
+    second: r2c_female_weapon_yoyo_101
+  - first:
+      213: -6908229220710505908
+    second: r2c_female_weapon_yoyo_102
+  - first:
+      213: 5993046987918591020
+    second: r2c_female_weapon_yoyo_103
+  - first:
+      213: 6354692740536598586
+    second: r2c_female_weapon_yoyo_104
+  - first:
+      213: -3853237296843126144
+    second: r2c_female_weapon_yoyo_105
+  - first:
+      213: -1213859456259813025
+    second: r2c_female_weapon_yoyo_106
+  - first:
+      213: -7170329268141148554
+    second: r2c_female_weapon_yoyo_107
+  - first:
+      213: 929447017996173538
+    second: r2c_female_weapon_yoyo_108
+  - first:
+      213: 1153131813554946518
+    second: r2c_female_weapon_yoyo_109
+  - first:
+      213: 1571828738220194106
+    second: r2c_female_weapon_yoyo_110
+  - first:
+      213: -7917521197328897867
+    second: r2c_female_weapon_yoyo_111
+  - first:
+      213: -6119770868055112722
+    second: r2c_female_weapon_yoyo_112
+  - first:
+      213: 5845028488399915811
+    second: r2c_female_weapon_yoyo_113
+  - first:
+      213: 5016422652863250689
+    second: r2c_female_weapon_yoyo_114
+  - first:
+      213: 6992930046807567176
+    second: r2c_female_weapon_yoyo_115
+  - first:
+      213: -2881294954209465378
+    second: r2c_female_weapon_yoyo_116
+  - first:
+      213: 5559964296921991693
+    second: r2c_female_weapon_yoyo_117
+  - first:
+      213: 7905522515807370847
+    second: r2c_female_weapon_yoyo_118
+  - first:
+      213: -1493377239083698351
+    second: r2c_female_weapon_yoyo_119
+  - first:
+      213: -8502898937167908604
+    second: r2c_female_weapon_yoyo_120
+  - first:
+      213: -6635329035193484607
+    second: r2c_female_weapon_yoyo_121
+  - first:
+      213: -7339277791908714570
+    second: r2c_female_weapon_yoyo_122
+  - first:
+      213: -4254727797340291900
+    second: r2c_female_weapon_yoyo_123
+  - first:
+      213: 3809566159060180361
+    second: r2c_female_weapon_yoyo_124
+  - first:
+      213: 5375693223064535936
+    second: r2c_female_weapon_yoyo_125
+  - first:
+      213: 6252394547991975840
+    second: r2c_female_weapon_yoyo_126
+  - first:
+      213: -5345771366537736053
+    second: r2c_female_weapon_yoyo_127
+  - first:
+      213: 858414110547532801
+    second: r2c_female_weapon_yoyo_128
+  - first:
+      213: -4652629038112258793
+    second: r2c_female_weapon_yoyo_129
+  - first:
+      213: -1590996251454490026
+    second: r2c_female_weapon_yoyo_130
+  - first:
+      213: 7247751152813839595
+    second: r2c_female_weapon_yoyo_131
+  - first:
+      213: -9220323569736641037
+    second: r2c_female_weapon_yoyo_132
+  - first:
+      213: 2762454262341015396
+    second: r2c_female_weapon_yoyo_133
+  - first:
+      213: 8901938754535297577
+    second: r2c_female_weapon_yoyo_134
+  - first:
+      213: -6596310007081492442
+    second: r2c_female_weapon_yoyo_135
+  - first:
+      213: 6415950390914978970
+    second: r2c_female_weapon_yoyo_136
+  - first:
+      213: -2154703133270090682
+    second: r2c_female_weapon_yoyo_137
+  - first:
+      213: 1177925943218862537
+    second: r2c_female_weapon_yoyo_138
+  - first:
+      213: 7730826188618274503
+    second: r2c_female_weapon_yoyo_139
+  - first:
+      213: 8197017443122555900
+    second: r2c_female_weapon_yoyo_140
+  - first:
+      213: 6513064282993339869
+    second: r2c_female_weapon_yoyo_141
+  - first:
+      213: 1795011658944263581
+    second: r2c_female_weapon_yoyo_142
+  - first:
+      213: 6509849759844545148
+    second: r2c_female_weapon_yoyo_143
+  - first:
+      213: -3289549306792130048
+    second: r2c_female_weapon_yoyo_144
+  - first:
+      213: -9154974995042030147
+    second: r2c_female_weapon_yoyo_145
+  - first:
+      213: 8871363203104948485
+    second: r2c_female_weapon_yoyo_146
+  - first:
+      213: -4868029965105190454
+    second: r2c_female_weapon_yoyo_147
+  - first:
+      213: -8274638871534340702
+    second: r2c_female_weapon_yoyo_148
+  - first:
+      213: -429887350025280439
+    second: r2c_female_weapon_yoyo_149
+  - first:
+      213: 3923187153264786151
+    second: r2c_female_weapon_yoyo_150
+  - first:
+      213: -8426821973226692371
+    second: r2c_female_weapon_yoyo_151
+  - first:
+      213: 5531188700559581213
+    second: r2c_female_weapon_yoyo_152
+  - first:
+      213: -8819027518403695914
+    second: r2c_female_weapon_yoyo_153
+  - first:
+      213: -8179710436271638208
+    second: r2c_female_weapon_yoyo_154
+  - first:
+      213: -3117137619545601996
+    second: r2c_female_weapon_yoyo_155
+  - first:
+      213: -7693359852735124462
+    second: r2c_female_weapon_yoyo_156
+  - first:
+      213: -7609089236749467629
+    second: r2c_female_weapon_yoyo_157
+  - first:
+      213: 751136287215465091
+    second: r2c_female_weapon_yoyo_158
+  - first:
+      213: -6279821479064563401
+    second: r2c_female_weapon_yoyo_159
+  - first:
+      213: -4406297502219595293
+    second: r2c_female_weapon_yoyo_160
+  - first:
+      213: -7941697019712545623
+    second: r2c_female_weapon_yoyo_161
+  - first:
+      213: 8226256334724625931
+    second: r2c_female_weapon_yoyo_162
+  - first:
+      213: 1402360504185495025
+    second: r2c_female_weapon_yoyo_163
+  - first:
+      213: -3617651748822966789
+    second: r2c_female_weapon_yoyo_164
+  - first:
+      213: -199162701896906241
+    second: r2c_female_weapon_yoyo_165
+  - first:
+      213: 4493945749955086716
+    second: r2c_female_weapon_yoyo_166
+  - first:
+      213: 3998191695887754519
+    second: r2c_female_weapon_yoyo_167
+  - first:
+      213: 4305570958028468705
+    second: r2c_female_weapon_yoyo_168
+  - first:
+      213: -4667627991336931379
+    second: r2c_female_weapon_yoyo_169
+  - first:
+      213: -7972540943234820547
+    second: r2c_female_weapon_yoyo_170
+  - first:
+      213: -2230792285894134044
+    second: r2c_female_weapon_yoyo_171
+  - first:
+      213: -7442607755035186233
+    second: r2c_female_weapon_yoyo_172
+  - first:
+      213: 4566775228942945871
+    second: r2c_female_weapon_yoyo_173
+  - first:
+      213: -8973212709957903776
+    second: r2c_female_weapon_yoyo_174
+  - first:
+      213: 1838557542519140975
+    second: r2c_female_weapon_yoyo_175
+  - first:
+      213: -7392536460099410956
+    second: r2c_female_weapon_yoyo_176
+  - first:
+      213: 6584103546441179633
+    second: r2c_female_weapon_yoyo_177
+  - first:
+      213: -7345282111280374505
+    second: r2c_female_weapon_yoyo_178
+  - first:
+      213: -2027974491095915522
+    second: r2c_female_weapon_yoyo_179
+  - first:
+      213: -416458691024606805
+    second: r2c_female_weapon_yoyo_180
+  - first:
+      213: 4821145641866797976
+    second: r2c_female_weapon_yoyo_181
+  - first:
+      213: 782890514370481763
+    second: r2c_female_weapon_yoyo_182
+  - first:
+      213: -35357706916617562
+    second: r2c_female_weapon_yoyo_183
+  - first:
+      213: -2580531071710485960
+    second: r2c_female_weapon_yoyo_184
+  - first:
+      213: -2916422819049309313
+    second: r2c_female_weapon_yoyo_185
+  - first:
+      213: 114896438278203400
+    second: r2c_female_weapon_yoyo_186
+  - first:
+      213: -6749566567150198567
+    second: r2c_female_weapon_yoyo_187
+  - first:
+      213: 5964410152361854112
+    second: r2c_female_weapon_yoyo_188
+  - first:
+      213: 2806546033731685484
+    second: r2c_female_weapon_yoyo_189
+  - first:
+      213: -1993245475155995228
+    second: r2c_female_weapon_yoyo_190
+  - first:
+      213: -6041460908420225953
+    second: r2c_female_weapon_yoyo_191
+  - first:
+      213: -7274901714146484958
+    second: r2c_female_weapon_yoyo_192
+  - first:
+      213: -7342987586520603642
+    second: r2c_female_weapon_yoyo_193
+  - first:
+      213: 3270776127775973561
+    second: r2c_female_weapon_yoyo_194
+  - first:
+      213: 7007880966450425288
+    second: r2c_female_weapon_yoyo_195
+  - first:
+      213: -2029052089586787065
+    second: r2c_female_weapon_yoyo_196
+  - first:
+      213: -5259937542620455766
+    second: r2c_female_weapon_yoyo_197
+  - first:
+      213: -6393056879880765222
+    second: r2c_female_weapon_yoyo_198
+  - first:
+      213: 2024199429852004541
+    second: r2c_female_weapon_yoyo_199
+  - first:
+      213: -3732742409662764627
+    second: r2c_female_weapon_yoyo_200
+  - first:
+      213: 2657392540541771922
+    second: r2c_female_weapon_yoyo_201
+  - first:
+      213: -4038643283722728673
+    second: r2c_female_weapon_yoyo_202
+  - first:
+      213: 6501387270894062724
+    second: r2c_female_weapon_yoyo_203
+  - first:
+      213: 3842551256021762887
+    second: r2c_female_weapon_yoyo_204
+  - first:
+      213: 5748021068398936377
+    second: r2c_female_weapon_yoyo_205
+  - first:
+      213: 7569169839806384623
+    second: r2c_female_weapon_yoyo_206
+  - first:
+      213: -7024613184374768139
+    second: r2c_female_weapon_yoyo_207
+  - first:
+      213: -1152930208548620291
+    second: r2c_female_weapon_yoyo_208
+  - first:
+      213: -8856446013491513204
+    second: r2c_female_weapon_yoyo_209
+  - first:
+      213: -1387854468030108411
+    second: r2c_female_weapon_yoyo_210
+  - first:
+      213: -7182438867854794941
+    second: r2c_female_weapon_yoyo_211
+  - first:
+      213: -664081488452656894
+    second: r2c_female_weapon_yoyo_212
+  - first:
+      213: 1139044799962246553
+    second: r2c_female_weapon_yoyo_213
+  - first:
+      213: 8576124158407319237
+    second: r2c_female_weapon_yoyo_214
+  - first:
+      213: -6817735520292669893
+    second: r2c_female_weapon_yoyo_215
+  - first:
+      213: 4359371362499651404
+    second: r2c_female_weapon_yoyo_216
+  - first:
+      213: -8989572557009202769
+    second: r2c_female_weapon_yoyo_217
+  - first:
+      213: -8504325161081304310
+    second: r2c_female_weapon_yoyo_218
+  - first:
+      213: 4589206956863958925
+    second: r2c_female_weapon_yoyo_219
+  - first:
+      213: -4942534829837794271
+    second: r2c_female_weapon_yoyo_220
+  - first:
+      213: -9003525593191203542
+    second: r2c_female_weapon_yoyo_221
+  - first:
+      213: -1997658855125098320
+    second: r2c_female_weapon_yoyo_222
+  - first:
+      213: 4377605097572572368
+    second: r2c_female_weapon_yoyo_223
+  - first:
+      213: 4432325766656429046
+    second: r2c_female_weapon_yoyo_224
+  - first:
+      213: -5556263969203040931
+    second: r2c_female_weapon_yoyo_225
+  - first:
+      213: -1004791360699389681
+    second: r2c_female_weapon_yoyo_226
+  - first:
+      213: 2203573539020039623
+    second: r2c_female_weapon_yoyo_227
+  - first:
+      213: 4166345092962382952
+    second: r2c_female_weapon_yoyo_228
+  - first:
+      213: -1069393017775309447
+    second: r2c_female_weapon_yoyo_229
+  - first:
+      213: 2909944464742901849
+    second: r2c_female_weapon_yoyo_230
+  - first:
+      213: -7199453505966576071
+    second: r2c_female_weapon_yoyo_231
+  - first:
+      213: 196597392605691608
+    second: r2c_female_weapon_yoyo_232
+  - first:
+      213: -3185703400574704892
+    second: r2c_female_weapon_yoyo_233
+  - first:
+      213: -872602138535585518
+    second: r2c_female_weapon_yoyo_234
+  - first:
+      213: -4073009145029820499
+    second: r2c_female_weapon_yoyo_235
+  - first:
+      213: 4963604970713478322
+    second: r2c_female_weapon_yoyo_236
+  - first:
+      213: 4689373043921358638
+    second: r2c_female_weapon_yoyo_237
+  - first:
+      213: -3587479329993079020
+    second: r2c_female_weapon_yoyo_238
+  - first:
+      213: 331551862544717920
+    second: r2c_female_weapon_yoyo_239
+  - first:
+      213: -6432828213920132477
+    second: r2c_female_weapon_yoyo_240
+  - first:
+      213: -6962638754871675304
+    second: r2c_female_weapon_yoyo_241
+  - first:
+      213: 3673076881488754997
+    second: r2c_female_weapon_yoyo_242
+  - first:
+      213: 3107026270954299099
+    second: r2c_female_weapon_yoyo_243
+  - first:
+      213: -6342752903036637974
+    second: r2c_female_weapon_yoyo_244
+  - first:
+      213: -1064840526736606861
+    second: r2c_female_weapon_yoyo_245
+  - first:
+      213: -7777644145974893915
+    second: r2c_female_weapon_yoyo_246
+  - first:
+      213: -7095792585035487283
+    second: r2c_female_weapon_yoyo_247
+  - first:
+      213: -3665903013333993484
+    second: r2c_female_weapon_yoyo_248
+  - first:
+      213: 995884662830264024
+    second: r2c_female_weapon_yoyo_249
+  - first:
+      213: -7321676239664920484
+    second: r2c_female_weapon_yoyo_250
+  - first:
+      213: 9145975233578803692
+    second: r2c_female_weapon_yoyo_251
+  - first:
+      213: 6079583493530856544
+    second: r2c_female_weapon_yoyo_252
+  - first:
+      213: 6583306520741071323
+    second: r2c_female_weapon_yoyo_253
+  - first:
+      213: -5624548100223566575
+    second: r2c_female_weapon_yoyo_254
+  - first:
+      213: -944327737914667995
+    second: r2c_female_weapon_yoyo_255
+  - first:
+      213: -1500923843595346408
+    second: r2c_female_weapon_yoyo_256
+  - first:
+      213: -3143751927982453198
+    second: r2c_female_weapon_yoyo_257
+  - first:
+      213: -2122525401493226701
+    second: r2c_female_weapon_yoyo_258
+  - first:
+      213: 6908253297094866165
+    second: r2c_female_weapon_yoyo_259
+  - first:
+      213: -5154446691172225049
+    second: r2c_female_weapon_yoyo_260
+  - first:
+      213: 2456175187488521628
+    second: r2c_female_weapon_yoyo_261
+  - first:
+      213: -4128694282052040842
+    second: r2c_female_weapon_yoyo_262
+  - first:
+      213: 2991949352461061531
+    second: r2c_female_weapon_yoyo_263
+  - first:
+      213: -5567149793876169356
+    second: r2c_female_weapon_yoyo_264
+  - first:
+      213: -8233633395282495634
+    second: r2c_female_weapon_yoyo_265
+  - first:
+      213: 8347098541237637437
+    second: r2c_female_weapon_yoyo_266
+  - first:
+      213: -7855189436420416414
+    second: r2c_female_weapon_yoyo_267
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_0
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 2851
+        width: 22
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c443b9617ae33384d9b909543a1882ff
+      internalID: 5205400408435442708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_1
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 2605
+        width: 88
+        height: 257
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05d7ba4d81f929240b22e944f7567c3f
+      internalID: 5707342872946698111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_2
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 2857
+        width: 22
+        height: 10
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6afd99b5a1a545947b86a09369399a72
+      internalID: 5006355896217627664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_3
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 2610
+        width: 73
+        height: 240
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ab13dcc622308a4d8dfdf206c61119c
+      internalID: -6706618836695004631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_4
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 2824
+        width: 12
+        height: 30
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 690cd4d05b0c59a498ec5115ba17b315
+      internalID: -152804429852911516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_5
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 2670
+        width: 59
+        height: 154
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d5c4eb22b0bc334e82bf217096df5bd
+      internalID: -410219125969855641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 2794
+        width: 13
+        height: 25
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be30c479f7ff56544b56ad34851e10f5
+      internalID: -8674002926623005578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_7
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 2789
+        width: 9
+        height: 9
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1349dc7a070b9214dbd99b92be656df6
+      internalID: -6268426893675362079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_8
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 2615
+        width: 119
+        height: 170
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a77941ce7a0437745b1ee80571745fa5
+      internalID: -265648407496959653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_9
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 2749
+        width: 21
+        height: 14
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04d77713fac197c4bba27817f1d03e8e
+      internalID: 7260481601506785355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_10
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 2597
+        width: 89
+        height: 166
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feaef7fae028ace419270d18e28d5288
+      internalID: -7354403989643098950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_11
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 2720
+        width: 34
+        height: 42
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ff91c58e1c96de47a7afb956d40338d
+      internalID: 7316214109589974069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_12
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 2720
+        width: 33
+        height: 42
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f72ceff1db9eb8b4094fa99f12494a88
+      internalID: -3443075616947047101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_13
+      rect:
+        serializedVersion: 2
+        x: 2066
+        y: 2714
+        width: 35
+        height: 46
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f0a9affe17922418f66d71e60e89e9
+      internalID: 7101365194298016683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_14
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 2705
+        width: 25
+        height: 33
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c80f0aa66bfe8e438b6d322d49d5969
+      internalID: -5759665927467946927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_15
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2705
+        width: 21
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19af11ab3ef6c8f41a637dac42dd0af3
+      internalID: -1186331244395107163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_16
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 2705
+        width: 21
+        height: 26
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78ced7186099b424fb6a98239e725f5b
+      internalID: 2775295986905370983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_17
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 2696
+        width: 57
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75c5d9a4cd46ffd4cb668e0786159944
+      internalID: 3741379540916701149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_18
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 2715
+        width: 15
+        height: 7
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05ef0c4a987c2804eab46030e6341410
+      internalID: -9120329275556684545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_19
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 2705
+        width: 42
+        height: 33
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87ddd3457d4926b4cb39e20a7b2a0eaa
+      internalID: -7942631034710281335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_20
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 2705
+        width: 20
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc1e9f330d5aa2747a8eb25484e50c11
+      internalID: 2463926306824883961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_21
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 2705
+        width: 20
+        height: 33
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45b962178a8a8ac45827a72cd9aefa89
+      internalID: 2192768124407009913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_22
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 2712
+        width: 9
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46e10c990b1d4e94bba5eb814090018f
+      internalID: -8070429366878586638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_23
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 2699
+        width: 36
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e151594b206df504892d354956363bfb
+      internalID: -3489018434572669013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_24
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 2699
+        width: 35
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7c524eaabd1142428c0f534a824a443
+      internalID: -7309570052145566943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_25
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 2687
+        width: 19
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ade8b646a2595b448b03624a1fcfd77a
+      internalID: 5431256509740755666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_26
+      rect:
+        serializedVersion: 2
+        x: 2066
+        y: 2692
+        width: 26
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de591d931883d2f4f8df2513c1add807
+      internalID: -8383009217601836372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_27
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 2668
+        width: 34
+        height: 22
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d205cc54aff6234c97fe4d564db0c29
+      internalID: -2161386415941065879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_28
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 2667
+        width: 33
+        height: 22
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85b753cb4f177384288794cc8e180ba0
+      internalID: 6463328344466002498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_29
+      rect:
+        serializedVersion: 2
+        x: 2057
+        y: 2633
+        width: 35
+        height: 57
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76d7f543cbfda1446bf4bba56e638132
+      internalID: -7504445607556070590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_30
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 2633
+        width: 4
+        height: 4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e263472c790973145944b39ea01aa793
+      internalID: 6134957210325049718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_31
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 2628
+        width: 4
+        height: 5
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edb4a4b96f33dbb499cfb88c2ab0ef56
+      internalID: 3820152700580101465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_32
+      rect:
+        serializedVersion: 2
+        x: 2076
+        y: 2608
+        width: 7
+        height: 15
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a26dd69ff82e520438c879d4a53541a5
+      internalID: -241966276254591290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_33
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 2541
+        width: 18
+        height: 19
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b12d2b909c7d7184cbedf08b47cf38c4
+      internalID: -7812247712872689367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_34
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 2306
+        width: 83
+        height: 258
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e52d986b33b72df47aee70b1a8c4f390
+      internalID: 9071179064024747374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_35
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 2301
+        width: 105
+        height: 250
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e06001b736b3c149abb98e3268d3af2
+      internalID: 4566728042466960821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_36
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 2541
+        width: 22
+        height: 11
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 982ebf7821946e7498b116faad5edbf7
+      internalID: 8788926615952068901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_37
+      rect:
+        serializedVersion: 2
+        x: 2066
+        y: 2536
+        width: 35
+        height: 63
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d936862e773d8bb4d859450acc8e7e8c
+      internalID: -813685188306846286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_38
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 2506
+        width: 14
+        height: 29
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d4f5b765194b6b46a6659f405f10833
+      internalID: 3818627959013819224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_39
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 2494
+        width: 25
+        height: 28
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c212a7308bad6c74d969b00834730fae
+      internalID: -7528571594464823830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_40
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 2519
+        width: 25
+        height: 10
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a78720e8e82830846a630d323b959f13
+      internalID: -6969948958184492925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_41
+      rect:
+        serializedVersion: 2
+        x: 2066
+        y: 2506
+        width: 33
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45ffc5c7a293b6d419ce47f3bc5263b1
+      internalID: 6637127213505100906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_42
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 2308
+        width: 126
+        height: 209
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0193b096283172e46ab863a287524d6c
+      internalID: 5828360261850524246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_43
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 2465
+        width: 22
+        height: 48
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7778784811572a9489ddff95ef563b39
+      internalID: 2398635240673145315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_44
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 2488
+        width: 27
+        height: 25
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7ef1acde14550a4fbd5cd91fb15c310
+      internalID: -7169305189467088342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_45
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 2481
+        width: 28
+        height: 6
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21d3f04bd41a64e41b749360161a7702
+      internalID: -4091542950528252120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_46
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 2463
+        width: 34
+        height: 15
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d6611e14eb849d4d888a4acfe499e1f
+      internalID: 535559470768091703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_47
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 2459
+        width: 21
+        height: 19
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2263381117f19046a9c28041b4f81cd
+      internalID: -816405864325880088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_48
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 2462
+        width: 21
+        height: 17
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1c9c2328497f4142b132d559da60bdd
+      internalID: 5344682845735696316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_49
+      rect:
+        serializedVersion: 2
+        x: 2031
+        y: 2421
+        width: 70
+        height: 55
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3bd30fadb260794badcc5189e1effe6
+      internalID: -7525951278932528993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_50
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 2308
+        width: 83
+        height: 154
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c56944b3ca0b1a489d16b1d5d421fef
+      internalID: -1574177995958859463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_51
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 2301
+        width: 108
+        height: 162
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 257e80096a26975439c5284e0cb067c6
+      internalID: -374336480257503315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_52
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 2372
+        width: 233
+        height: 84
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 748217eb8a62238468551bd558d24ff1
+      internalID: 5042908970926945459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_53
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 2447
+        width: 5
+        height: 4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a29dca134cd6b243b653b12964d6663
+      internalID: 8662243368500183282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_54
+      rect:
+        serializedVersion: 2
+        x: 1669
+        y: 2374
+        width: 154
+        height: 83
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b247dae1b2d39e14e84d7f1daeed31c1
+      internalID: -4200439251717214907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_55
+      rect:
+        serializedVersion: 2
+        x: 2113
+        y: 2417
+        width: 71
+        height: 13
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f11818bad94d1384ea11cc92dd2f0bfd
+      internalID: -3162730221279355127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_56
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 2374
+        width: 62
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec172c18f994b774faa82e6f416f0e90
+      internalID: 5207943939033642590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_57
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 2374
+        width: 22
+        height: 33
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4447c3dd76eab0e4cb6af14add42d0bd
+      internalID: -5970649044005710774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_58
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 2355
+        width: 78
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3eb208765408f34ea9afd089abcf105
+      internalID: 7910774266389873402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_59
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 2364
+        width: 31
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 694e47798f213eb46b496041892c041b
+      internalID: -8745057596500052600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_60
+      rect:
+        serializedVersion: 2
+        x: 1505
+        y: 2361
+        width: 32
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2623153264708de408c8a5aec347b9ff
+      internalID: -8022930300798104288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_61
+      rect:
+        serializedVersion: 2
+        x: 1333
+        y: 2282
+        width: 285
+        height: 73
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 270e84bc9c9864746baf2bda8043c76d
+      internalID: -913513758642522348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_62
+      rect:
+        serializedVersion: 2
+        x: 1667
+        y: 2251
+        width: 258
+        height: 96
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a085e5034e37dfb4db97250841303832
+      internalID: -4953704042933826166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_63
+      rect:
+        serializedVersion: 2
+        x: 1976
+        y: 2223
+        width: 170
+        height: 119
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5975f99b5bb0a3d4cb8eb8072f0d5ab3
+      internalID: 361660531002873073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_64
+      rect:
+        serializedVersion: 2
+        x: 1994
+        y: 2333
+        width: 4
+        height: 5
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1406f98191cd2942b76afeef65a8d2e
+      internalID: 993013733335370522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_65
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 2315
+        width: 4
+        height: 6
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef442906b0ea6d444801b762e4bc5ae3
+      internalID: 1975867335387864655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_66
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 2295
+        width: 77
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff045a7938f89054ab41be57d39c8628
+      internalID: 271109213592848332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_67
+      rect:
+        serializedVersion: 2
+        x: 1483
+        y: 2273
+        width: 31
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 760dd9ab5ed28cf4ca8b3cb623a64d34
+      internalID: 5179325003544365635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_68
+      rect:
+        serializedVersion: 2
+        x: 1527
+        y: 2277
+        width: 25
+        height: 10
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c3af497e247b8b468b692e28736bdaa
+      internalID: 5663403651109041513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_69
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 2267
+        width: 47
+        height: 10
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5456409264e33b741ada8cbe95cb3c2b
+      internalID: -927524754707969388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_70
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 2264
+        width: 41
+        height: 9
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4afdd11dc51dba44387e8f6382f0223b
+      internalID: 7194904526111028836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_71
+      rect:
+        serializedVersion: 2
+        x: 1547
+        y: 2268
+        width: 33
+        height: 9
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 593fbbc635535654b9dddbfb4f3a4cf9
+      internalID: 2314239213656510679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_72
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 2258
+        width: 36
+        height: 12
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f3126daa3bc7f4ba84ae4f9800c921
+      internalID: 4908661548479976136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_73
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 1972
+        width: 74
+        height: 285
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c2fa2a047b88c94e90988b011dc043a
+      internalID: -946326137603562847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_74
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 2207
+        width: 10
+        height: 36
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fcdc6244378427498a52bc81db13390
+      internalID: -2925201172187780326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_75
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1969
+        width: 83
+        height: 295
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e26da4c5149d13c4cb29f3cdfdfd9edd
+      internalID: -7326990139515648136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_76
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 2172
+        width: 23
+        height: 87
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7186aef7c99f0db45b0a02fc519161f5
+      internalID: 3227950206179606084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_77
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 2223
+        width: 80
+        height: 37
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88cb8cb506665ca4aa6ad6f8bc8cfe36
+      internalID: -284721348678481401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_78
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 2167
+        width: 294
+        height: 84
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d620beb78629ce241865df8beb2bc8f7
+      internalID: 4976576603310338393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_79
+      rect:
+        serializedVersion: 2
+        x: 1662
+        y: 2141
+        width: 250
+        height: 104
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 680d7f2e2f5a2e84fbf8582b347bca72
+      internalID: -3542002153785087568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_80
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 1981
+        width: 83
+        height: 233
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73d02e3491f44a141bca24443dbac00a
+      internalID: 2957539555748384424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_81
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 2166
+        width: 10
+        height: 25
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7debc363414001d47b59b60f95cb00b2
+      internalID: 8459641977024031024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_82
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 2186
+        width: 7
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1621a92a321d6124e97d0a9ddf9b89f9
+      internalID: -3117379416500076338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_83
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 1974
+        width: 70
+        height: 249
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9daceff4aef99b246bbbc37c06022d99
+      internalID: 2106724123118993587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_84
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 2176
+        width: 11
+        height: 22
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e67c2c0fee7f7d345a7fe4cc2646e584
+      internalID: 7876914858354322858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_85
+      rect:
+        serializedVersion: 2
+        x: 1989
+        y: 2190
+        width: 5
+        height: 5
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 937f2e0aea4a60c4ca867ac0e73fa95c
+      internalID: -4553201201805550352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_86
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 2144
+        width: 9
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 239aa21fc68c71948b803233dc3d5769
+      internalID: -3149649532171208496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_87
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 2139
+        width: 8
+        height: 41
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f168b8e25cbdee143b5c665ce157ad0e
+      internalID: 8192349192159765338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_88
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 2136
+        width: 7
+        height: 31
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3b859cdab9baf845b22678b77e676c8
+      internalID: 4606154100997717480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_89
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 2153
+        width: 8
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6908371e5b755244cb618d635405bf46
+      internalID: -1600744394760473860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_90
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 2163
+        width: 47
+        height: 9
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 394fc5759b9af19429ff8b8b74c37580
+      internalID: -6170388239340547079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_91
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 2160
+        width: 30
+        height: 7
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34a88b9dcc84b414b8877975cbf59084
+      internalID: -6163946918271030230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_92
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 2148
+        width: 87
+        height: 24
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 752f2311767f8ad4db774c92bfdfe2de
+      internalID: -5764846117433289003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_93
+      rect:
+        serializedVersion: 2
+        x: 1971
+        y: 2117
+        width: 240
+        height: 72
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b02deb96dbf5c944bb7bfd2495ed5da6
+      internalID: 2431637454490018414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_94
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 2125
+        width: 7
+        height: 23
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 928067f5510e19644b84314645f3568c
+      internalID: 2288146479247236739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_95
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 2122
+        width: 9
+        height: 31
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6085ded78e8a54d459fbbd271721ba1c
+      internalID: 8739294211364882961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_96
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 2134
+        width: 7
+        height: 23
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a71292c03a315a8499606d93c1138019
+      internalID: 2157591532981343572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_97
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 2116
+        width: 9
+        height: 31
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe85c6fa592c9a24fbf899142f3e386a
+      internalID: -2861658503484921900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_98
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 2065
+        width: 250
+        height: 81
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e2ff194dd8c18449b8e2b6fb74dc574
+      internalID: -2550148487417484193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_99
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 2137
+        width: 5
+        height: 5
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ad8c302f01d429418182b17d29ea55b
+      internalID: -8477266660886483312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_100
+      rect:
+        serializedVersion: 2
+        x: 2212
+        y: 2139
+        width: 8
+        height: 24
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1ecee54abfd2954797dbe21c1bcf6f2
+      internalID: 1145308975101667567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_101
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 2098
+        width: 62
+        height: 36
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b115404e8a80864495412eb05ce2efb
+      internalID: -8815650564561022207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_102
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 2098
+        width: 21
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4775154556bdb1144b156a02bcbf5f09
+      internalID: -6908229220710505908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_103
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 2107
+        width: 9
+        height: 31
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6774a5a871981bc42b61f5e70e820739
+      internalID: 5993046987918591020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_104
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 2085
+        width: 10
+        height: 47
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b4aec3e50b9f774aa4c64b6c1c34ca1
+      internalID: 6354692740536598586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_105
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 2082
+        width: 10
+        height: 47
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71e54f2f8b9c1114d8e37a01a19f634e
+      internalID: -3853237296843126144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_106
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 1980
+        width: 80
+        height: 139
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ca3d6dc99d72354e9396e1c7bbd777e
+      internalID: -1213859456259813025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_107
+      rect:
+        serializedVersion: 2
+        x: 1669
+        y: 2003
+        width: 209
+        height: 131
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6209b1292aaf76b4aa9961fb8b67eb9a
+      internalID: -7170329268141148554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_108
+      rect:
+        serializedVersion: 2
+        x: 2155
+        y: 2082
+        width: 25
+        height: 13
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c8c9413e4c689040a51795e458dacdb
+      internalID: 929447017996173538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_109
+      rect:
+        serializedVersion: 2
+        x: 2184
+        y: 2083
+        width: 31
+        height: 12
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f6cc7541c0521a40b3ad00f629d1da6
+      internalID: 1153131813554946518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_110
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 2056
+        width: 8
+        height: 25
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef7b3f0c882e02e44886a56ef3ebcdf3
+      internalID: 1571828738220194106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_111
+      rect:
+        serializedVersion: 2
+        x: 1477
+        y: 2056
+        width: 31
+        height: 9
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25ced47cd81389f41909fc6d16f32df6
+      internalID: -7917521197328897867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_112
+      rect:
+        serializedVersion: 2
+        x: 1514
+        y: 2053
+        width: 32
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2315213c6bc941e4f8038e45929d1030
+      internalID: -6119770868055112722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_113
+      rect:
+        serializedVersion: 2
+        x: 1855
+        y: 2053
+        width: 28
+        height: 23
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ad1d6d5d7fa6774fb5fa590c4158cbc
+      internalID: 5845028488399915811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_114
+      rect:
+        serializedVersion: 2
+        x: 1966
+        y: 1994
+        width: 256
+        height: 88
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed1e5b7d80b37d041bf78866e9970ae5
+      internalID: 5016422652863250689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_115
+      rect:
+        serializedVersion: 2
+        x: 2218
+        y: 2059
+        width: 10
+        height: 23
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff01e2bcec8f4a54ea977a5bbe2775c2
+      internalID: 6992930046807567176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_116
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 1971
+        width: 139
+        height: 79
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97640d6a2a879e44bb87ac81762b9872
+      internalID: -2881294954209465378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_117
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 2022
+        width: 10
+        height: 25
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b373a7d2839b0c246aa7dc3d47ddc6f4
+      internalID: 5559964296921991693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_118
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 1999
+        width: 4
+        height: 5
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02d569d94d1f1984892827dfa99d4e44
+      internalID: 7905522515807370847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_119
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 1992
+        width: 5
+        height: 4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4ce7329e4599a04394cdb432e7bfbef
+      internalID: -1493377239083698351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_120
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1959
+        width: 21
+        height: 19
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81977333fccbe424aa291cdf92d58f72
+      internalID: -8502898937167908604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_121
+      rect:
+        serializedVersion: 2
+        x: 2073
+        y: 1975
+        width: 32
+        height: 9
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 230ffaeeb5863354a900b48420884be2
+      internalID: -6635329035193484607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_122
+      rect:
+        serializedVersion: 2
+        x: 2110
+        y: 1959
+        width: 14
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 524affe4a2d961241823fdd5311cc4b1
+      internalID: -7339277791908714570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_123
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 1959
+        width: 25
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbb2b18e8f8be504f9b4f29ffab48d57
+      internalID: -4254727797340291900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_124
+      rect:
+        serializedVersion: 2
+        x: 1662
+        y: 1864
+        width: 162
+        height: 110
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60e63d13fc66f2b4fac9b277d99a981c
+      internalID: 3809566159060180361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_125
+      rect:
+        serializedVersion: 2
+        x: 1958
+        y: 1882
+        width: 166
+        height: 87
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3070f188843947e44afa32952179b887
+      internalID: 5375693223064535936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_126
+      rect:
+        serializedVersion: 2
+        x: 2150
+        y: 1935
+        width: 9
+        height: 10
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e780ab134a861eb41b73d59e66fd1061
+      internalID: 6252394547991975840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_127
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 1897
+        width: 15
+        height: 33
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b02ed520be82a14e802793dac9514f6
+      internalID: -5345771366537736053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_128
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 1858
+        width: 23
+        height: 27
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc419f15688c2b94783f3591b00a2958
+      internalID: 858414110547532801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_129
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 1858
+        width: 25
+        height: 28
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6e5355f96330944f99074df03306a2c
+      internalID: -4652629038112258793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_130
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 1817
+        width: 30
+        height: 78
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d70b6b0e06e7694a893776a91515d8a
+      internalID: -1590996251454490026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_131
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 1819
+        width: 30
+        height: 77
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 956ed4cd2323b43449c7cbaf79c75661
+      internalID: 7247751152813839595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_132
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 1816
+        width: 38
+        height: 80
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a5e7c683956e614793d63950a994845
+      internalID: -9220323569736641037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_133
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 1870
+        width: 19
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af7f0cb638f65bf49b68ce240455a7fb
+      internalID: 2762454262341015396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_134
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 1564
+        width: 166
+        height: 99
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a794a017acd6f6469e2e96541b4a4d7
+      internalID: 8901938754535297577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_135
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 1655
+        width: 19
+        height: 19
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fa9f3725775ac549a5dcb58a1aee8c7
+      internalID: -6596310007081492442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_136
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 1570
+        width: 162
+        height: 109
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5684a8f08f111c84fbc6316b632e55bc
+      internalID: 6415950390914978970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_137
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 1614
+        width: 38
+        height: 80
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a39325f5081225245ad47e007385b062
+      internalID: -2154703133270090682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_138
+      rect:
+        serializedVersion: 2
+        x: 1773
+        y: 1614
+        width: 31
+        height: 78
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6630c53d4f1643468b3044beca48489
+      internalID: 1177925943218862537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_139
+      rect:
+        serializedVersion: 2
+        x: 1833
+        y: 1615
+        width: 31
+        height: 78
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c4ab89b2f5b7634f80bb440135658a5
+      internalID: 7730826188618274503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_140
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 1614
+        width: 15
+        height: 33
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 099b59e350c330e4081221dc1b24bb79
+      internalID: 8197017443122555900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_141
+      rect:
+        serializedVersion: 2
+        x: 1940
+        y: 1625
+        width: 23
+        height: 27
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ea51f57e8f030b42a85fc51e8bf5a15
+      internalID: 6513064282993339869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_142
+      rect:
+        serializedVersion: 2
+        x: 1965
+        y: 1625
+        width: 17
+        height: 27
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c2dfb5f40de8844bd717302dfe1a83
+      internalID: 1795011658944263581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_143
+      rect:
+        serializedVersion: 2
+        x: 1982
+        y: 1625
+        width: 8
+        height: 27
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5adaf82b76a04a4aac964ebd98d87b3
+      internalID: 6509849759844545148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_144
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 1599
+        width: 10
+        height: 9
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4342fc4d8c65af44fa1c50f97993e37d
+      internalID: -3289549306792130048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_145
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 1577
+        width: 26
+        height: 7
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a24c6ac85dbb3943862126c85fb9763
+      internalID: -9154974995042030147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_146
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 1561
+        width: 32
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0226414f5171de24c96898ea6da80c69
+      internalID: 8871363203104948485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_147
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 1493
+        width: 139
+        height: 80
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cda2551ae93ac846a4f7e4727ad15de
+      internalID: -4868029965105190454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_148
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 1462
+        width: 257
+        height: 87
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 200be6a4a4103c843afa5b94d1d76eef
+      internalID: -8274638871534340702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_149
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 1410
+        width: 210
+        height: 125
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c32115fcf878be44bcfe5979049bd60
+      internalID: -429887350025280439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_150
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 1518
+        width: 48
+        height: 22
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb04c83ee4ff9c14395465d7b7ad59ff
+      internalID: 3923187153264786151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_151
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 1532
+        width: 5
+        height: 4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f25e4ac77214c7f46b5577ce973741f4
+      internalID: -8426821973226692371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_152
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 1287
+        width: 71
+        height: 250
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b06e493ef345af48b90398c6a66449c
+      internalID: 5531188700559581213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_153
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 1247
+        width: 83
+        height: 293
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cae2a16b63dac2849a16322d843517a5
+      internalID: -8819027518403695914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_154
+      rect:
+        serializedVersion: 2
+        x: 1758
+        y: 1253
+        width: 74
+        height: 284
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30c7d02570ddb334595756495062eb71
+      internalID: -8179710436271638208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_155
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1497
+        width: 11
+        height: 24
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f580229ac2ff1c64bb774b141db441b7
+      internalID: -3117137619545601996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_156
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 1391
+        width: 79
+        height: 139
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0353bfb28d64583479f5231bbb069303
+      internalID: -7693359852735124462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_157
+      rect:
+        serializedVersion: 2
+        x: 1614
+        y: 1514
+        width: 5
+        height: 5
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aa66ce955c75034389a6e223cfd3c2d
+      internalID: -7609089236749467629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_158
+      rect:
+        serializedVersion: 2
+        x: 1849
+        y: 1296
+        width: 84
+        height: 233
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 881db897fb343c14ebc14a2fde4c71b7
+      internalID: 751136287215465091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_159
+      rect:
+        serializedVersion: 2
+        x: 1924
+        y: 1507
+        width: 5
+        height: 4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c05f0447bc672a4aa43f3cda553556c
+      internalID: -6279821479064563401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_160
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1461
+        width: 9
+        height: 24
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 596c423d5e47b65448537e8d5a9791d6
+      internalID: -4406297502219595293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_161
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 1467
+        width: 28
+        height: 25
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c727afa651ffb54ca4cdd9560961ed2
+      internalID: -7941697019712545623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_162
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1483
+        width: 33
+        height: 7
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8086a648afbbbfe4f8c03cab52284562
+      internalID: 8226256334724625931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_163
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 1480
+        width: 30
+        height: 9
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c2d75d865251bd49b3bcf07bf9dae1b
+      internalID: 1402360504185495025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_164
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 1397
+        width: 251
+        height: 82
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11dbca2680e8c8843894dd58974fac4a
+      internalID: -3617651748822966789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_165
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 1473
+        width: 25
+        height: 7
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cef7140a5e720a74c9a99decad170f2e
+      internalID: -199162701896906241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_166
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 1449
+        width: 31
+        height: 12
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2825053b5f67f649bff4cbdcc4ac677
+      internalID: 4493945749955086716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_167
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 1449
+        width: 24
+        height: 13
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c3f58a645cd7e04193f50d1e59d9f95
+      internalID: 3998191695887754519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_168
+      rect:
+        serializedVersion: 2
+        x: 1436
+        y: 1429
+        width: 9
+        height: 26
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 331bb75012579be46b970541828bc18d
+      internalID: 4305570958028468705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_169
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1381
+        width: 8
+        height: 23
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f70f852439af8ce4283d8bc6626e5935
+      internalID: -4667627991336931379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_170
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1354
+        width: 238
+        height: 72
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9982741c902d5e44eb759d44cc19f27a
+      internalID: -7972540943234820547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_171
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 1299
+        width: 250
+        height: 105
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51181dd8a80578442840718ee220269f
+      internalID: -2230792285894134044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_172
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1403
+        width: 4
+        height: 4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baab1c02796eaef46bfe78974bad6824
+      internalID: -7442607755035186233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_173
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 1381
+        width: 10
+        height: 46
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 677ae8c0cc41fed4d82d772ed62fe489
+      internalID: 4566775228942945871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_174
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 1378
+        width: 10
+        height: 47
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63cca60d31d81554b876a2f1b7341595
+      internalID: -8973212709957903776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_175
+      rect:
+        serializedVersion: 2
+        x: 2145
+        y: 1378
+        width: 22
+        height: 33
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c94b6098ab5cce4fa1076d5c0b21577
+      internalID: 1838557542519140975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_176
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 1376
+        width: 20
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b91c07377a834e4fb467efebdca82a6
+      internalID: -7392536460099410956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_177
+      rect:
+        serializedVersion: 2
+        x: 2198
+        y: 1378
+        width: 41
+        height: 33
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b348e9e32bc77745aa75bc0c8db2ab5
+      internalID: 6584103546441179633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_178
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 1373
+        width: 86
+        height: 24
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26bfe5923e0f32044944622c8fee8893
+      internalID: -7345282111280374505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_179
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 1378
+        width: 31
+        height: 6
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9f647e1bddba4d4aa196c062e7c6d5f
+      internalID: -2027974491095915522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_180
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 1372
+        width: 48
+        height: 10
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e4a45c0724590041b465c355815c061
+      internalID: -416458691024606805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_181
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 1363
+        width: 8
+        height: 31
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 280a74e6b3c690248b250caba4703aa6
+      internalID: 4821145641866797976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_182
+      rect:
+        serializedVersion: 2
+        x: 1749
+        y: 1357
+        width: 9
+        height: 31
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efa930f41c3d8e747bc54d2c27f25953
+      internalID: 782890514370481763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_183
+      rect:
+        serializedVersion: 2
+        x: 1840
+        y: 1372
+        width: 9
+        height: 31
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6ad6b97762c071429ce88ceab04b102
+      internalID: -35357706916617562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_184
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 1350
+        width: 4
+        height: 4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42948f01b064bd144ad8c45c0ebe3560
+      internalID: -2580531071710485960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_185
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 1347
+        width: 11
+        height: 22
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 842247b1ed379604687a35bb19541dc9
+      internalID: -2916422819049309313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_186
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 1293
+        width: 294
+        height: 83
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cecb4dc963036742b9abc7860bdc757
+      internalID: 114896438278203400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_187
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 1325
+        width: 8
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b623cad45a3c6b848a23466fa1ee78cd
+      internalID: -6749566567150198567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_188
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 1353
+        width: 8
+        height: 24
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b962a818f3acd243822eaa168894138
+      internalID: 5964410152361854112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_189
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 1344
+        width: 7
+        height: 29
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f3e8c6e1844c644e89032b3b168a58a
+      internalID: 2806546033731685484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_190
+      rect:
+        serializedVersion: 2
+        x: 1741
+        y: 1331
+        width: 8
+        height: 39
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05ecdbe75c4b6fe4c8273bf46596b2d0
+      internalID: -1993245475155995228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_191
+      rect:
+        serializedVersion: 2
+        x: 1837
+        y: 1334
+        width: 9
+        height: 33
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0881dcfb70be72e4ebf1bf0988b55b52
+      internalID: -6041460908420225953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_192
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 1201
+        width: 161
+        height: 120
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52e1d4151cb97184a937fb4adf95fd14
+      internalID: -7274901714146484958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_193
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 1284
+        width: 81
+        height: 38
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44a99a161c316ce448252f7eff24c4e0
+      internalID: -7342987586520603642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_194
+      rect:
+        serializedVersion: 2
+        x: 1625
+        y: 1250
+        width: 23
+        height: 88
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f35d39c25a34a24eae678b29f98df13
+      internalID: 3270776127775973561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_195
+      rect:
+        serializedVersion: 2
+        x: 1746
+        y: 1291
+        width: 8
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d57f516c77ed34d978d964dcc11583
+      internalID: 7007880966450425288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_196
+      rect:
+        serializedVersion: 2
+        x: 1754
+        y: 1319
+        width: 10
+        height: 25
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0259c0e2513f011488bb1aca01def549
+      internalID: -2029052089586787065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_197
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1284
+        width: 12
+        height: 22
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f6209bba88f1447bda4882dee458af
+      internalID: -5259937542620455766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_198
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 1209
+        width: 258
+        height: 84
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c82fc311a025c1c4389a33b0f00c535f
+      internalID: -6393056879880765222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_199
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 1274
+        width: 37
+        height: 11
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ef5cb4903aab1e4a84fbdf907ef8a83
+      internalID: 2024199429852004541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_200
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 1266
+        width: 11
+        height: 37
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc08e19c84819d841a979e4b40382112
+      internalID: -3732742409662764627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_201
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 1255
+        width: 23
+        height: 24
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 874d75acc75ea1d46ac157a2d5202c66
+      internalID: 2657392540541771922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_202
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 1267
+        width: 33
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54a68e88eec5a014cb4b659becefba57
+      internalID: -4038643283722728673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_203
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 1271
+        width: 41
+        height: 9
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73a010227601277419943144f70c840a
+      internalID: 6501387270894062724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_204
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 1267
+        width: 48
+        height: 11
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c8f7ba2eabaa8d48aa226a9229c7b7b
+      internalID: 3842551256021762887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_205
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 1189
+        width: 285
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc720e6dc97cdbb44937bfd7c770e5dd
+      internalID: 5748021068398936377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_206
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 1258
+        width: 27
+        height: 9
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8dd7247cbe94924a86da58d290677d6
+      internalID: 7569169839806384623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_207
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 1262
+        width: 30
+        height: 9
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: def0ef863511e8a4eae443628d3f2e23
+      internalID: -7024613184374768139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_208
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 1218
+        width: 78
+        height: 31
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85e0c7e537a9cea449dd1c2294c4307b
+      internalID: -1152930208548620291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_209
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 1206
+        width: 4
+        height: 5
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f5415e5a6fde7499244dbe3ab4f72c
+      internalID: -8856446013491513204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_210
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 1196
+        width: 17
+        height: 18
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea215752b2a6efd4e9856342f32a4bd5
+      internalID: -1387854468030108411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_211
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 1196
+        width: 31
+        height: 14
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d78b77227fd6fdb4cb6985fd785d3107
+      internalID: -7182438867854794941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_212
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 1205
+        width: 4
+        height: 4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8def84d5f06443c45921330e83211d55
+      internalID: -664081488452656894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_213
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 1047
+        width: 110
+        height: 162
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f9c4bdceef21da45bc065d6387fa82e
+      internalID: 1139044799962246553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_214
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 957
+        width: 104
+        height: 252
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a732ceaa6ee46a741a9deccacbc8b84f
+      internalID: 8576124158407319237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_215
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 1176
+        width: 33
+        height: 7
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86dedabe0aa15904e92daf085ae816cc
+      internalID: -6817735520292669893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_216
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 1173
+        width: 30
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15be6e8785215ce4d816116bc896fe50
+      internalID: 4359371362499651404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_217
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 1158
+        width: 79
+        height: 31
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f3021abce82c1043bd81e350e02c00d
+      internalID: -8989572557009202769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_218
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 992
+        width: 130
+        height: 210
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b99611c3025cf74cbda7e2b04eb1761
+      internalID: -8504325161081304310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_219
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 946
+        width: 95
+        height: 257
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 334dfdc8ffbbc1a49ae704d3db002c81
+      internalID: 4589206956863958925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_220
+      rect:
+        serializedVersion: 2
+        x: 1852
+        y: 1048
+        width: 83
+        height: 154
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18a31ef633732d641b0d03a88d182149
+      internalID: -4942534829837794271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_221
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 1067
+        width: 155
+        height: 59
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9817fe87c71bd7240859643760ee93bd
+      internalID: -9003525593191203542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_222
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 1086
+        width: 153
+        height: 84
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5578543dcd9dd1438350480861bc62e
+      internalID: -1997658855125098320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_223
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 1089
+        width: 233
+        height: 82
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9299e39a5e830464d9f8c8829c6858b8
+      internalID: 4377605097572572368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_224
+      rect:
+        serializedVersion: 2
+        x: 2145
+        y: 1104
+        width: 22
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dc2a5949e568bb4da285ca7fd0a5361
+      internalID: 4432325766656429046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_225
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 1101
+        width: 20
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecbb7f0e2abec404ab1bd4178f6095f4
+      internalID: -5556263969203040931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_226
+      rect:
+        serializedVersion: 2
+        x: 2198
+        y: 1104
+        width: 41
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faa41000accac3148867c4607f1e57dc
+      internalID: -1004791360699389681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_227
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 1092
+        width: 4
+        height: 4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9719af0f21d7c214ab69536d8a4db833
+      internalID: 2203573539020039623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_228
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 1057
+        width: 28
+        height: 25
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2df91f88363799b4e90a9c7acff3f419
+      internalID: 4166345092962382952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_229
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1019
+        width: 32
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ddd1281702116947a50e4a6b3ab54e1
+      internalID: -1069393017775309447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_230
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 1031
+        width: 28
+        height: 24
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89583366c6cd8fd409f0d163a60251d2
+      internalID: 2909944464742901849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_231
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 1032
+        width: 20
+        height: 19
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f869487c12629c4985937b4ae9e2aba
+      internalID: -7199453505966576071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_232
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 1032
+        width: 33
+        height: 15
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f78aee5ac4016541921d67c68017b9e
+      internalID: 196597392605691608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_233
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 944
+        width: 35
+        height: 63
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80472cdaa9891374caaf795c678298d2
+      internalID: -3185703400574704892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_234
+      rect:
+        serializedVersion: 2
+        x: 1499
+        y: 981
+        width: 25
+        height: 10
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c305cea7a9487b448c8d77357e01d5f
+      internalID: -872602138535585518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_235
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 988
+        width: 24
+        height: 29
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd157a1e6f52afc44acb1c6fbfc11367
+      internalID: -4073009145029820499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_236
+      rect:
+        serializedVersion: 2
+        x: 1811
+        y: 975
+        width: 14
+        height: 29
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66b51ba842288f04e82b2a6e565db974
+      internalID: 4963604970713478322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_237
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 921
+        width: 7
+        height: 14
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2e278af90b0e6c49a1c2b1da4debec1
+      internalID: 4689373043921358638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_238
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 855
+        width: 34
+        height: 57
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a4b518ec33b43f4787c062ca844ac30
+      internalID: -3587479329993079020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_239
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 746
+        width: 98
+        height: 166
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a78fbd631ef79b44ae85e1590155742
+      internalID: 331551862544717920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_240
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 648
+        width: 88
+        height: 257
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a7c3301acb121d49ab412cac19d0601
+      internalID: -6432828213920132477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_241
+      rect:
+        serializedVersion: 2
+        x: 1594
+        y: 660
+        width: 72
+        height: 240
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64da633decf52b9429dacb7a44f5ef3d
+      internalID: -6962638754871675304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_242
+      rect:
+        serializedVersion: 2
+        x: 1667
+        y: 877
+        width: 5
+        height: 5
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b95538b2610df5d49986304297799499
+      internalID: 3673076881488754997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_243
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 735
+        width: 119
+        height: 161
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d2149fbaf12a114a93091578045c090
+      internalID: 3107026270954299099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_244
+      rect:
+        serializedVersion: 2
+        x: 1811
+        y: 872
+        width: 4
+        height: 6
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1af8f4099a44cbc44bd9c2568f160ece
+      internalID: -6342752903036637974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_245
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 855
+        width: 32
+        height: 22
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02e22e2357d04b64088fdbf4cf9c6f5e
+      internalID: -1064840526736606861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_246
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 855
+        width: 34
+        height: 22
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a782a3a47129f444862d4e369d93a0f
+      internalID: -7777644145974893915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_247
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 831
+        width: 27
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8f741860a79f654ab0ae78d5f408c8d
+      internalID: -7095792585035487283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_248
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 782
+        width: 35
+        height: 63
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1180f28fd3aa30c4ea4b295e63d87453
+      internalID: -3665903013333993484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_249
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 782
+        width: 35
+        height: 62
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2df148138a7a2e44291cb4479b10dd42
+      internalID: 995884662830264024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_250
+      rect:
+        serializedVersion: 2
+        x: 1895
+        y: 687
+        width: 59
+        height: 153
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f00490f20ddaf54cb6995914322e6c7
+      internalID: -7321676239664920484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_251
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 809
+        width: 35
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 042b4dbfcf5cb37489215c5ac5e4260b
+      internalID: 9145975233578803692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_252
+      rect:
+        serializedVersion: 2
+        x: 2110
+        y: 780
+        width: 57
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b09581caba07a140b8cecb0bb27b79f
+      internalID: 6079583493530856544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_253
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 783
+        width: 34
+        height: 25
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 279bb305477c9c74b860a5eae7af8a44
+      internalID: 6583306520741071323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_254
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 767
+        width: 9
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab86309574d875f4ba2b8a27ed1fec88
+      internalID: -5624548100223566575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_255
+      rect:
+        serializedVersion: 2
+        x: 1982
+        y: 773
+        width: 21
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dabf4e1b6d7739844b5e18a40a4229f3
+      internalID: -944327737914667995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_256
+      rect:
+        serializedVersion: 2
+        x: 2013
+        y: 770
+        width: 21
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90eefaacf906a154b95c728b6925845c
+      internalID: -1500923843595346408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_257
+      rect:
+        serializedVersion: 2
+        x: 2035
+        y: 773
+        width: 41
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5921ddb1b94d7bb4f955a4b95768c45f
+      internalID: -3143751927982453198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_258
+      rect:
+        serializedVersion: 2
+        x: 2085
+        y: 789
+        width: 14
+        height: 7
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 953928a1910354f408eedf384a5d580c
+      internalID: -2122525401493226701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_259
+      rect:
+        serializedVersion: 2
+        x: 2170
+        y: 780
+        width: 20
+        height: 25
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82eaf5008fc8d4540a35045b85497736
+      internalID: 6908253297094866165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_260
+      rect:
+        serializedVersion: 2
+        x: 2191
+        y: 770
+        width: 46
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d86d9feed3032b34388bf16b046e9370
+      internalID: -5154446691172225049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_261
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 724
+        width: 22
+        height: 12
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bfa21403bd25834e87874a5ed26a96c
+      internalID: 2456175187488521628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_262
+      rect:
+        serializedVersion: 2
+        x: 1742
+        y: 730
+        width: 24
+        height: 24
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6684a34b856f0d42876efd837ce93e7
+      internalID: -4128694282052040842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_263
+      rect:
+        serializedVersion: 2
+        x: 1412
+        y: 712
+        width: 9
+        height: 9
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8d7c194fa1aec54d9d4f16619f6d08d
+      internalID: 2991949352461061531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_264
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 691
+        width: 13
+        height: 25
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 759acfb5deb156d46a21d631cff1f997
+      internalID: -5567149793876169356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_265
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 656
+        width: 11
+        height: 30
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5e0134c0308d4d46ac12810de19c758
+      internalID: -8233633395282495634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_266
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 651
+        width: 24
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4df132fe9e8167242a4fb3f08fcb5e14
+      internalID: 8347098541237637437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: r2c_female_weapon_yoyo_267
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 642
+        width: 23
+        height: 11
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 214047d1ce1ad0a4f8f2e0c591bc4c5b
+      internalID: -7855189436420416414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
