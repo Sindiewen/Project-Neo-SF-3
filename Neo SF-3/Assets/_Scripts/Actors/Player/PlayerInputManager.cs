@@ -63,6 +63,7 @@ public class PlayerInputManager : MonoBehaviour
     private Vector2 moveDirection;
     private bool isAttacking;
     private bool isSprinting;
+    private bool killPlayer;
 
 
     #endregion
@@ -120,6 +121,7 @@ public class PlayerInputManager : MonoBehaviour
             cInput.SetKey("Right_p1", Keys.D, Keys.Xbox1LStickRight);
             cInput.SetKey("Attack_p1", Keys.C, Keys.Xbox1X);
             cInput.SetKey("Sprint_p1", Keys.V, Keys.Xbox1TriggerRight);
+            cInput.SetKey("kill", Keys.Q);
 
             cInput.SetAxis("Horizontal_p1", "Left_p1", "Right_p1");
             cInput.SetAxis("Vertical_p1", "Down_p1", "Up_p1");
@@ -184,6 +186,7 @@ public class PlayerInputManager : MonoBehaviour
             */
             isAttacking = cInput.GetKeyDown("Attack_p1");
             isSprinting = cInput.GetKey("Sprint_p1");
+            killPlayer = cInput.GetKey("kill");
         }
         else
         {
@@ -229,6 +232,11 @@ public class PlayerInputManager : MonoBehaviour
     public bool IsSprinting
     {
         get { return isSprinting; }
+    }
+
+    public bool KillPlayer
+    {
+        get { return killPlayer; }
     }
 
     #endregion

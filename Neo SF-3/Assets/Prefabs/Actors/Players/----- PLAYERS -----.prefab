@@ -303,7 +303,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &652945425
 Transform:
   m_ObjectHideFlags: 0
@@ -409,20 +409,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player_1
       objectReference: {fileID: 0}
-    - target: {fileID: 5468335431432126353, guid: bdb8b9f9d0888684a88d7fc1ffbfd406,
-        type: 3}
-      propertyPath: m_TagString
-      value: Player
-      objectReference: {fileID: 0}
     - target: {fileID: 5468335431432126354, guid: bdb8b9f9d0888684a88d7fc1ffbfd406,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.44
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5468335431432126354, guid: bdb8b9f9d0888684a88d7fc1ffbfd406,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.44
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5468335431432126354, guid: bdb8b9f9d0888684a88d7fc1ffbfd406,
         type: 3}
@@ -474,6 +469,26 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5468335431432126344, guid: bdb8b9f9d0888684a88d7fc1ffbfd406,
+        type: 3}
+      propertyPath: invulnerabilityTimer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5468335431432126344, guid: bdb8b9f9d0888684a88d7fc1ffbfd406,
+        type: 3}
+      propertyPath: staggerTimer
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5468335431432126344, guid: bdb8b9f9d0888684a88d7fc1ffbfd406,
+        type: 3}
+      propertyPath: playerRespawnTimer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5468335431432126344, guid: bdb8b9f9d0888684a88d7fc1ffbfd406,
+        type: 3}
+      propertyPath: partner
+      value: 
+      objectReference: {fileID: 6081397553810543143}
     - target: {fileID: 5468335431432126349, guid: bdb8b9f9d0888684a88d7fc1ffbfd406,
         type: 3}
       propertyPath: moveSpeed
@@ -502,6 +517,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2271530277193214057}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &6081397553521547233 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5468335431432126344, guid: bdb8b9f9d0888684a88d7fc1ffbfd406,
+    type: 3}
+  m_PrefabInstance: {fileID: 2271530277193214057}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcb4dbb691c3d0b4a84cd38d0aed57a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &8540547814118112986
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -516,8 +543,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2513967531357711615, guid: 4737104da701be349bb4666aabdf648e,
         type: 3}
-      propertyPath: m_TagString
-      value: Player
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2513967531357711605, guid: 4737104da701be349bb4666aabdf648e,
         type: 3}
@@ -574,9 +601,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8342760653828272510, guid: 4737104da701be349bb4666aabdf648e,
+    - target: {fileID: 6596952364517100403, guid: 4737104da701be349bb4666aabdf648e,
         type: 3}
-      propertyPath: m_IsActive
+      propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7131763070050072583, guid: 4737104da701be349bb4666aabdf648e,
@@ -594,6 +621,31 @@ PrefabInstance:
       propertyPath: sprintSpeed
       value: 14
       objectReference: {fileID: 0}
+    - target: {fileID: 2513967531357711609, guid: 4737104da701be349bb4666aabdf648e,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2513967531357711613, guid: 4737104da701be349bb4666aabdf648e,
+        type: 3}
+      propertyPath: invulnerabilityTimer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2513967531357711613, guid: 4737104da701be349bb4666aabdf648e,
+        type: 3}
+      propertyPath: staggerTimer
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2513967531357711613, guid: 4737104da701be349bb4666aabdf648e,
+        type: 3}
+      propertyPath: playerRespawnTimer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2513967531357711613, guid: 4737104da701be349bb4666aabdf648e,
+        type: 3}
+      propertyPath: partner
+      value: 
+      objectReference: {fileID: 6081397553521547233}
     - target: {fileID: 7439064337325298113, guid: 4737104da701be349bb4666aabdf648e,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -612,3 +664,15 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 8540547814118112986}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &6081397553810543143 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2513967531357711613, guid: 4737104da701be349bb4666aabdf648e,
+    type: 3}
+  m_PrefabInstance: {fileID: 8540547814118112986}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcb4dbb691c3d0b4a84cd38d0aed57a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
