@@ -1,4 +1,5 @@
 ﻿using Com.LuisPedroFonseca.ProCamera2D;
+using TMPro;
 using UnityEngine;
 
 public class PlayerAttributesController : MonoBehaviour
@@ -18,11 +19,11 @@ public class PlayerAttributesController : MonoBehaviour
     [Header("UI Attributes")]
     public SimpleHealthBar P1_Health_Bar;
     public SimpleHealthBar P2_Health_Bar;
+    public TextMeshProUGUI P1_Respawn_Text;
+    public TextMeshProUGUI P2_Respawn_Text;
 
     [Header("Player Combat Values")]
     public int AttackStrength;          // Player attack strength
-    public float comboResetCooldown;    // How long it takes before the attack's can be used again outside of combo
-    public float midComboAtkCooldown;   // How long it takes before the next attack in the combo chain can be initiated
 
     [Header("Player Partner Attributes")]
     public PlayerAttributesController partner;
@@ -57,6 +58,16 @@ public class PlayerAttributesController : MonoBehaviour
 
         // Ensures health bars are properly updated
         updateHealthBars();
+
+        // Set respawn text
+        if (player_number == 0)
+        {
+            P1_Respawn_Text.gameObject.SetActive(false);
+        }
+        else
+        {
+            P2_Respawn_Text.gameObject.SetActive(false);
+        }
     }
 
     /// <summary>
@@ -100,6 +111,16 @@ public class PlayerAttributesController : MonoBehaviour
     {
         respawnTimer = playerRespawnTimer;
         isPlayerDead = true;
+
+        // Set respawn text
+        if (player_number == 0)
+        {
+            P1_Respawn_Text.gameObject.SetActive(true);
+        }
+        else
+        {
+            P2_Respawn_Text.gameObject.SetActive(true);
+        }
     }
 
     /// <summary>
@@ -124,6 +145,7 @@ public class PlayerAttributesController : MonoBehaviour
     {
         // decrement timer
         staggeredTimer -= Time.deltaTime;
+        
 
         // set stagger  to false is timer runs out
         if (staggeredTimer <= 0)
@@ -138,6 +160,17 @@ public class PlayerAttributesController : MonoBehaviour
     private void resetRespawn()
     {
         respawnTimer -= Time.deltaTime;
+        int textTimer = (int)respawnTimer;
+
+        // Set respawn text
+        if (player_number == 0)
+        {
+            P1_Respawn_Text.text = "Respawning in " + textTimer.ToString() + "...";
+        }
+        else
+        {
+            P2_Respawn_Text.text = "Respawning in " + textTimer.ToString() + "...";
+        }
 
         if (respawnTimer <= 0)
         {
@@ -158,7 +191,7 @@ public class PlayerAttributesController : MonoBehaviour
     /// <param name="damageToTake"></param>
     public void takeDamage(int damageToTake)
     {
-        if (!isInvul)
+        if (!isInvul && !isPlayerDead)
         {
             // player invulnerable
             setInvul();
@@ -222,6 +255,16 @@ public class PlayerAttributesController : MonoBehaviour
         // restore health
         playerHealth = playerHealthMax;
         updateHealthBars();
+
+        // Set respawn text
+        if (player_number == 0)
+        {
+            P1_Respawn_Text.gameObject.SetActive(false);
+        }
+        else
+        {
+            P2_Respawn_Text.gameObject.SetActive(false);
+        }
 
         // set invulnerable
         setInvul();
