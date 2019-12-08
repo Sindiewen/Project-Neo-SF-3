@@ -13,10 +13,10 @@ GameObject:
   - component: {fileID: 2513967531357711609}
   - component: {fileID: 2513967531357711608}
   - component: {fileID: 2513967531357711611}
-  - component: {fileID: 7131763070050072583}
-  - component: {fileID: 2513967531357711610}
   - component: {fileID: 2513967531357711613}
+  - component: {fileID: 2513967531357711610}
   - component: {fileID: 2513967531357711612}
+  - component: {fileID: 7131763070050072583}
   m_Layer: 8
   m_Name: Player_2
   m_TagString: Player
@@ -113,7 +113,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c82ec32b52a08348a1dd29320772b19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &7131763070050072583
+--- !u!114 &2513967531357711613
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -122,12 +122,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 2513967531357711615}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 29c7a3b093866cc49a6f3548f4be601a, type: 3}
+  m_Script: {fileID: 11500000, guid: dcb4dbb691c3d0b4a84cd38d0aed57a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  otherPlayer: {fileID: 5468335431432126354, guid: bdb8b9f9d0888684a88d7fc1ffbfd406,
-    type: 3}
-  playerMaxDistance: 20
+  playerHealth: 100
+  playerHealthMax: 100
+  invulnerabilityTimer: 0
+  staggerTimer: 0
+  playerRespawnTimer: 0
+  AttackStrength: 0
+  comboResetCooldown: 0
+  midComboAtkCooldown: 0
+  partner: {fileID: 0}
+  cam: {fileID: 0}
+  invulTimer: 0
+  staggeredTimer: 0
+  respawnTimer: 0
 --- !u!114 &2513967531357711610
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -144,23 +154,6 @@ MonoBehaviour:
   sprintSpeed: 10
   facingDirection: 0
   anim: {fileID: 7249373544488964519}
---- !u!114 &2513967531357711613
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2513967531357711615}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dcb4dbb691c3d0b4a84cd38d0aed57a8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerHealth: 100
-  playerHealthMax: 100
-  AttackStrength: 0
-  comboResetCooldown: 0
-  midComboAtkCooldown: 0
 --- !u!114 &2513967531357711612
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -204,6 +197,21 @@ MonoBehaviour:
   attackChainAttackStartTimer: 0.2
   currentAttackChainCount: 0
   anim: {fileID: 7249373544488964519}
+--- !u!114 &7131763070050072583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2513967531357711615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29c7a3b093866cc49a6f3548f4be601a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherPlayer: {fileID: 5468335431432126354, guid: bdb8b9f9d0888684a88d7fc1ffbfd406,
+    type: 3}
+  playerMaxDistance: 20
 --- !u!1 &2513967531456839213
 GameObject:
   m_ObjectHideFlags: 0
