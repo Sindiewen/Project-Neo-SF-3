@@ -44,6 +44,12 @@ public class PlayerAttributesController : MonoBehaviour
     // ------------------------------------
     #region private Methods
 
+    private void Start()
+    {
+        // Get the camera
+        cam = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<ProCamera2D>();
+    }
+
     /// <summary>
     /// Unity update method
     /// 
@@ -128,6 +134,7 @@ public class PlayerAttributesController : MonoBehaviour
         {
             respawn();
         }
+        Debug.Log("Respawning in " + (int)respawnTimer);
     }
 
     #endregion
@@ -187,6 +194,8 @@ public class PlayerAttributesController : MonoBehaviour
         // Kill player
         Debug.Log("player died, respawning player");
         //gameObject.SetActive(false);
+        // Remove player from camera
+        cam.RemoveCameraTarget(this.transform);
     }
 
     /// <summary>
@@ -204,6 +213,12 @@ public class PlayerAttributesController : MonoBehaviour
 
         // set invulnerable
         setInvul();
+
+        // move player next to partner
+        transform.position = partner.transform.position + Vector3.up;
+
+        // add player to camera
+        cam.AddCameraTarget(this.transform);
     }
 
 
@@ -226,8 +241,11 @@ public class PlayerAttributesController : MonoBehaviour
     public bool playerStaggered
     {
         get { return isStaggered; }
-    }`
+    }
 
+    /// <summary>
+    /// Returns if is dead
+    /// </summary>
     public bool PlayerDied
     {
         get { return isPlayerDead; }

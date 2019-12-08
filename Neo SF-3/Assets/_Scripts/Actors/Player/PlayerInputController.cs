@@ -35,6 +35,7 @@ public class PlayerInputController : MonoBehaviour
         inputManager = GetComponent<PlayerInputManager>();
         playerMovement = GetComponent<PlayerMovement>();
         playerCombat = GetComponent<PlayerCombatController>();
+        playerAttributes = GetComponent<PlayerAttributesController>();
     }
 
     /// <summary>
@@ -47,7 +48,8 @@ public class PlayerInputController : MonoBehaviour
         // If player attacks, initiate atttack
         if (inputManager.IsAttacking)
             playerCombat.initiateAttack(playerMovement.FacingDirection);
-        playerCombat.FacingDir = playerMovement.FacingDirection;
+        if (!inputManager.IsAttacking || playerCombat.cooldownTimer <= 0 || !playerAttributes.playerStaggered || !playerAttributes.PlayerDied)
+            playerCombat.FacingDir = playerMovement.FacingDirection;
 
         if (inputManager.KillPlayer)
             playerAttributes.takeDamage(99999);
@@ -63,8 +65,7 @@ public class PlayerInputController : MonoBehaviour
     {
         // Iniitate player movement (NOTE: Unity Physics must be kept inside of FixedUpdate()
         // to ensure physics are not tied to the frame rate)
-        if (!inputManager.IsAttacking || playerCombat.cooldownTimer <= 0 
-            || !playerAttributes.playerStaggered || !playerAttributes.PlayerDied)
+        if (!inputManager.IsAttacking && playerCombat.cooldownTimer <= 0 && !playerAttributes.playerStaggered && !playerAttributes.PlayerDied)
             playerMovement.initiatiteMovement(inputManager.MoveDirection, inputManager.IsSprinting);
     }
 
