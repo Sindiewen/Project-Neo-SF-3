@@ -17,7 +17,7 @@ public class SceneTransitionManager : MonoBehaviour
 
     // Priavate variables
     private TransitionSetter nextScene;
-    private string nextScenToTransition;
+    private string nextSceneToTransition;
     private bool levelSet = false;
     private GameObject TransitionCheckerGO;
     [SerializeField] private SceneTransitionChecker[] transitionChecker;
@@ -59,7 +59,7 @@ public class SceneTransitionManager : MonoBehaviour
                 {
                     // Initiate level change
                     levelSet = true;
-                    nextScenToTransition = nextScene.nextScene;
+                    nextSceneToTransition = nextScene.nextScene;
                     initLevelChange();
                 }
             }
@@ -106,7 +106,7 @@ public class SceneTransitionManager : MonoBehaviour
 
     private IEnumerator transitionAsync()
     {
-        AsyncOperation operation = SceneManager.LoadSceneAsync(nextScenToTransition);
+        AsyncOperation operation = SceneManager.LoadSceneAsync(nextSceneToTransition);
         operation.allowSceneActivation = false;
         while(!operation.isDone)
         {

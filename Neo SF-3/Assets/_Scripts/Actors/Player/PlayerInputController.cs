@@ -16,7 +16,6 @@ public class PlayerInputController : MonoBehaviour
     private PlayerMovement playerMovement;
     private PlayerCombatController playerCombat;
 
-
     #endregion
 
 
@@ -46,7 +45,8 @@ public class PlayerInputController : MonoBehaviour
         // If player attacks, initiate atttack
         if (inputManager.IsAttacking)
             playerCombat.initiateAttack(playerMovement.FacingDirection);
-        playerCombat.FacingDir = playerMovement.FacingDirection;
+            playerCombat.FacingDir = playerMovement.FacingDirection;
+
     }
 
     /// <summary>

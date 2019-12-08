@@ -69,8 +69,7 @@ public class PlayerMovement : MonoBehaviour
     public void initiatiteMovement(Vector2 moveDirection, bool isSprinting)
     {
         
-        
-        // Move player position based on the current player position + the direction the playe ris moving,
+        // Move player position based on the current player position + the direction the player is moving,
         // Then multiply that by the speed the player will move, and then multiplay that by deltaTime to ensure
         // it's moving at realtime
 
@@ -87,7 +86,7 @@ public class PlayerMovement : MonoBehaviour
             anim.SetFloat("Horizontal", 0);
             anim.SetFloat("Vertical", -1);
         }
-        // If player if moving anf facing right, moving right diagonals up or down
+        // If player if moving and facing right, moving right diagonals up or down
         else if (moveDirection.x > 0 && (moveDirection.y <= 0.5f || moveDirection.y >= -0.5f))
         {
             facingDirection = PLAYER_FACING_DIRECTION.RIGHT;
@@ -101,7 +100,8 @@ public class PlayerMovement : MonoBehaviour
             anim.SetFloat("Vertical", 0);
         }
 
-        // If the players are too far away from each other, players cannot separate any longer. Can only move each other closer
+        // If the players are too far away from each other, players cannot separate any longer. 
+        // Can only move each other closer
 
         // Stores the temp move position
         Vector2 tempMove = Vector2.zero;

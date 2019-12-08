@@ -78,10 +78,11 @@ public class PlayerCombatController : MonoBehaviour
 
 
             /*
-             * Player attack direction is determined based on the enum set in Player movement
-             * for facing direction.
-             * If the player is facing up, the player will attack upwards, and
-             * so forth to the other directions.
+             * Player attack direction is determined based on the 
+             * enum set in Player movement for facing direction.
+             * 
+             * If the player is facing up, the player will attack upwards, 
+             * and so forth to the other directions.
              */
 
 
@@ -99,7 +100,7 @@ public class PlayerCombatController : MonoBehaviour
             // Have player stop moving when attacking
             // Start attack animation
             // Have enemy enter invul frames
-            // end attack animq
+            // end attack anim
             // remove raycast box
 
             // If has hit enemies
