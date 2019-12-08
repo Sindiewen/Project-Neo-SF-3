@@ -15,6 +15,9 @@ public class PlayerAttributesController : MonoBehaviour
     public float staggerTimer;          // How long the player is staggered
     public float playerRespawnTimer;    // How long before the player can respawn after death
 
+    [Header("UI Attributes")]
+    public SimpleHealthBar P1_Health_Bar;
+    public SimpleHealthBar P2_Health_Bar;
 
     [Header("Player Combat Values")]
     public int AttackStrength;          // Player attack strength
@@ -28,6 +31,9 @@ public class PlayerAttributesController : MonoBehaviour
 
     // Private Variables
     // ---------------------------------
+
+    // Defies player number
+    [SerializeField] private int player_number;
 
     // invul timer
     [SerializeField] private float invulTimer = 0;       // Timer to decrement invul
@@ -48,6 +54,9 @@ public class PlayerAttributesController : MonoBehaviour
     {
         // Get the camera
         cam = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<ProCamera2D>();
+
+        // Ensures health bars are properly updated
+        updateHealthBars();
     }
 
     /// <summary>
@@ -160,12 +169,14 @@ public class PlayerAttributesController : MonoBehaviour
             // Take damage
             playerHealth -= damageToTake;
 
+            // Update UI
+            updateHealthBars();
+
             // Disable player if dead
             if (playerHealth <= 0)
             {
                 death();
                 setRespawn();
-                //gameObject.SetActive(false);
             }
         }
     }
@@ -210,6 +221,7 @@ public class PlayerAttributesController : MonoBehaviour
 
         // restore health
         playerHealth = playerHealthMax;
+        updateHealthBars();
 
         // set invulnerable
         setInvul();
@@ -219,6 +231,22 @@ public class PlayerAttributesController : MonoBehaviour
 
         // add player to camera
         cam.AddCameraTarget(this.transform);
+    }
+
+    /// <summary>
+    /// Updates the player's health bars when called
+    /// </summary>
+    public void updateHealthBars()
+    {
+        // Updates health bars
+        if (player_number == 0)
+        {
+            P1_Health_Bar.UpdateBar(playerHealth, playerHealthMax);
+        }
+        else
+        {
+            P2_Health_Bar.UpdateBar(playerHealth, playerHealthMax);
+        }
     }
 
 
@@ -251,5 +279,9 @@ public class PlayerAttributesController : MonoBehaviour
         get { return isPlayerDead; }
     }
 
+    public int currentPlayerNumber
+    {
+        set { player_number = value; }
+    }
     #endregion
 }

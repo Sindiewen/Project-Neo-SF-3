@@ -35,6 +35,9 @@ public class PlayerInputController : MonoBehaviour
         playerMovement = GetComponent<PlayerMovement>();
         playerCombat = GetComponent<PlayerCombatController>();
         playerAttributes = GetComponent<PlayerAttributesController>();
+
+        // Sending the current player number to the attribues controlelr
+        playerAttributes.currentPlayerNumber = (int)inputManager.player_number;
     }
 
     /// <summary>
@@ -53,6 +56,7 @@ public class PlayerInputController : MonoBehaviour
 
         if (inputManager.KillPlayer)
             playerAttributes.takeDamage(99999);
+
     }
 
     /// <summary>
@@ -67,6 +71,8 @@ public class PlayerInputController : MonoBehaviour
         // to ensure physics are not tied to the frame rate)
         if (!inputManager.IsAttacking && playerCombat.cooldownTimer <= 0 && !playerAttributes.playerStaggered && !playerAttributes.PlayerDied)
             playerMovement.initiatiteMovement(inputManager.MoveDirection, inputManager.IsSprinting);
+        else
+            playerMovement.initiatiteMovement(Vector2.zero, false);
     }
 
 
