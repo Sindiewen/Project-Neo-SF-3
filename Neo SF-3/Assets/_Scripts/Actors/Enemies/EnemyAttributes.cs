@@ -13,6 +13,8 @@ public class EnemyAttributes : MonoBehaviour
     public int atkStrength;         // How strong the enemy is 
     public float atkSpeed;          // How fast the enemy can attack per second
     public int physDefense;         // How much damage the enemy will resist
+    public float enemyMoveSpeed;
+
 
     #endregion
 

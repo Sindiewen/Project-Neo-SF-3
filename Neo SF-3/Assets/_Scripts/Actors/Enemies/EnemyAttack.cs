@@ -3,6 +3,16 @@
 public class EnemyAttack : MonoBehaviour
 {
 
+    #region enums
+    public enum ENEMY_FOLLOW_TYPES
+    {
+        FOLLOW_PLAYER,
+        RUN_AWAY_FROM_PLAYER,
+        SlIDE_AWAY_FROM_PLAYER,
+        TOKYO_DRIFT
+    };
+
+    #endregion
     #region Variables
 
     // Public Variables
@@ -10,11 +20,14 @@ public class EnemyAttack : MonoBehaviour
     [Header("Combat Circle")]
     public Circle attackCircle;         // Circle for how calculating the attack range
                                         // Radius = attack range, Positon = circle + obj positon
+    public Circle followCircle;
     public LayerMask collisionMask;
+    public ENEMY_FOLLOW_TYPES followType;
 
     // private variables
     // component references
     private EnemyAttributes enemyAttributes;
+    private Rigidbody2D rb2d;
 
     // timers
     private float attackTimer = 0;
@@ -32,6 +45,7 @@ public class EnemyAttack : MonoBehaviour
     private void Start()
     {
         enemyAttributes = GetComponent<EnemyAttributes>();
+        rb2d = GetComponent<Rigidbody2D>();
     }
 
     /// <summary>
@@ -43,6 +57,12 @@ public class EnemyAttack : MonoBehaviour
     {
         // initiates attack
         initiateAttack();
+        followPlayer();
+    }
+
+    private void FixedUpdate()
+    {
+        followPlayer();
     }
 
 
@@ -84,6 +104,54 @@ public class EnemyAttack : MonoBehaviour
         attackTimer = 0;
         canAttack = false;
         timerStart = false;
+    }
+
+    /// <summary>
+    /// FOllows player within a circle cast
+    /// </summary>
+    private void followPlayer()
+    {
+        //create circle cast
+        // get player position
+        // go to positon every update frame
+        // Creates circleCast at player
+        Vector2 rayOrigin = (Vector2)transform.position + followCircle.Position;
+        RaycastHit2D[] hit = Physics2D.CircleCastAll(rayOrigin, followCircle.Radius, Vector3.zero, 0, collisionMask);
+
+        // Get closest player
+        if (hit.Length > 0)
+        {
+            if (followType == ENEMY_FOLLOW_TYPES.FOLLOW_PLAYER)
+            {
+                Vector3 direction = hit[0].transform.position - transform.position;
+                float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+                rb2d.rotation = angle;
+                direction.Normalize();
+                rb2d.MovePosition(transform.position + (direction * enemyAttributes.enemyMoveSpeed * Time.fixedDeltaTime));
+            }
+            else if (followType == ENEMY_FOLLOW_TYPES.TOKYO_DRIFT)
+            {
+                transform.LookAt(hit[0].transform);
+                Vector2 tempMove = transform.position - (hit[0].transform.position * enemyAttributes.enemyMoveSpeed * Time.fixedDeltaTime);
+                rb2d.MovePosition(tempMove);
+            }
+            else if (followType == ENEMY_FOLLOW_TYPES.SlIDE_AWAY_FROM_PLAYER)
+            {
+                transform.LookAt(hit[0].transform);
+                Vector2 tempMove = transform.position + (hit[0].transform.position * enemyAttributes.enemyMoveSpeed * Time.fixedDeltaTime);
+                rb2d.MovePosition(tempMove);
+            }
+            else if (followType == ENEMY_FOLLOW_TYPES.RUN_AWAY_FROM_PLAYER)
+            {
+                Vector3 direction = hit[0].transform.position - transform.position;
+                float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+                rb2d.rotation = angle;
+                direction.Normalize();
+                rb2d.MovePosition(transform.position - (direction * enemyAttributes.enemyMoveSpeed * Time.fixedDeltaTime));
+
+            }
+        }
+
     }
 
     /// <summary>
