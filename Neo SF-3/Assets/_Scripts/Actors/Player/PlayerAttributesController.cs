@@ -29,19 +29,24 @@ public class PlayerAttributesController : MonoBehaviour
     public PlayerAttributesController partner;
     public ProCamera2D cam;
 
+    [Header("Pickups")]
+    public LayerMask pickupsCollisionMask;
+
 
     // Private Variables
     // ---------------------------------
+    // Component references
+    private BoxCollider2D box2d;
 
     // Defies player number
-    [SerializeField] private int player_number;
+    private int player_number;
 
     // invul timer
-    [SerializeField] private float invulTimer = 0;       // Timer to decrement invul
+    private float invulTimer = 0;       // Timer to decrement invul
     private bool isInvul = false;
-    [SerializeField] private float staggeredTimer = 0;
+    private float staggeredTimer = 0;
     private bool isStaggered = false;
-    [SerializeField] private float respawnTimer = 0;
+    private float respawnTimer = 0;
     private bool isPlayerDead = false;
 
     #endregion
@@ -53,6 +58,9 @@ public class PlayerAttributesController : MonoBehaviour
 
     private void Start()
     {
+        // get rb2d
+        box2d = GetComponent<BoxCollider2D>();
+        
         // Get the camera
         cam = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<ProCamera2D>();
 
@@ -81,6 +89,40 @@ public class PlayerAttributesController : MonoBehaviour
         if (invulTimer >= 0 && isInvul) resetInvul();
         if (staggeredTimer >= 0 && isStaggered) resetStagger();
         if (respawnTimer >= 0 && isPlayerDead) resetRespawn();
+
+        // Check for item pickups
+        pickupItem();
+
+    }
+
+    // Item PIckup Methods
+    // -----------------------------------------
+
+    private void pickupItem()
+    {
+        // Get current vector2 location of where the attack will start
+        Vector2 rayOrigin = (Vector2)transform.position + new Vector2(box2d.size.x / 2, box2d.size.y / 2);
+
+        // Create raycast box for checking if enemy has been hit
+        RaycastHit2D hit = Physics2D.BoxCast(rayOrigin, box2d.size, 0, Vector2.zero, 0, pickupsCollisionMask);
+
+        if (hit)
+        {
+            // Get pickup
+            itemDrop pickup = hit.transform.GetComponent<itemDrop>();
+
+            // add on new stats
+            playerHealth += pickup.restoreHealthAmount;
+            playerHealthMax += pickup.permanentHealthIncreaseAmount;
+            AttackStrength += pickup.permanentAttackStrengthIncreaseAmount;
+
+            // Updates health bars
+            updateHealthBars();
+            
+
+            // Destroy object
+            Destroy(pickup.gameObject);
+        }
     }
 
     // stagger invul states
