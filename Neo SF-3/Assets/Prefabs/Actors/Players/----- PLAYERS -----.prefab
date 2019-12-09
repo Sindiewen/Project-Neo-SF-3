@@ -1091,6 +1091,34 @@ PrefabInstance:
       propertyPath: m_Name
       value: P2_Health_Bar
       objectReference: {fileID: 0}
+    - target: {fileID: 11487436, guid: 60da1df1f7edb3747bea8f735b2768d1, type: 3}
+      propertyPath: barColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11487436, guid: 60da1df1f7edb3747bea8f735b2768d1, type: 3}
+      propertyPath: barColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11487436, guid: 60da1df1f7edb3747bea8f735b2768d1, type: 3}
+      propertyPath: barColor.b
+      value: 0.0275383
+      objectReference: {fileID: 0}
+    - target: {fileID: 11487436, guid: 60da1df1f7edb3747bea8f735b2768d1, type: 3}
+      propertyPath: barGradient.key0.g
+      value: 0.019486476
+      objectReference: {fileID: 0}
+    - target: {fileID: 11487436, guid: 60da1df1f7edb3747bea8f735b2768d1, type: 3}
+      propertyPath: barGradient.key0.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11487436, guid: 60da1df1f7edb3747bea8f735b2768d1, type: 3}
+      propertyPath: barGradient.key1.r
+      value: 0.003921569
+      objectReference: {fileID: 0}
+    - target: {fileID: 11487436, guid: 60da1df1f7edb3747bea8f735b2768d1, type: 3}
+      propertyPath: barGradient.key1.b
+      value: 0.019607844
+      objectReference: {fileID: 0}
     - target: {fileID: 22403254, guid: 60da1df1f7edb3747bea8f735b2768d1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1187,34 +1215,6 @@ PrefabInstance:
       propertyPath: m_Color.b
       value: 0.0275383
       objectReference: {fileID: 0}
-    - target: {fileID: 11487436, guid: 60da1df1f7edb3747bea8f735b2768d1, type: 3}
-      propertyPath: barColor.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11487436, guid: 60da1df1f7edb3747bea8f735b2768d1, type: 3}
-      propertyPath: barColor.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11487436, guid: 60da1df1f7edb3747bea8f735b2768d1, type: 3}
-      propertyPath: barColor.b
-      value: 0.0275383
-      objectReference: {fileID: 0}
-    - target: {fileID: 11487436, guid: 60da1df1f7edb3747bea8f735b2768d1, type: 3}
-      propertyPath: barGradient.key0.g
-      value: 0.019486476
-      objectReference: {fileID: 0}
-    - target: {fileID: 11487436, guid: 60da1df1f7edb3747bea8f735b2768d1, type: 3}
-      propertyPath: barGradient.key0.b
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11487436, guid: 60da1df1f7edb3747bea8f735b2768d1, type: 3}
-      propertyPath: barGradient.key1.r
-      value: 0.003921569
-      objectReference: {fileID: 0}
-    - target: {fileID: 11487436, guid: 60da1df1f7edb3747bea8f735b2768d1, type: 3}
-      propertyPath: barGradient.key1.b
-      value: 0.019607844
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60da1df1f7edb3747bea8f735b2768d1, type: 3}
 --- !u!224 &482594119 stripped
@@ -1245,6 +1245,34 @@ PrefabInstance:
     - target: {fileID: 109282, guid: 60da1df1f7edb3747bea8f735b2768d1, type: 3}
       propertyPath: m_Name
       value: P1_Health_Bar
+      objectReference: {fileID: 0}
+    - target: {fileID: 11487436, guid: 60da1df1f7edb3747bea8f735b2768d1, type: 3}
+      propertyPath: barColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11487436, guid: 60da1df1f7edb3747bea8f735b2768d1, type: 3}
+      propertyPath: barColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11487436, guid: 60da1df1f7edb3747bea8f735b2768d1, type: 3}
+      propertyPath: barColor.b
+      value: 0.0275383
+      objectReference: {fileID: 0}
+    - target: {fileID: 11487436, guid: 60da1df1f7edb3747bea8f735b2768d1, type: 3}
+      propertyPath: barGradient.key0.g
+      value: 0.019486476
+      objectReference: {fileID: 0}
+    - target: {fileID: 11487436, guid: 60da1df1f7edb3747bea8f735b2768d1, type: 3}
+      propertyPath: barGradient.key0.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11487436, guid: 60da1df1f7edb3747bea8f735b2768d1, type: 3}
+      propertyPath: barGradient.key1.r
+      value: 0.003921569
+      objectReference: {fileID: 0}
+    - target: {fileID: 11487436, guid: 60da1df1f7edb3747bea8f735b2768d1, type: 3}
+      propertyPath: barGradient.key1.b
+      value: 0.019607844
       objectReference: {fileID: 0}
     - target: {fileID: 22403254, guid: 60da1df1f7edb3747bea8f735b2768d1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1342,34 +1370,6 @@ PrefabInstance:
       propertyPath: m_Color.b
       value: 0.0275383
       objectReference: {fileID: 0}
-    - target: {fileID: 11487436, guid: 60da1df1f7edb3747bea8f735b2768d1, type: 3}
-      propertyPath: barColor.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11487436, guid: 60da1df1f7edb3747bea8f735b2768d1, type: 3}
-      propertyPath: barColor.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11487436, guid: 60da1df1f7edb3747bea8f735b2768d1, type: 3}
-      propertyPath: barColor.b
-      value: 0.0275383
-      objectReference: {fileID: 0}
-    - target: {fileID: 11487436, guid: 60da1df1f7edb3747bea8f735b2768d1, type: 3}
-      propertyPath: barGradient.key0.g
-      value: 0.019486476
-      objectReference: {fileID: 0}
-    - target: {fileID: 11487436, guid: 60da1df1f7edb3747bea8f735b2768d1, type: 3}
-      propertyPath: barGradient.key0.b
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11487436, guid: 60da1df1f7edb3747bea8f735b2768d1, type: 3}
-      propertyPath: barGradient.key1.r
-      value: 0.003921569
-      objectReference: {fileID: 0}
-    - target: {fileID: 11487436, guid: 60da1df1f7edb3747bea8f735b2768d1, type: 3}
-      propertyPath: barGradient.key1.b
-      value: 0.019607844
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60da1df1f7edb3747bea8f735b2768d1, type: 3}
 --- !u!224 &2092557836 stripped
@@ -1405,12 +1405,12 @@ PrefabInstance:
     - target: {fileID: 5468335431432126354, guid: bdb8b9f9d0888684a88d7fc1ffbfd406,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 18.18
       objectReference: {fileID: 0}
     - target: {fileID: 5468335431432126354, guid: bdb8b9f9d0888684a88d7fc1ffbfd406,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 20.31
       objectReference: {fileID: 0}
     - target: {fileID: 5468335431432126354, guid: bdb8b9f9d0888684a88d7fc1ffbfd406,
         type: 3}
@@ -1464,6 +1464,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5468335431432126344, guid: bdb8b9f9d0888684a88d7fc1ffbfd406,
         type: 3}
+      propertyPath: playerHealth
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 5468335431432126344, guid: bdb8b9f9d0888684a88d7fc1ffbfd406,
+        type: 3}
       propertyPath: invulnerabilityTimer
       value: 2
       objectReference: {fileID: 0}
@@ -1497,6 +1502,11 @@ PrefabInstance:
       propertyPath: partner
       value: 
       objectReference: {fileID: 6081397553810543143}
+    - target: {fileID: 5468335431432126344, guid: bdb8b9f9d0888684a88d7fc1ffbfd406,
+        type: 3}
+      propertyPath: pickupsCollisionMask.m_Bits
+      value: 2048
+      objectReference: {fileID: 0}
     - target: {fileID: 5468335431432126349, guid: bdb8b9f9d0888684a88d7fc1ffbfd406,
         type: 3}
       propertyPath: moveSpeed
@@ -1557,12 +1567,12 @@ PrefabInstance:
     - target: {fileID: 2513967531357711605, guid: 4737104da701be349bb4666aabdf648e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1
+      value: 17.18
       objectReference: {fileID: 0}
     - target: {fileID: 2513967531357711605, guid: 4737104da701be349bb4666aabdf648e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 20.31
       objectReference: {fileID: 0}
     - target: {fileID: 2513967531357711605, guid: 4737104da701be349bb4666aabdf648e,
         type: 3}
@@ -1661,12 +1671,27 @@ PrefabInstance:
       objectReference: {fileID: 2927942328642194123}
     - target: {fileID: 2513967531357711613, guid: 4737104da701be349bb4666aabdf648e,
         type: 3}
+      propertyPath: AttackStrength
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2513967531357711613, guid: 4737104da701be349bb4666aabdf648e,
+        type: 3}
       propertyPath: partner
       value: 
       objectReference: {fileID: 6081397553521547233}
+    - target: {fileID: 2513967531357711613, guid: 4737104da701be349bb4666aabdf648e,
+        type: 3}
+      propertyPath: pickupsCollisionMask.m_Bits
+      value: 2048
+      objectReference: {fileID: 0}
     - target: {fileID: 2513967531357711606, guid: 4737104da701be349bb4666aabdf648e,
         type: 3}
       propertyPath: m_BodyType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2513967531357711606, guid: 4737104da701be349bb4666aabdf648e,
+        type: 3}
+      propertyPath: m_Constraints
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7439064337325298113, guid: 4737104da701be349bb4666aabdf648e,

@@ -9,6 +9,7 @@ public class PlayerInputController : MonoBehaviour
     // Variables
     #region Variables
 
+
     // Private variables
 
     // Component references
@@ -69,8 +70,12 @@ public class PlayerInputController : MonoBehaviour
     {
         // Iniitate player movement (NOTE: Unity Physics must be kept inside of FixedUpdate()
         // to ensure physics are not tied to the frame rate)
-        if (!inputManager.IsAttacking && playerCombat.cooldownTimer <= 0 && !playerAttributes.playerStaggered && !playerAttributes.PlayerDied)
+        if ((inputManager.CanMove) && (!inputManager.IsAttacking && playerCombat.cooldownTimer <= 0 && !playerAttributes.playerStaggered && !playerAttributes.PlayerDied))
             playerMovement.initiatiteMovement(inputManager.MoveDirection, inputManager.IsSprinting);
+        // If player 2 not control yet
+        else if (!inputManager.CanMove && !inputManager.P2ControlState && (Vector3.Distance(transform.position, playerAttributes.partner.transform.position) > 2))
+            playerMovement.followPartner(playerAttributes);
+        // No input given to player, no move
         else
             playerMovement.initiatiteMovement(Vector2.zero, false);
     }

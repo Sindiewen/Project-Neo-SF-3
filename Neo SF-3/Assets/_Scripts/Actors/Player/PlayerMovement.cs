@@ -127,6 +127,17 @@ public class PlayerMovement : MonoBehaviour
 
     }
 
+    public void followPartner(PlayerAttributesController playerAttributes)
+    {
+        // FOllow player 1
+        Vector3 direction = (playerAttributes.partner.transform.position) - transform.position;
+        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+        rb2d.rotation = angle;
+        direction.Normalize();
+        rb2d.MovePosition(transform.position + (direction * moveSpeed * Time.fixedDeltaTime));
+        rb2d.rotation = 0;
+    }
+
     /*
     /// <summary>
     /// Determines movement is allowed when players are tehtered together
