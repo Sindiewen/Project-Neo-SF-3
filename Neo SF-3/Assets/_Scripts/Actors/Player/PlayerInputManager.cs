@@ -33,28 +33,11 @@ public class PlayerInputManager : MonoBehaviour
     [Header("Player Number")]
     public PLAYER_NUMBER player_number; // Defines which number the player is
 
-    [Header("Control State")]
-
-    [Header("InputManager References")]
-    [SerializeField] private bool usingKeyboard;
-
-    [Header("Movement")]
-    //[SerializeField] private string moveHorizontal = "Horizontal";
-    //[SerializeField] private string moveVertical = "Vertical";
-
-    [Header("Keyboard Input")]
-    //[SerializeField] private KeyCode attackKeyKB;
-    [SerializeField] private Keys attackKeyKB;
-    //[SerializeField] private KeyCode sprintKeyKB;
-    [SerializeField] private Keys sprintKeyKB;
-
-    [Header("Gamepad Input")]
-    //[SerializeField] private KeyCode attackKeyGP;
-    [SerializeField] private Keys attackKeyGP;
-    //[SerializeField] private KeyCode sprintKeyGP;
-    [SerializeField] private Keys sprintKeyGP;
-
-
+    [Header("Gamepad Icons")]
+    //public Sprite[] A_Button;
+    public GameObject P2_iconCanvas;
+    public GameObject P2_HealthBar;
+    
     // Input definitions
     //private KeyCode attackKey;
     private Keys attackKey;
@@ -71,6 +54,12 @@ public class PlayerInputManager : MonoBehaviour
     private bool isSprinting;
     private bool killPlayer;
 
+    // Timers
+    private float flashTimer = 1.0f;
+    private float flashingTimer;
+
+    // component references
+    private BoxCollider2D box2d;
 
     #endregion
 
@@ -88,9 +77,15 @@ public class PlayerInputManager : MonoBehaviour
         // Initializes cinput
         cInput.Init();
 
+        box2d = GetComponent<BoxCollider2D>();
+
+        // Player must join first
         if (player_number == PLAYER_NUMBER.PLAYER_TWO)
         {
             canMove = false;
+            flashingTimer = flashTimer;
+            P2_iconCanvas.SetActive(true);
+            box2d.enabled = false;
         }
 
         // Define controls
@@ -107,6 +102,9 @@ public class PlayerInputManager : MonoBehaviour
     {
         // Gets input from the player
         getInput();
+
+        if (player_number == PLAYER_NUMBER.PLAYER_TWO && !p2ControlState)
+            flashA_Button();
     }
 
     /// <summary>
@@ -121,11 +119,20 @@ public class PlayerInputManager : MonoBehaviour
         {
             if (!p2ControlState)
             {
+                P2_HealthBar.SetActive(false);
+                P2_iconCanvas.SetActive(true);
+                box2d.enabled = false;
+
+
                 Debug.Log("Player 2 not in control");
                 cInput.SetKey("ActivePlayer", Keys.Xbox2A, Keys.Comma);
             }
             else
             {
+                P2_HealthBar.SetActive(true);
+                P2_iconCanvas.SetActive(false);
+                box2d.enabled = true;
+
                 Debug.Log("Player 2 in control");
                 cInput.SetKey("Up_p2", Keys.UpArrow, Keys.Xbox2LStickUp);
                 cInput.SetKey("Down_p2", Keys.DownArrow, Keys.Xbox2LStickDown);
@@ -158,8 +165,6 @@ public class PlayerInputManager : MonoBehaviour
 
     // Parse playerInput
     // ------------------------------------------------------------
-
-
 
     /// <summary>
     /// Gets any input from the player
@@ -219,6 +224,21 @@ public class PlayerInputManager : MonoBehaviour
                     defineControlscInput();
                 }
             }
+        }
+    }
+
+    private void flashA_Button()
+    {
+        // Flash ui Element
+        if (flashingTimer <= 0)
+        {
+            flashingTimer = flashTimer;
+            P2_iconCanvas.SetActive(!P2_iconCanvas.activeSelf);
+        }
+        // Decrement timer
+        else
+        {
+            flashingTimer -= Time.deltaTime;
         }
     }
 
