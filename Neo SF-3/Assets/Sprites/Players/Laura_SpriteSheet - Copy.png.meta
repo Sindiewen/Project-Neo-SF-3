@@ -1,0 +1,2011 @@
+fileFormatVersion: 2
+guid: cb84c8384378c07439a303022711549a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6658922863054661081
+    second: Laura_SpriteSheet - Copy_1
+  - first:
+      213: -2807507771987991554
+    second: Laura_SpriteSheet - Copy_3
+  - first:
+      213: -6337493993520108192
+    second: Laura_SpriteSheet - Copy_5
+  - first:
+      213: 2145945696664014845
+    second: Laura_SpriteSheet - Copy_8
+  - first:
+      213: 1530088230781485231
+    second: Laura_SpriteSheet - Copy_10
+  - first:
+      213: 8175382108594903074
+    second: Laura_SpriteSheet - Copy_36
+  - first:
+      213: -5803782163569049820
+    second: Laura_SpriteSheet - Copy_37
+  - first:
+      213: 3806483601744900254
+    second: Laura_SpriteSheet - Copy_43
+  - first:
+      213: -9196088964657886294
+    second: Laura_SpriteSheet - Copy_50
+  - first:
+      213: -8895888132171597107
+    second: Laura_SpriteSheet - Copy_51
+  - first:
+      213: 9024089639400870046
+    second: Laura_SpriteSheet - Copy_52
+  - first:
+      213: -4885094859757471543
+    second: Laura_SpriteSheet - Copy_53
+  - first:
+      213: -4244873693726390621
+    second: Laura_SpriteSheet - Copy_55
+  - first:
+      213: 3814336554204292727
+    second: Laura_SpriteSheet - Copy_59
+  - first:
+      213: -569288839236179397
+    second: Laura_SpriteSheet - Copy_62
+  - first:
+      213: -2166305400568320572
+    second: Laura_SpriteSheet - Copy_63
+  - first:
+      213: -5195036595153743779
+    second: Laura_SpriteSheet - Copy_64
+  - first:
+      213: -2358822785305500080
+    second: Laura_SpriteSheet - Copy_67
+  - first:
+      213: -7935251009682499280
+    second: Laura_SpriteSheet - Copy_74
+  - first:
+      213: 7504577255836536822
+    second: Laura_SpriteSheet - Copy_76
+  - first:
+      213: 7113920908425343468
+    second: Laura_SpriteSheet - Copy_78
+  - first:
+      213: 7848319352673664677
+    second: Laura_SpriteSheet - Copy_79
+  - first:
+      213: 8051983507666911323
+    second: Laura_SpriteSheet - Copy_80
+  - first:
+      213: 685209835284513566
+    second: Laura_SpriteSheet - Copy_81
+  - first:
+      213: 1287340090794821140
+    second: Laura_SpriteSheet - Copy_84
+  - first:
+      213: -901641818929579276
+    second: Laura_SpriteSheet - Copy_94
+  - first:
+      213: 474595287674319855
+    second: Laura_SpriteSheet - Copy_99
+  - first:
+      213: 2988311046418384331
+    second: Laura_SpriteSheet - Copy_107
+  - first:
+      213: 6787435112457223844
+    second: Laura_SpriteSheet - Copy_108
+  - first:
+      213: -6927157591101565935
+    second: Laura_SpriteSheet - Copy_115
+  - first:
+      213: 5062429327777948557
+    second: Laura_SpriteSheet - Copy_117
+  - first:
+      213: -4540707437058022894
+    second: Laura_SpriteSheet - Copy_119
+  - first:
+      213: -3619772243483171602
+    second: Laura_SpriteSheet - Copy_120
+  - first:
+      213: -8437137918357291851
+    second: Laura_SpriteSheet - Copy_125
+  - first:
+      213: 3019104139327270902
+    second: Laura_SpriteSheet - Copy_126
+  - first:
+      213: 510011423336776497
+    second: Laura_SpriteSheet - Copy_131
+  - first:
+      213: 1997990585540867227
+    second: Laura_SpriteSheet - Copy_132
+  - first:
+      213: 2466548996180631777
+    second: Laura_SpriteSheet - Copy_133
+  - first:
+      213: -3795413745404311227
+    second: Laura_SpriteSheet - Copy_135
+  - first:
+      213: 3904780028668138146
+    second: Laura_SpriteSheet - Copy_137
+  - first:
+      213: 2987019238777784108
+    second: Laura_SpriteSheet - Copy_138
+  - first:
+      213: 4906061253528955046
+    second: Laura_SpriteSheet - Copy_139
+  - first:
+      213: 8105903354228312781
+    second: Laura_SpriteSheet - Copy_140
+  - first:
+      213: 6658760613179281637
+    second: Laura_SpriteSheet - Copy_148
+  - first:
+      213: -974183927646716144
+    second: Laura_SpriteSheet - Copy_149
+  - first:
+      213: 792441394971452985
+    second: Laura_SpriteSheet - Copy_150
+  - first:
+      213: 4885844081267654173
+    second: Laura_SpriteSheet - Copy_152
+  - first:
+      213: -6930031069918856044
+    second: Laura_SpriteSheet - Copy_153
+  - first:
+      213: 5911885935606772354
+    second: Laura_SpriteSheet - Copy_154
+  - first:
+      213: 2144669833913290033
+    second: Laura_SpriteSheet - Copy_155
+  - first:
+      213: 712107873212626373
+    second: Laura_SpriteSheet - Copy_157
+  - first:
+      213: 3170686187186856222
+    second: Laura_SpriteSheet - Copy_159
+  - first:
+      213: 4510338125746844839
+    second: Laura_SpriteSheet - Copy_165
+  - first:
+      213: -7071081794141713285
+    second: Laura_SpriteSheet - Copy_171
+  - first:
+      213: -7667873917454975816
+    second: Laura_SpriteSheet - Copy_172
+  - first:
+      213: -5228391228730886924
+    second: Laura_SpriteSheet - Copy_185
+  - first:
+      213: 6785749317598548622
+    second: Laura_SpriteSheet - Copy_187
+  - first:
+      213: 5391454112052326296
+    second: Laura_SpriteSheet - Copy_193
+  - first:
+      213: 7264371368794976780
+    second: Laura_SpriteSheet - Copy_194
+  - first:
+      213: 9012053751758162721
+    second: Laura_SpriteSheet - Copy_199
+  - first:
+      213: -8651355023713489555
+    second: Laura_SpriteSheet - Copy_206
+  - first:
+      213: 7269181791451707930
+    second: Laura_SpriteSheet - Copy_209
+  - first:
+      213: -3362094322345094612
+    second: Laura_SpriteSheet - Copy_210
+  - first:
+      213: 2686977268217049144
+    second: Laura_SpriteSheet - Copy_213
+  - first:
+      213: -3531208372223979246
+    second: Laura_SpriteSheet - Copy_214
+  - first:
+      213: 5968292963145593466
+    second: Laura_SpriteSheet - Copy_215
+  - first:
+      213: -400578544212323438
+    second: Laura_SpriteSheet - Copy_218
+  - first:
+      213: -3150710223706863509
+    second: Laura_SpriteSheet - Copy_219
+  - first:
+      213: -6279906034725339643
+    second: Laura_SpriteSheet - Copy_220
+  - first:
+      213: 1777344478579313174
+    second: Laura_SpriteSheet - Copy_221
+  - first:
+      213: 5123720772561593356
+    second: Laura_SpriteSheet - Copy_222
+  - first:
+      213: -4088490319334593700
+    second: Laura_SpriteSheet - Copy_223
+  - first:
+      213: 602122319027990145
+    second: Laura_SpriteSheet - Copy_224
+  - first:
+      213: -4448977801443277076
+    second: Laura_SpriteSheet - Copy_228
+  - first:
+      213: 646448202125154874
+    second: Laura_SpriteSheet - Copy_241
+  - first:
+      213: 2887179381202298377
+    second: Laura_SpriteSheet - Copy_242
+  - first:
+      213: 34794508768828640
+    second: Laura_SpriteSheet - Copy_243
+  - first:
+      213: 6191469593344803817
+    second: Laura_SpriteSheet - Copy_245
+  - first:
+      213: 4263004547949465392
+    second: Laura_SpriteSheet - Copy_252
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_1
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 2605
+        width: 102
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7173e250b6e131242b245a476972b3d3
+      internalID: 6658922863054661081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_3
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 2612
+        width: 73
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c65dfb27409eac24cb3ef722e5346313
+      internalID: -2807507771987991554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_5
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 2670
+        width: 59
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74b48a73b7701344bb372b58e9c9f2c5
+      internalID: -6337493993520108192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_8
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 2616
+        width: 119
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 016b831812af15240a6e7fee93d21b36
+      internalID: 2145945696664014845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_10
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 2598
+        width: 102
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3ea4e2b99ee47a418f8ab8362ffbb39
+      internalID: 1530088230781485231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_36
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2306
+        width: 103
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b56913996762cb9478539a9dc833206a
+      internalID: 8175382108594903074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_37
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 2301
+        width: 105
+        height: 256
+      alignment: 9
+      pivot: {x: 0.48987225, y: 0.49999902}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed80e210429bff249bd37460a710b205
+      internalID: -5803782163569049820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_43
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 2308
+        width: 131
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffe77f1e04d40b84a9458330aed7eaa8
+      internalID: 3806483601744900254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_50
+      rect:
+        serializedVersion: 2
+        x: 2031
+        y: 2421
+        width: 70
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be5d9cc595df98c468689c2b61635498
+      internalID: -9196088964657886294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_51
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 2304
+        width: 83
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd53c8affc5d3d74bbc4044595348247
+      internalID: -8895888132171597107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_52
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 2301
+        width: 108
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 036a0600d2a8f5040a81197399512435
+      internalID: 9024089639400870046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_53
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 2360
+        width: 233
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f78ce760b26e8c146b52fb4acd17ca9d
+      internalID: -4885094859757471543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_55
+      rect:
+        serializedVersion: 2
+        x: 1669
+        y: 2374
+        width: 154
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d389dec7592b6d34ca633d1b8841e782
+      internalID: -4244873693726390621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_59
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 2355
+        width: 78
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f57f715025a64764cb61d206fb34d562
+      internalID: 3814336554204292727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_62
+      rect:
+        serializedVersion: 2
+        x: 1333
+        y: 2256
+        width: 285
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e69fdc5ddf40fb945b01ce9db236e36b
+      internalID: -569288839236179397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_63
+      rect:
+        serializedVersion: 2
+        x: 1667
+        y: 2252
+        width: 258
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7208da4de4bd4c46b232ced41ab5961
+      internalID: -2166305400568320572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_64
+      rect:
+        serializedVersion: 2
+        x: 1976
+        y: 2217
+        width: 170
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a6cac67daa9c64439f226604eb536a1
+      internalID: -5195036595153743779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_67
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 2295
+        width: 77
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40ae5349004a8ab41b3576bf82a2d5e4
+      internalID: -2358822785305500080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_74
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 1973
+        width: 101
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81fe993112fa66841a320cb9a7f0dd58
+      internalID: -7935251009682499280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_76
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1969
+        width: 105
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36038c75c35b2044394f7517a8ebdbe7
+      internalID: 7504577255836536822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_78
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 2223
+        width: 80
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8362534d3178e4d4bb92f88cf8070541
+      internalID: 7113920908425343468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_79
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 2146
+        width: 294
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9bd10cdab5363e4597cb2d6b0277bc5
+      internalID: 7848319352673664677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_80
+      rect:
+        serializedVersion: 2
+        x: 1662
+        y: 2141
+        width: 250
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c713f649a8362c0468e738262179e651
+      internalID: 8051983507666911323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_81
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 1984
+        width: 93
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 654a3a1b656c1b14f8054c36e810e62d
+      internalID: 685209835284513566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_84
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 1974
+        width: 86
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8aa0a99471ed5245965d4146ce94651
+      internalID: 1287340090794821140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_94
+      rect:
+        serializedVersion: 2
+        x: 1971
+        y: 2117
+        width: 249
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df7cb9ab64e71f74ea619b1f72444839
+      internalID: -901641818929579276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_99
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 2052
+        width: 250
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5a0809ad3bfc894aa409e4c4480681f
+      internalID: 474595287674319855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_107
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 1980
+        width: 94
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 488c1864912a3c148b00daa9f6d0d703
+      internalID: 2988311046418384331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_108
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 2003
+        width: 221
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29377a12f5da5cb4c95affb63361ca84
+      internalID: 6787435112457223844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_115
+      rect:
+        serializedVersion: 2
+        x: 1966
+        y: 1995
+        width: 265
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 482e4c07dda452249afb70443378fef4
+      internalID: -6927157591101565935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_117
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 1960
+        width: 139
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 108421c7012f0f7438dce02ab4bd1079
+      internalID: 5062429327777948557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_119
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 1999
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6716aea97aa381c479ec3ce992069aa9
+      internalID: -4540707437058022894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_120
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 1992
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cef23d77b0f2b449b7b1c04faa51d54
+      internalID: -3619772243483171602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_125
+      rect:
+        serializedVersion: 2
+        x: 1662
+        y: 1864
+        width: 179
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13110323cb7784c448901d3ed5bb57d4
+      internalID: -8437137918357291851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_126
+      rect:
+        serializedVersion: 2
+        x: 1958
+        y: 1882
+        width: 166
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d46543af9521a174fbeeec04d22d11e1
+      internalID: 3019104139327270902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_131
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 1817
+        width: 30
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bb3365e3e5f1de47bb909e630f12983
+      internalID: 510011423336776497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_132
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 1819
+        width: 30
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71aeeae21e9861f41b9bd7d4cbd2838a
+      internalID: 1997990585540867227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_133
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 1816
+        width: 38
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 997b286657d8a484d8a02cfd0d07f62b
+      internalID: 2466548996180631777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_135
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 1559
+        width: 165
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af1aa54c02ad0d04d9a7196da3a11c16
+      internalID: -3795413745404311227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_137
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 1569
+        width: 179
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87aeb5ac55978524a863a4af5f7ebb99
+      internalID: 3904780028668138146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_138
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 1614
+        width: 38
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3a200a10dd38f64ab756571cf94ce69
+      internalID: 2987019238777784108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_139
+      rect:
+        serializedVersion: 2
+        x: 1773
+        y: 1614
+        width: 31
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3d850d7959373f42a0c2d1c55bbaf4f
+      internalID: 4906061253528955046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_140
+      rect:
+        serializedVersion: 2
+        x: 1833
+        y: 1615
+        width: 31
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee87228a49c5a49489cfde5a60d45229
+      internalID: 8105903354228312781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_148
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 1493
+        width: 139
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cf5c136516d34947a5124f4ac4e888b
+      internalID: 6658760613179281637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_149
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 1448
+        width: 265
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 1, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9deb841fdd001b94aba259922bd83f4c
+      internalID: -974183927646716144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_150
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1410
+        width: 222
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcd1b0e934a81ab4f9e295ebd91c712a
+      internalID: 792441394971452985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_152
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 1532
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a73efa6fd1667254ab2106d4b27a6442
+      internalID: 4885844081267654173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_153
+      rect:
+        serializedVersion: 2
+        x: 1528
+        y: 1288
+        width: 87
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 400a99e2e2c2e9247a3dd33da00aa567
+      internalID: -6930031069918856044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_154
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 1247
+        width: 104
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc13935e354055d4abb820dfd3a6960e
+      internalID: 5911885935606772354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_155
+      rect:
+        serializedVersion: 2
+        x: 1733
+        y: 1253
+        width: 98
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f58c63c91fb6a934386a99415707e32e
+      internalID: 2144669833913290033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_157
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 1391
+        width: 93
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46c04aa1ebd3111448eb9be804792a07
+      internalID: 712107873212626373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_159
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 1294
+        width: 91
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c5f3c43c9426348bd535a151b16eef
+      internalID: 3170686187186856222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_165
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 1404
+        width: 250
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f196a5eff6b001546bf2c3bc9fa6e0bf
+      internalID: 4510338125746844839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_171
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 1354
+        width: 250
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af6b62850f113f547b08b08cbfd8d636
+      internalID: -7071081794141713285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_172
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 1295
+        width: 253
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8154d17804cb11b47b4358299bcd230e
+      internalID: -7667873917454975816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_185
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 1350
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eee85f2f38147794bb27e22d92fb57e4
+      internalID: -5228391228730886924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_187
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 1295
+        width: 294
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a914f644b6ea9f4aba901b292f4a36c
+      internalID: 6785749317598548622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_193
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1202
+        width: 174
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27b9cd20e4b04b548ab968ae8052de1d
+      internalID: 5391454112052326296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_194
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 1284
+        width: 81
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c93b34cb398f004b9a481ec73dc2106
+      internalID: 7264371368794976780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_199
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 1194
+        width: 258
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 987d6dbd75090624ea5ee61755b5da66
+      internalID: 9012053751758162721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_206
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 1192
+        width: 285
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6f98ebabb146e34a89f1f4c8cdeb128
+      internalID: -8651355023713489555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_209
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 1218
+        width: 78
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6108f72512b1a643b85caadbde67ca0
+      internalID: 7269181791451707930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_210
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 1206
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dde3d1a11ef6d9c4daf9e5eb01f0eb71
+      internalID: -3362094322345094612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_213
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 1205
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0de4471ae14c4934cb5028c57dabf4ad
+      internalID: 2686977268217049144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_214
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 1029
+        width: 113
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62ea5a3cf1305ef4982487e5cef1fe11
+      internalID: -3531208372223979246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_215
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 957
+        width: 104
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8621aac2b21ea2b419a4ce56095d4c20
+      internalID: 5968292963145593466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_218
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 1158
+        width: 79
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4e2074649ac4184aa5455677e078d6c
+      internalID: -400578544212323438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_219
+      rect:
+        serializedVersion: 2
+        x: 1481
+        y: 979
+        width: 130
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e28b6f7c8f8df43ab620380e77c43d
+      internalID: -3150710223706863509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_220
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 946
+        width: 95
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67113ec568ab6084a957f9f8af357d81
+      internalID: -6279906034725339643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_221
+      rect:
+        serializedVersion: 2
+        x: 1852
+        y: 1048
+        width: 83
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f413cef78cd604890d74fdaede7dd4
+      internalID: 1777344478579313174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_222
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 1067
+        width: 154
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaed3ffaa5d4db44bbc2d74b97f1e786
+      internalID: 5123720772561593356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_223
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 1086
+        width: 153
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13161e1a11aa5d147a414aa22e15d40c
+      internalID: -4088490319334593700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_224
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 1089
+        width: 233
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 860239546be9ea94192790145687d32c
+      internalID: 602122319027990145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_228
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 1092
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d54068ef3bf7ffb4fbc380fd9ef6c337
+      internalID: -4448977801443277076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_241
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 746
+        width: 104
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7783c6f10aa8244680f9444f952e566
+      internalID: 646448202125154874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_242
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 643
+        width: 105
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ccd302e829414e47be15009626cde28
+      internalID: 2887179381202298377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_243
+      rect:
+        serializedVersion: 2
+        x: 1594
+        y: 653
+        width: 72
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02352bf3c73ff234787dd8b6e07ac509
+      internalID: 34794508768828640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_245
+      rect:
+        serializedVersion: 2
+        x: 1698
+        y: 724
+        width: 113
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c08fa671b5d2bec4082b3db28bb52524
+      internalID: 6191469593344803817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laura_SpriteSheet - Copy_252
+      rect:
+        serializedVersion: 2
+        x: 1895
+        y: 687
+        width: 59
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3517d16e95048184eb521b632a6213e6
+      internalID: 4263004547949465392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

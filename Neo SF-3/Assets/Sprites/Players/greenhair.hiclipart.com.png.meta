@@ -101,6 +101,9 @@ TextureImporter:
   - first:
       213: -7357496226801699723
     second: hiclipart.com_32
+  - first:
+      213: 5501895854350027300
+    second: greenhair.hiclipart.com_0
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -885,6 +888,27 @@ TextureImporter:
       bones: []
       spriteID: b8db5bc33f32b5e4eaaf38160b55e0aa
       internalID: -7357496226801699723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: greenhair.hiclipart.com_0
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 90
+        width: 26
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26efbab8ef8925445a9e166a545f7944
+      internalID: 5501895854350027300
       vertices: []
       indices: 
       edges: []

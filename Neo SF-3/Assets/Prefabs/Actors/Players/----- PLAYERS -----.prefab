@@ -2190,11 +2190,6 @@ PrefabInstance:
       propertyPath: m_BodyType
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2513967531357711606, guid: 4737104da701be349bb4666aabdf648e,
-        type: 3}
-      propertyPath: m_Constraints
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7439064337325298113, guid: 4737104da701be349bb4666aabdf648e,
         type: 3}
       propertyPath: m_SortingLayerID
