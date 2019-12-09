@@ -1,5 +1,12 @@
 ﻿using UnityEngine;
 
+[System.Serializable]
+public class itemDrops
+{
+    public itemDrop itemDrop;
+    public float itemDropRate;
+}
+
 public class EnemyAttributes : MonoBehaviour
 {
 
@@ -14,6 +21,9 @@ public class EnemyAttributes : MonoBehaviour
     public float atkSpeed;          // How fast the enemy can attack per second
     public int physDefense;         // How much damage the enemy will resist
     public float enemyMoveSpeed;
+
+    [Header("Item Drops")]
+    public itemDrops[] itemDrops;
 
 
     #endregion
@@ -59,6 +69,16 @@ public class EnemyAttributes : MonoBehaviour
         // Check for enemy knockout
         if (curHealth <= 0)
         {
+            // randomly drop item
+            itemDrops newItem = null;
+            newItem = itemDrops[Random.Range(0, itemDrops.Length)];
+            if (newItem != null && Random.Range(0, 100) < newItem.itemDropRate)
+            {
+                // Drop item
+                // Instantiate item at this enemy's feet
+                Instantiate(newItem.itemDrop.gameObject, transform.position, Quaternion.identity);
+            }
+
             // Destroy this object
             Destroy(this.gameObject);
         }

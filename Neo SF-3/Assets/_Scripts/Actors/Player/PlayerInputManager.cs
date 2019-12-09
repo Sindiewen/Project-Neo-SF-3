@@ -33,6 +33,8 @@ public class PlayerInputManager : MonoBehaviour
     [Header("Player Number")]
     public PLAYER_NUMBER player_number; // Defines which number the player is
 
+    [Header("Control State")]
+
     [Header("InputManager References")]
     [SerializeField] private bool usingKeyboard;
 
@@ -60,6 +62,10 @@ public class PlayerInputManager : MonoBehaviour
     private Keys sprintKey;
 
     // Player input data
+    private bool p2ControlState = false;
+    private bool canControlP2 = false;
+    private bool dropOutPlayer = false;
+    private bool canMove = true;
     private Vector2 moveDirection;
     private bool isAttacking;
     private bool isSprinting;
@@ -82,34 +88,56 @@ public class PlayerInputManager : MonoBehaviour
         // Initializes cinput
         cInput.Init();
 
+        if (player_number == PLAYER_NUMBER.PLAYER_TWO)
+        {
+            canMove = false;
+        }
+
+        // Define controls
+        defineControlscInput();
+    }
+
+
+    /// <summary>
+    /// Unity update method
+    ///
+    /// UPdates every frame
+    /// </summary>
+    private void Update()
+    {
+        // Gets input from the player
+        getInput();
+    }
+
+    /// <summary>
+    /// Defines controls
+    /// </summary>
+    private void defineControlscInput()
+    {
+
         // Initialize the player's input values
         // If the player is player two, append "_p2" at the end to say it's a player 2
         if (player_number == PLAYER_NUMBER.PLAYER_TWO)
         {
-            cInput.SetKey("Up_p2", Keys.UpArrow, Keys.Xbox2LStickUp);
-            cInput.SetKey("Down_p2", Keys.DownArrow, Keys.Xbox2LStickDown);
-            cInput.SetKey("Left_p2", Keys.LeftArrow, Keys.Xbox2LStickLeft);
-            cInput.SetKey("Right_p2", Keys.RightArrow, Keys.Xbox2LStickRight);
-            cInput.SetKey("Attack_p2", Keys.Comma, Keys.Xbox2X);
-            cInput.SetKey("Sprint_p2", Keys.Period, Keys.Xbox2TriggerRight);
-
-            cInput.SetAxis("Horizontal_p2", "Left_p2", "Right_p2");
-            cInput.SetAxis("Vertical_p2", "Down_p2", "Up_p2");
-
-            /*
-            moveHorizontal += "_p2";
-            moveVertical += "_p2";
-            if (!usingKeyboard)
+            if (!p2ControlState)
             {
-                attackKey = attackKeyGP;
-                sprintKey = sprintKeyGP;
+                Debug.Log("Player 2 not in control");
+                cInput.SetKey("ActivePlayer", Keys.Xbox2A, Keys.Comma);
             }
             else
             {
-                attackKey = attackKeyKB;
-                sprintKey = sprintKeyKB;
+                Debug.Log("Player 2 in control");
+                cInput.SetKey("Up_p2", Keys.UpArrow, Keys.Xbox2LStickUp);
+                cInput.SetKey("Down_p2", Keys.DownArrow, Keys.Xbox2LStickDown);
+                cInput.SetKey("Left_p2", Keys.LeftArrow, Keys.Xbox2LStickLeft);
+                cInput.SetKey("Right_p2", Keys.RightArrow, Keys.Xbox2LStickRight);
+                cInput.SetKey("Attack_p2", Keys.Comma, Keys.Xbox2X);
+                cInput.SetKey("Sprint_p2", Keys.Period, Keys.Xbox2TriggerRight);
+                cInput.SetKey("DropOut", Keys.RightBracket, Keys.Xbox2Back);
+
+                cInput.SetAxis("Horizontal_p2", "Left_p2", "Right_p2");
+                cInput.SetAxis("Vertical_p2", "Down_p2", "Up_p2");
             }
-            */
 
         }
         // Player 1 = "_p1"
@@ -125,41 +153,13 @@ public class PlayerInputManager : MonoBehaviour
 
             cInput.SetAxis("Horizontal_p1", "Left_p1", "Right_p1");
             cInput.SetAxis("Vertical_p1", "Down_p1", "Up_p1");
-            /*
-            moveHorizontal += "_p1";
-            moveVertical += "_p1";
-            if (!usingKeyboard)
-            {
-                attackKey = attackKeyGP;
-                sprintKey = sprintKeyGP;
-            }
-            
-            else
-            {
-                attackKey = attackKeyKB;
-                sprintKey = sprintKeyKB;
-            }
-            */
         }
-
     }
-
-
-    /// <summary>
-    /// Unity update method
-    ///
-    /// UPdates every frame
-    /// </summary>
-    private void Update()
-    {
-        // Gets input from the player
-        getInput();
-    }
-
-
 
     // Parse playerInput
     // ------------------------------------------------------------
+
+
 
     /// <summary>
     /// Gets any input from the player
@@ -168,48 +168,58 @@ public class PlayerInputManager : MonoBehaviour
     {
         if (player_number == PLAYER_NUMBER.PLAYER_ONE)
         {
+            canMove = true;
             // Move the player
             // Get horizontal and vertical input
-            /*
-            moveDirection.x = Input.GetAxisRaw(moveHorizontal);
-            moveDirection.y = Input.GetAxisRaw(moveVertical);
-            */
             moveDirection.x = cInput.GetAxisRaw("Horizontal_p1");
             moveDirection.y = cInput.GetAxisRaw("Vertical_p1");
 
             // check for attackInput
             // If the player presses the attack key, set attacking to true
             //isAttacking = Input.GetButtonDown(attackKey);
-            /*
-            isAttacking = Input.GetKeyDown(attackKey);
-            isSprinting = Input.GetKey(sprintKey);
-            */
             isAttacking = cInput.GetKeyDown("Attack_p1");
             isSprinting = cInput.GetKey("Sprint_p1");
             killPlayer = cInput.GetKey("kill");
         }
-        else
+        else    // Player 2
         {
-            // Move the player
-            // Get horizontal and vertical input
-            /*
-            moveDirection.x = Input.GetAxisRaw(moveHorizontal);
-            moveDirection.y = Input.GetAxisRaw(moveVertical);
-            */
-            moveDirection.x = cInput.GetAxisRaw("Horizontal_p2");
-            moveDirection.y = cInput.GetAxisRaw("Vertical_p2");
+            if (p2ControlState)
+            {
+                canMove = true;
+                // Move the player
+                // Get horizontal and vertical input
+                moveDirection.x = cInput.GetAxisRaw("Horizontal_p2");
+                moveDirection.y = cInput.GetAxisRaw("Vertical_p2");
 
-            // check for attackInput
-            // If the player presses the attack key, set attacking to true
-            //isAttacking = Input.GetButtonDown(attackKey);
-            /*
-            isAttacking = Input.GetKeyDown(attackKey);
-            isSprinting = Input.GetKey(sprintKey);
-            */
-            isAttacking = cInput.GetKeyDown("Attack_p2");
-            isSprinting = cInput.GetKey("Sprint_p2");
+                // check for attackInput
+                // If the player presses the attack key, set attacking to true
+                isAttacking = cInput.GetKeyDown("Attack_p2");
+                isSprinting = cInput.GetKey("Sprint_p2");
+                dropOutPlayer = cInput.GetKeyDown("DropOut");
+
+                // To drop out player 2
+                if (dropOutPlayer)
+                {
+                    p2ControlState = false;
+                    canControlP2 = false;
+                    defineControlscInput();
+                }
+            }
+            else
+            {
+                // At start, p2 cannot control p2. when a is pressed, allow control
+                canMove = false;
+                canControlP2 = cInput.GetKeyDown("ActivePlayer");
+
+                if (canControlP2)
+                {
+                    p2ControlState = true;
+
+                    // define player 2 controls
+                    defineControlscInput();
+                }
+            }
         }
-        
     }
 
 
@@ -217,6 +227,21 @@ public class PlayerInputManager : MonoBehaviour
 
     // Getters and Setters
     #region Getters/Setters
+
+    // Player input data
+    public bool P2ControlState
+    {
+        get { return p2ControlState; }
+    }
+
+    public bool CanControlP2
+    {
+        get { return canControlP2; }
+    }
+    public bool CanMove
+    {
+        get { return canMove; }
+    }
 
     // Get all input data
     public Vector2 MoveDirection

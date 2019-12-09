@@ -7,6 +7,7 @@ public class cameraGetPlayers : MonoBehaviour
     void Start()
     {
         ProCamera2D cam = GetComponent<ProCamera2D>();
+        cam.RemoveAllCameraTargets();
         GameObject[] players = GameObject.FindGameObjectsWithTag("Player");
 
         for (int i = 0; i < players.Length; ++i)

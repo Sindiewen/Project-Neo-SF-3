@@ -201,6 +201,10 @@ MonoBehaviour:
   atkSpeed: 5
   physDefense: 0
   enemyMoveSpeed: 1.5
+  itemDrops:
+  - itemDrop: {fileID: 3381427933113822655, guid: 69711f76f9b364b47818872e580c14c2,
+      type: 3}
+    itemDropRate: 75
 --- !u!114 &644893944
 MonoBehaviour:
   m_ObjectHideFlags: 0

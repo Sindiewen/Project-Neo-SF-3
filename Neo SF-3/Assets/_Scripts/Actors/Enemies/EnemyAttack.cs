@@ -13,6 +13,7 @@ public class EnemyAttack : MonoBehaviour
     };
 
     #endregion
+
     #region Variables
 
     // Public Variables
@@ -60,6 +61,11 @@ public class EnemyAttack : MonoBehaviour
         followPlayer();
     }
 
+    /// <summary>
+    /// Unity fixed update
+    /// 
+    /// Runs every frame at a fixed iterval
+    /// </summary>
     private void FixedUpdate()
     {
         followPlayer();
@@ -121,35 +127,42 @@ public class EnemyAttack : MonoBehaviour
         // Get closest player
         if (hit.Length > 0)
         {
-            if (followType == ENEMY_FOLLOW_TYPES.FOLLOW_PLAYER)
+            if (Vector2.Distance(hit[0].transform.position, transform.position) > 2)
             {
-                Vector3 direction = hit[0].transform.position - transform.position;
-                float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-                rb2d.rotation = angle;
-                direction.Normalize();
-                rb2d.MovePosition(transform.position + (direction * enemyAttributes.enemyMoveSpeed * Time.fixedDeltaTime));
-            }
-            else if (followType == ENEMY_FOLLOW_TYPES.TOKYO_DRIFT)
-            {
-                transform.LookAt(hit[0].transform);
-                Vector2 tempMove = transform.position - (hit[0].transform.position * enemyAttributes.enemyMoveSpeed * Time.fixedDeltaTime);
-                rb2d.MovePosition(tempMove);
-            }
-            else if (followType == ENEMY_FOLLOW_TYPES.SlIDE_AWAY_FROM_PLAYER)
-            {
-                transform.LookAt(hit[0].transform);
-                Vector2 tempMove = transform.position + (hit[0].transform.position * enemyAttributes.enemyMoveSpeed * Time.fixedDeltaTime);
-                rb2d.MovePosition(tempMove);
-            }
-            else if (followType == ENEMY_FOLLOW_TYPES.RUN_AWAY_FROM_PLAYER)
-            {
-                Vector3 direction = hit[0].transform.position - transform.position;
-                float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-                rb2d.rotation = angle;
-                direction.Normalize();
-                rb2d.MovePosition(transform.position - (direction * enemyAttributes.enemyMoveSpeed * Time.fixedDeltaTime));
+                if (followType == ENEMY_FOLLOW_TYPES.FOLLOW_PLAYER)
+                {
+                    Vector3 direction = hit[0].transform.position - transform.position;
+                    float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+                    rb2d.rotation = angle;
+                    direction.Normalize();
+                    rb2d.MovePosition(transform.position + (direction * enemyAttributes.enemyMoveSpeed * Time.fixedDeltaTime));
+                }
+                else if (followType == ENEMY_FOLLOW_TYPES.TOKYO_DRIFT)
+                {
+                    transform.LookAt(hit[0].transform);
+                    Vector2 tempMove = transform.position - (hit[0].transform.position * enemyAttributes.enemyMoveSpeed * Time.fixedDeltaTime);
+                    rb2d.MovePosition(tempMove);
+                }
+                else if (followType == ENEMY_FOLLOW_TYPES.SlIDE_AWAY_FROM_PLAYER)
+                {
+                    transform.LookAt(hit[0].transform);
+                    Vector2 tempMove = transform.position + (hit[0].transform.position * enemyAttributes.enemyMoveSpeed * Time.fixedDeltaTime);
+                    rb2d.MovePosition(tempMove);
+                }
+                else if (followType == ENEMY_FOLLOW_TYPES.RUN_AWAY_FROM_PLAYER)
+                {
+                    Vector3 direction = hit[0].transform.position - transform.position;
+                    float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+                    rb2d.rotation = angle;
+                    direction.Normalize();
+                    rb2d.MovePosition(transform.position - (direction * enemyAttributes.enemyMoveSpeed * Time.fixedDeltaTime));
 
+                }
+
+                // Returns rotation back to 0
+                rb2d.rotation = 0;
             }
+            
         }
 
     }
