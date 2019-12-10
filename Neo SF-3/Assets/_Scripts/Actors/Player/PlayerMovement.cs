@@ -169,7 +169,7 @@ public class PlayerMovement : MonoBehaviour
         }
 
 
-        rb2d.MovePosition(transform.position + (moveDirection * moveSpeed * Time.fixedDeltaTime));
+        rb2d.MovePosition(transform.position + (moveDirection * (moveSpeed + 1) * Time.fixedDeltaTime));
         rb2d.rotation = 0;
     }
 
