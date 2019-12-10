@@ -129,12 +129,47 @@ public class PlayerMovement : MonoBehaviour
 
     public void followPartner(PlayerAttributesController playerAttributes)
     {
+
         // FOllow player 1
-        Vector3 direction = (playerAttributes.partner.transform.position) - transform.position;
-        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+        Vector3 moveDirection = (playerAttributes.partner.transform.position) - transform.position;
+        float angle = Mathf.Atan2(moveDirection.y, moveDirection.x) * Mathf.Rad2Deg;
         rb2d.rotation = angle;
-        direction.Normalize();
-        rb2d.MovePosition(transform.position + (direction * moveSpeed * Time.fixedDeltaTime));
+        moveDirection.Normalize();
+
+
+        // Move player position based on the current player position + the direction the player is moving,
+        // Then multiply that by the speed the player will move, and then multiplay that by deltaTime to ensure
+        // it's moving at realtime
+
+        // Player moving and facing upwards, moving up diagonals left or right
+        if (moveDirection.y > 0 && (moveDirection.x <= 0.5f || moveDirection.x >= -0.5f))
+        {
+            facingDirection = PLAYER_FACING_DIRECTION.UP;
+            anim.SetFloat("Horizontal", 0);
+            anim.SetFloat("Vertical", 1);
+        }
+        else if (moveDirection.y < 0 && (moveDirection.x <= 0.5f || moveDirection.x >= -0.5f))
+        {
+            facingDirection = PLAYER_FACING_DIRECTION.DOWN;
+            anim.SetFloat("Horizontal", 0);
+            anim.SetFloat("Vertical", -1);
+        }
+        // If player if moving and facing right, moving right diagonals up or down
+        else if (moveDirection.x > 0 && (moveDirection.y <= 0.5f || moveDirection.y >= -0.5f))
+        {
+            facingDirection = PLAYER_FACING_DIRECTION.RIGHT;
+            anim.SetFloat("Horizontal", 1);
+            anim.SetFloat("Vertical", 0);
+        }
+        else if (moveDirection.x < 0 && (moveDirection.y <= 0.5f || moveDirection.y >= -0.5f))
+        {
+            facingDirection = PLAYER_FACING_DIRECTION.LEFT;
+            anim.SetFloat("Horizontal", -1);
+            anim.SetFloat("Vertical", 0);
+        }
+
+
+        rb2d.MovePosition(transform.position + (moveDirection * moveSpeed * Time.fixedDeltaTime));
         rb2d.rotation = 0;
     }
 
