@@ -1970,9 +1970,69 @@ PrefabInstance:
       objectReference: {fileID: 2927942328642194123}
     - target: {fileID: 6670154161898740580, guid: 3fd4559e8fbf672418cdeed3e63df3aa,
         type: 3}
+      propertyPath: AttackStrength
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6670154161898740580, guid: 3fd4559e8fbf672418cdeed3e63df3aa,
+        type: 3}
       propertyPath: partner
       value: 
       objectReference: {fileID: 1125009643396303804}
+    - target: {fileID: 6670154161898740581, guid: 3fd4559e8fbf672418cdeed3e63df3aa,
+        type: 3}
+      propertyPath: attackRect.Array.data[0].height
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6670154161898740581, guid: 3fd4559e8fbf672418cdeed3e63df3aa,
+        type: 3}
+      propertyPath: attackRect.Array.data[1].y
+      value: -6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6670154161898740581, guid: 3fd4559e8fbf672418cdeed3e63df3aa,
+        type: 3}
+      propertyPath: attackRect.Array.data[1].height
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6670154161898740581, guid: 3fd4559e8fbf672418cdeed3e63df3aa,
+        type: 3}
+      propertyPath: attackRect.Array.data[2].x
+      value: -6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6670154161898740581, guid: 3fd4559e8fbf672418cdeed3e63df3aa,
+        type: 3}
+      propertyPath: attackRect.Array.data[2].width
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6670154161898740581, guid: 3fd4559e8fbf672418cdeed3e63df3aa,
+        type: 3}
+      propertyPath: attackRect.Array.data[3].width
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6670154161898740581, guid: 3fd4559e8fbf672418cdeed3e63df3aa,
+        type: 3}
+      propertyPath: maxNumOfChainAttacks
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6670154161898740581, guid: 3fd4559e8fbf672418cdeed3e63df3aa,
+        type: 3}
+      propertyPath: attackCooldownRate
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6670154161898740581, guid: 3fd4559e8fbf672418cdeed3e63df3aa,
+        type: 3}
+      propertyPath: attackChainAttackStartTimer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8615391039847509286, guid: 3fd4559e8fbf672418cdeed3e63df3aa,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8615391039847509287, guid: 3fd4559e8fbf672418cdeed3e63df3aa,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3fd4559e8fbf672418cdeed3e63df3aa, type: 3}
 --- !u!114 &6122140053685118213 stripped
@@ -2072,9 +2132,24 @@ PrefabInstance:
       objectReference: {fileID: 702945361553149047}
     - target: {fileID: 7056353834178387670, guid: bfb467114bf6b0842ae8258cbc144c69,
         type: 3}
+      propertyPath: AttackStrength
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7056353834178387670, guid: bfb467114bf6b0842ae8258cbc144c69,
+        type: 3}
       propertyPath: partner
       value: 
       objectReference: {fileID: 6122140053685118213}
+    - target: {fileID: 7568754036165107740, guid: bfb467114bf6b0842ae8258cbc144c69,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 1.3908966
+      objectReference: {fileID: 0}
+    - target: {fileID: 7568754036165107740, guid: bfb467114bf6b0842ae8258cbc144c69,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 3.6406248
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bfb467114bf6b0842ae8258cbc144c69, type: 3}
 --- !u!4 &1125009643396303782 stripped
