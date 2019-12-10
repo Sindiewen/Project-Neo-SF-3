@@ -770,6 +770,9 @@ TextureImporter:
   - first:
       213: 21300510
     second: r2c_male_hair_ferret_255
+  - first:
+      213: -3214621046849251693
+    second: r2c_male_hair_ferret_256
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -6253,10 +6256,31 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: r2c_male_hair_ferret_256
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 418
+        width: 166
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b86c89244fc0144893dae08a5fb2132
+      internalID: -3214621046849251693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 10bdfd2464f3d8147aaf4fc0fd7ba3af
     internalID: 0
     vertices: []
     indices: 
