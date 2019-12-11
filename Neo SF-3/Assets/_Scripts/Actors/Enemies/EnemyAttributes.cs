@@ -22,9 +22,15 @@ public class EnemyAttributes : MonoBehaviour
     public int physDefense;         // How much damage the enemy will resist
     public float enemyMoveSpeed;
 
+    [Header("Sounds")]
+    public AudioClip attack;
+    public AudioClip takingDamage;
+    public AudioClip death;
+
     [Header("Item Drops")]
     public itemDrops[] itemDrops;
 
+    [HideInInspector] public AudioSource audioSource;
 
     #endregion
 
@@ -41,6 +47,9 @@ public class EnemyAttributes : MonoBehaviour
     {
         // Sets health value
         curHealth = maxHealth;
+
+        // component
+        audioSource = GetComponent<AudioSource>();
     }
 
     #endregion
@@ -78,9 +87,14 @@ public class EnemyAttributes : MonoBehaviour
                 // Instantiate item at this enemy's feet
                 Instantiate(newItem.itemDrop.gameObject, transform.position, Quaternion.identity);
             }
+            audioSource.PlayOneShot(death);
 
             // Destroy this object
             Destroy(this.gameObject);
+        }
+        else
+        {
+            audioSource.PlayOneShot(takingDamage);
         }
 
     }

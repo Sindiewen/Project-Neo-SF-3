@@ -25,6 +25,7 @@ public class EnemyAttack : MonoBehaviour
     public LayerMask collisionMask;
     public ENEMY_FOLLOW_TYPES followType;
 
+
     // private variables
     // component references
     private EnemyAttributes enemyAttributes;
@@ -197,6 +198,9 @@ public class EnemyAttack : MonoBehaviour
             else if(!timerStart && canAttack)
             {
                 Debug.Log("Attacking player");
+
+                enemyAttributes.audioSource.PlayOneShot(enemyAttributes.attack);
+
                 for (int i = 0; i < hit.Length; i++)
                 {
                     restartTimer();

@@ -15,11 +15,19 @@ public class PlayerAttributesController : MonoBehaviour
     public float invulnerabilityTimer;  // How long the player is invulnerable after hit
     public float staggerTimer;          // How long the player is staggered
     public float playerRespawnTimer;    // How long before the player can respawn after death
+    public AudioClip playerTakingDamage;
+    public AudioClip playerDeathSound;
 
     [Header("UI Attributes")]
     public SimpleHealthBar P1_Health_Bar;
-    public SimpleHealthBar P2_Health_Bar;
+    public GameObject P1_healthTextHolder;
+    public TextMeshProUGUI P1_curHPText;
+    public TextMeshProUGUI P1_MaxHPText;
     public TextMeshProUGUI P1_Respawn_Text;
+    public SimpleHealthBar P2_Health_Bar;
+    public GameObject P2_healthTextHolder;
+    public TextMeshProUGUI P2_curHPText;
+    public TextMeshProUGUI P2_maxHPText;
     public TextMeshProUGUI P2_Respawn_Text;
 
     [Header("Player Combat Values")]
@@ -27,7 +35,8 @@ public class PlayerAttributesController : MonoBehaviour
 
     [Header("Player Partner Attributes")]
     public PlayerAttributesController partner;
-    public ProCamera2D cam;
+    [HideInInspector] public AudioSource audioSource;
+    [HideInInspector] public ProCamera2D cam;
 
     [Header("Pickups")]
     public LayerMask pickupsCollisionMask;
@@ -60,6 +69,7 @@ public class PlayerAttributesController : MonoBehaviour
     {
         // get rb2d
         box2d = GetComponent<BoxCollider2D>();
+        audioSource = GetComponent<AudioSource>();
         
         // Get the camera
         cam = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<ProCamera2D>();
@@ -253,6 +263,10 @@ public class PlayerAttributesController : MonoBehaviour
                 death();
                 setRespawn();
             }
+            else
+            {
+                audioSource.PlayOneShot(playerTakingDamage);
+            }
         }
     }
 
@@ -279,9 +293,21 @@ public class PlayerAttributesController : MonoBehaviour
         isPlayerDead = true;
         // Kill player
         Debug.Log("player died, respawning player");
-        //gameObject.SetActive(false);
+
+        // play death sound
+        audioSource.PlayOneShot(playerDeathSound);
+
         // Remove player from camera
         cam.RemoveCameraTarget(this.transform);
+
+        if (player_number == 0)
+        {
+            P1_healthTextHolder.SetActive(false);
+        }
+        else
+        {
+            P2_healthTextHolder.SetActive(false);
+        }
     }
 
     /// <summary>
@@ -296,6 +322,14 @@ public class PlayerAttributesController : MonoBehaviour
 
         // restore health
         playerHealth = playerHealthMax;
+        if (player_number == 0)
+        {
+            P1_healthTextHolder.SetActive(true);
+        }
+        else
+        {
+            P2_healthTextHolder.SetActive(true);
+        }
         updateHealthBars();
 
         // Set respawn text
@@ -327,10 +361,14 @@ public class PlayerAttributesController : MonoBehaviour
         if (player_number == 0)
         {
             P1_Health_Bar.UpdateBar(playerHealth, playerHealthMax);
+            P1_curHPText.text = playerHealth.ToString();
+            P1_MaxHPText.text = playerHealthMax.ToString();
         }
         else
         {
             P2_Health_Bar.UpdateBar(playerHealth, playerHealthMax);
+            P2_curHPText.text = playerHealth.ToString();
+            P2_maxHPText.text = playerHealthMax.ToString();
         }
     }
 

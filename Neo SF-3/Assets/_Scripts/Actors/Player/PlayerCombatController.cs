@@ -9,6 +9,7 @@ public class PlayerCombatController : MonoBehaviour
     #region Variables
 
     // public variables
+    [Header("Attack Raycast Values")]
     public Rect[] attackRect;           // Array of attack rects: will store 4 attack locations
     public Vector2 attackDirection;     // Direction attack will go
     public float attackDistance;        // Distance of the attack
@@ -19,7 +20,7 @@ public class PlayerCombatController : MonoBehaviour
     public float attackCooldownRate;            // How long it takes before the attack can be attacked again
     public float attackChainAttackStartTimer;   // how long the player has before the chain attack can start 
                                                 // (cooldown rate - start timer = when the player can start chain attacks)
-
+    public AudioClip attackSoundClip;
     // Private variables
 
     private int lastFacingDir;          // Stores the last facing direction
@@ -58,6 +59,8 @@ public class PlayerCombatController : MonoBehaviour
             Debug.Log("Player " + this.name + " Attacking");
             Debug.Log("Attack State: " + currentAttackChainCount.ToString());
 
+            // Play sound
+            playerAttributesController.audioSource.PlayOneShot(attackSoundClip);
 
             // Initiate animations
             // -----------------------------------------------
