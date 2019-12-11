@@ -2544,6 +2544,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fadeAnim: {fileID: 585387569}
   players: []
+  curSceneName: 
   transitionChecker: []
 --- !u!114 &4892756558837502993
 MonoBehaviour:
@@ -2585,9 +2586,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BGThemes:
-  - {fileID: 8300000, guid: f4a6079a9d88afe4ca51cc5578c8e52c, type: 3}
-  - {fileID: 8300000, guid: 92e9b9a8a6306144abf2c6bd90cebead, type: 3}
-  - {fileID: 8300000, guid: fab362d67e4f1ec4c807362efccb3435, type: 3}
+  - key: Main Menu
+    value: {fileID: 8300000, guid: f4a6079a9d88afe4ca51cc5578c8e52c, type: 3}
+  - key: Embarcadero
+    value: {fileID: 8300000, guid: 92e9b9a8a6306144abf2c6bd90cebead, type: 3}
+  - key: Powell
+    value: {fileID: 8300000, guid: fab362d67e4f1ec4c807362efccb3435, type: 3}
 --- !u!82 &5577216758867521559
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3338,11 +3342,26 @@ PrefabInstance:
       propertyPath: attackChainAttackStartTimer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6670154161898740581, guid: 3fd4559e8fbf672418cdeed3e63df3aa,
+        type: 3}
+      propertyPath: attackSoundClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 81eb7ae390a65f24d8a1e2bc02ea5cea, type: 3}
     - target: {fileID: 6670154161898740580, guid: 3fd4559e8fbf672418cdeed3e63df3aa,
         type: 3}
       propertyPath: playerRespawnTimer
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 6670154161898740580, guid: 3fd4559e8fbf672418cdeed3e63df3aa,
+        type: 3}
+      propertyPath: playerTakingDamage
+      value: 
+      objectReference: {fileID: 8300000, guid: 534120e986c42f14884f82985ed49049, type: 3}
+    - target: {fileID: 6670154161898740580, guid: 3fd4559e8fbf672418cdeed3e63df3aa,
+        type: 3}
+      propertyPath: playerDeathSound
+      value: 
+      objectReference: {fileID: 8300000, guid: f712daaf240fc534c94fe327a20e017e, type: 3}
     - target: {fileID: 6670154161898740580, guid: 3fd4559e8fbf672418cdeed3e63df3aa,
         type: 3}
       propertyPath: P2_Health_Bar
@@ -3487,6 +3506,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7056353834178387670, guid: bfb467114bf6b0842ae8258cbc144c69,
         type: 3}
+      propertyPath: playerTakingDamage
+      value: 
+      objectReference: {fileID: 8300000, guid: 534120e986c42f14884f82985ed49049, type: 3}
+    - target: {fileID: 7056353834178387670, guid: bfb467114bf6b0842ae8258cbc144c69,
+        type: 3}
+      propertyPath: playerDeathSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 850fa4adef1a21749a9069eb258c40c0, type: 3}
+    - target: {fileID: 7056353834178387670, guid: bfb467114bf6b0842ae8258cbc144c69,
+        type: 3}
       propertyPath: P1_Health_Bar
       value: 
       objectReference: {fileID: 2101573238}
@@ -3520,6 +3549,11 @@ PrefabInstance:
       propertyPath: partner
       value: 
       objectReference: {fileID: 6122140053685118213}
+    - target: {fileID: 7056353834178387671, guid: bfb467114bf6b0842ae8258cbc144c69,
+        type: 3}
+      propertyPath: attackSoundClip
+      value: 
+      objectReference: {fileID: 8300000, guid: a4b430da390f8244993f1c5a6559d538, type: 3}
     - target: {fileID: 7568754036165107740, guid: bfb467114bf6b0842ae8258cbc144c69,
         type: 3}
       propertyPath: m_Size.x

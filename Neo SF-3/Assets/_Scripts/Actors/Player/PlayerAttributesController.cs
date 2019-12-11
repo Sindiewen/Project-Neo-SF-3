@@ -15,6 +15,8 @@ public class PlayerAttributesController : MonoBehaviour
     public float invulnerabilityTimer;  // How long the player is invulnerable after hit
     public float staggerTimer;          // How long the player is staggered
     public float playerRespawnTimer;    // How long before the player can respawn after death
+    public AudioClip playerTakingDamage;
+    public AudioClip playerDeathSound;
 
     [Header("UI Attributes")]
     public SimpleHealthBar P1_Health_Bar;
@@ -33,7 +35,8 @@ public class PlayerAttributesController : MonoBehaviour
 
     [Header("Player Partner Attributes")]
     public PlayerAttributesController partner;
-    public ProCamera2D cam;
+    [HideInInspector] public AudioSource audioSource;
+    [HideInInspector] public ProCamera2D cam;
 
     [Header("Pickups")]
     public LayerMask pickupsCollisionMask;
@@ -66,6 +69,7 @@ public class PlayerAttributesController : MonoBehaviour
     {
         // get rb2d
         box2d = GetComponent<BoxCollider2D>();
+        audioSource = GetComponent<AudioSource>();
         
         // Get the camera
         cam = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<ProCamera2D>();
@@ -259,6 +263,10 @@ public class PlayerAttributesController : MonoBehaviour
                 death();
                 setRespawn();
             }
+            else
+            {
+                audioSource.PlayOneShot(playerTakingDamage);
+            }
         }
     }
 
@@ -285,7 +293,10 @@ public class PlayerAttributesController : MonoBehaviour
         isPlayerDead = true;
         // Kill player
         Debug.Log("player died, respawning player");
-        //gameObject.SetActive(false);
+
+        // play death sound
+        audioSource.PlayOneShot(playerDeathSound);
+
         // Remove player from camera
         cam.RemoveCameraTarget(this.transform);
 

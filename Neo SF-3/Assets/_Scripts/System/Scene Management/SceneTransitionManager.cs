@@ -26,6 +26,9 @@ public class SceneTransitionManager : MonoBehaviour
 
     public float WaitForSeconds { get; private set; }
 
+    // private variables
+    private bool dontRunMusic = true;
+
 
     #endregion
 
@@ -134,7 +137,14 @@ public class SceneTransitionManager : MonoBehaviour
     {
         getTransitionCheckers();
         curSceneName = SceneManager.GetActiveScene().name;
-        musicManager.playMusic(curSceneName);
+        if (dontRunMusic)
+        {
+            dontRunMusic = false;
+        }
+        else
+        {
+            musicManager.playMusic(curSceneName);
+        }
     }
 
     #endregion
