@@ -30,6 +30,9 @@ public class PlayerInputManager : MonoBehaviour
 
     // public Variables
     // ---------------------------------------------
+    [Header("Main Menu manager")]
+    public MainMenu mainMenu;           // Stores reference to the main menu manager
+
     [Header("Player Number")]
     public PLAYER_NUMBER player_number; // Defines which number the player is
 
@@ -76,7 +79,8 @@ public class PlayerInputManager : MonoBehaviour
     {
         // Initializes cinput
         cInput.Init();
-
+      
+        // COmponent references
         box2d = GetComponent<BoxCollider2D>();
 
         // Player must join first
@@ -150,16 +154,28 @@ public class PlayerInputManager : MonoBehaviour
         // Player 1 = "_p1"
         else
         {
-            cInput.SetKey("Up_p1", Keys.W, Keys.Xbox1LStickUp);
-            cInput.SetKey("Down_p1", Keys.S, Keys.Xbox1LStickDown);
-            cInput.SetKey("Left_p1", Keys.A, Keys.Xbox1LStickLeft);
-            cInput.SetKey("Right_p1", Keys.D, Keys.Xbox1LStickRight);
-            cInput.SetKey("Attack_p1", Keys.C, Keys.Xbox1X);
-            cInput.SetKey("Sprint_p1", Keys.V, Keys.Xbox1TriggerRight);
-            cInput.SetKey("kill", Keys.Q);
+            // If not paused, player in game
+            if (!mainMenu.IsPaused)
+            {
+                cInput.SetKey("Up_p1", Keys.W, Keys.Xbox1LStickUp);
+                cInput.SetKey("Down_p1", Keys.S, Keys.Xbox1LStickDown);
+                cInput.SetKey("Left_p1", Keys.A, Keys.Xbox1LStickLeft);
+                cInput.SetKey("Right_p1", Keys.D, Keys.Xbox1LStickRight);
+                cInput.SetKey("Attack_p1", Keys.C, Keys.Xbox1X);
+                cInput.SetKey("Sprint_p1", Keys.V, Keys.Xbox1TriggerRight);
+                cInput.SetKey("kill", Keys.Q);
 
-            cInput.SetAxis("Horizontal_p1", "Left_p1", "Right_p1");
-            cInput.SetAxis("Vertical_p1", "Down_p1", "Up_p1");
+                cInput.SetAxis("Horizontal_p1", "Left_p1", "Right_p1");
+                cInput.SetAxis("Vertical_p1", "Down_p1", "Up_p1");
+            }
+            // Player paused
+            else
+            {
+                cInput.SetKey("Submit", Keys.C, Keys.Xbox1A);
+
+            }
+
+            
         }
     }
 
@@ -173,18 +189,30 @@ public class PlayerInputManager : MonoBehaviour
     {
         if (player_number == PLAYER_NUMBER.PLAYER_ONE)
         {
-            canMove = true;
-            // Move the player
-            // Get horizontal and vertical input
-            moveDirection.x = cInput.GetAxisRaw("Horizontal_p1");
-            moveDirection.y = cInput.GetAxisRaw("Vertical_p1");
+            if (!mainMenu.IsPaused)
+            {
+                canMove = true;
+                // Move the player
+                // Get horizontal and vertical input
+                moveDirection.x = cInput.GetAxisRaw("Horizontal_p1");
+                moveDirection.y = cInput.GetAxisRaw("Vertical_p1");
 
-            // check for attackInput
-            // If the player presses the attack key, set attacking to true
-            //isAttacking = Input.GetButtonDown(attackKey);
-            isAttacking = cInput.GetKeyDown("Attack_p1");
-            isSprinting = cInput.GetKey("Sprint_p1");
-            killPlayer = cInput.GetKey("kill");
+                // Get key inputs
+                isAttacking = cInput.GetKeyDown("Attack_p1");
+                isSprinting = cInput.GetKey("Sprint_p1");
+                killPlayer = cInput.GetKey("kill");
+            }
+            else
+            {
+                /*
+                 * When player presses xboxA, start game
+                 */
+                if (cInput.GetKeyDown("Submit"))
+                {
+                    mainMenu.startNewGame();
+                    defineControlscInput();
+                }
+            }
         }
         else    // Player 2
         {
@@ -254,10 +282,17 @@ public class PlayerInputManager : MonoBehaviour
         get { return p2ControlState; }
     }
 
+    /// <summary>
+    /// Returns if p2 can be controlled
+    /// </summary>
     public bool CanControlP2
     {
         get { return canControlP2; }
     }
+
+    /// <summary>
+    ///  Returns if player can move
+    /// </summary>
     public bool CanMove
     {
         get { return canMove; }
@@ -269,16 +304,25 @@ public class PlayerInputManager : MonoBehaviour
         get { return moveDirection; }
     }
 
+    /// <summary>
+    /// Returns if player if pressing attacking key
+    /// </summary>
     public bool IsAttacking
     {
         get { return isAttacking; }
     }
 
+    /// <summary>
+    /// Returns if player is pressing sprint key
+    /// </summary>
     public bool IsSprinting
     {
         get { return isSprinting; }
     }
 
+    /// <summary>
+    /// Kill bind
+    /// </summary>
     public bool KillPlayer
     {
         get { return killPlayer; }
