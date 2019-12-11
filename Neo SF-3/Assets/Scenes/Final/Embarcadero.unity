@@ -21252,6 +21252,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1153376398059888425, guid: b55d0dd1fe8d2774b96d09be4d61e694,
+        type: 3}
+      propertyPath: BGThemes.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1153376398059888425, guid: b55d0dd1fe8d2774b96d09be4d61e694,
+        type: 3}
+      propertyPath: BGThemes.Array.data[0].key
+      value: Main Menu
+      objectReference: {fileID: 0}
+    - target: {fileID: 1153376398059888425, guid: b55d0dd1fe8d2774b96d09be4d61e694,
+        type: 3}
+      propertyPath: BGThemes.Array.data[0].value
+      value: 
+      objectReference: {fileID: 8300000, guid: f4a6079a9d88afe4ca51cc5578c8e52c, type: 3}
+    - target: {fileID: 1153376398059888425, guid: b55d0dd1fe8d2774b96d09be4d61e694,
+        type: 3}
+      propertyPath: BGThemes.Array.data[1].value
+      value: 
+      objectReference: {fileID: 8300000, guid: 92e9b9a8a6306144abf2c6bd90cebead, type: 3}
+    - target: {fileID: 1153376398059888425, guid: b55d0dd1fe8d2774b96d09be4d61e694,
+        type: 3}
+      propertyPath: BGThemes.Array.data[2].value
+      value: 
+      objectReference: {fileID: 8300000, guid: fab362d67e4f1ec4c807362efccb3435, type: 3}
+    - target: {fileID: 1153376398059888425, guid: b55d0dd1fe8d2774b96d09be4d61e694,
+        type: 3}
+      propertyPath: BGThemes.Array.data[1].key
+      value: Embarcadero
+      objectReference: {fileID: 0}
+    - target: {fileID: 1153376398059888425, guid: b55d0dd1fe8d2774b96d09be4d61e694,
+        type: 3}
+      propertyPath: BGThemes.Array.data[2].key
+      value: Powell
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b55d0dd1fe8d2774b96d09be4d61e694, type: 3}
 --- !u!1 &1568158136

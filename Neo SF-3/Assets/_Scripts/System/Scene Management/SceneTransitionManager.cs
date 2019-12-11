@@ -14,9 +14,11 @@ public class SceneTransitionManager : MonoBehaviour
     [Header("Scene Manager")]
     public Animator fadeAnim;
     public PlayerInputManager[] players;
+    public string curSceneName;
 
     // Priavate variables
     private TransitionSetter nextScene;
+    private WorldMusicManager musicManager;
     private string nextSceneToTransition;
     private bool levelSet = false;
     private GameObject TransitionCheckerGO;
@@ -30,10 +32,15 @@ public class SceneTransitionManager : MonoBehaviour
 
     #region private Methods
 
+    /// <summary>
+    /// Unity start methods
+    /// 
+    /// Runs at initialization
+    /// </summary>
     private void Start()
     {
-        players = transform.GetComponentsInChildren<PlayerInputManager>(); 
-        //getTransitionCheckers();
+        players = transform.GetComponentsInChildren<PlayerInputManager>();
+        musicManager = GetComponent<WorldMusicManager>();
     }   
 
     private void getTransitionCheckers()
@@ -120,9 +127,14 @@ public class SceneTransitionManager : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Loads next scene
+    /// </summary>
     public void load()
     {
         getTransitionCheckers();
+        curSceneName = SceneManager.GetActiveScene().name;
+        musicManager.playMusic(curSceneName);
     }
 
     #endregion

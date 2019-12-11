@@ -2,6 +2,7 @@
 
 public class MainMenu : MonoBehaviour
 {
+    // Variables
     #region Variables
 
     // Public VAriables
@@ -11,11 +12,30 @@ public class MainMenu : MonoBehaviour
 
     // private variables
     // ---------------------------------
+    // Component references
+    private SceneTransitionManager sceneManager;
+    private WorldMusicManager musicManager;
+
     private bool isPaused = true;
 
 
     #endregion
 
+    #region private methods
+
+
+    private void Start()
+    {
+        // get components
+        sceneManager = GetComponent<SceneTransitionManager>();
+        musicManager = GetComponent<WorldMusicManager>();
+    }
+
+
+    #endregion
+
+
+    //Public methods
     #region public Methods
 
 
@@ -29,13 +49,17 @@ public class MainMenu : MonoBehaviour
         playerUI.SetActive(true);
 
         // return control to the player
-        isPaused = false; 
+        isPaused = false;
+
+        // Play curLevelMusic
+        musicManager.playMusic(sceneManager.curSceneName);
     }
 
 
     #endregion
 
 
+    // Getters setters
     #region getters/setters
 
 
