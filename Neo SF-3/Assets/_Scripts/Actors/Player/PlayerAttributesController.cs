@@ -18,8 +18,14 @@ public class PlayerAttributesController : MonoBehaviour
 
     [Header("UI Attributes")]
     public SimpleHealthBar P1_Health_Bar;
-    public SimpleHealthBar P2_Health_Bar;
+    public GameObject P1_healthTextHolder;
+    public TextMeshProUGUI P1_curHPText;
+    public TextMeshProUGUI P1_MaxHPText;
     public TextMeshProUGUI P1_Respawn_Text;
+    public SimpleHealthBar P2_Health_Bar;
+    public GameObject P2_healthTextHolder;
+    public TextMeshProUGUI P2_curHPText;
+    public TextMeshProUGUI P2_maxHPText;
     public TextMeshProUGUI P2_Respawn_Text;
 
     [Header("Player Combat Values")]
@@ -282,6 +288,15 @@ public class PlayerAttributesController : MonoBehaviour
         //gameObject.SetActive(false);
         // Remove player from camera
         cam.RemoveCameraTarget(this.transform);
+
+        if (player_number == 0)
+        {
+            P1_healthTextHolder.SetActive(false);
+        }
+        else
+        {
+            P2_healthTextHolder.SetActive(false);
+        }
     }
 
     /// <summary>
@@ -296,6 +311,14 @@ public class PlayerAttributesController : MonoBehaviour
 
         // restore health
         playerHealth = playerHealthMax;
+        if (player_number == 0)
+        {
+            P1_healthTextHolder.SetActive(true);
+        }
+        else
+        {
+            P2_healthTextHolder.SetActive(true);
+        }
         updateHealthBars();
 
         // Set respawn text
@@ -327,10 +350,14 @@ public class PlayerAttributesController : MonoBehaviour
         if (player_number == 0)
         {
             P1_Health_Bar.UpdateBar(playerHealth, playerHealthMax);
+            P1_curHPText.text = playerHealth.ToString();
+            P1_MaxHPText.text = playerHealthMax.ToString();
         }
         else
         {
             P2_Health_Bar.UpdateBar(playerHealth, playerHealthMax);
+            P2_curHPText.text = playerHealth.ToString();
+            P2_maxHPText.text = playerHealthMax.ToString();
         }
     }
 
