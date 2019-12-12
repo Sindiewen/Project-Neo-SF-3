@@ -63,14 +63,18 @@ public class SceneTransitionManager : MonoBehaviour
         {
             for (int i = 0; i < transitionChecker.Length; i++)
             {
-                nextScene = transitionChecker[i].hasHitPlayer();
-                // If player has been hit, change level
-                if (transitionChecker[i].hasHitPlayer() != null)
+                if (transitionChecker[i] != null)
                 {
-                    // Initiate level change
-                    levelSet = true;
-                    nextSceneToTransition = nextScene.nextScene;
-                    initLevelChange();
+                    nextScene = transitionChecker[i].hasHitPlayer();
+                    // If player has been hit, change level
+                    if (transitionChecker[i].hasHitPlayer() != null)
+                    {
+                        // Initiate level change
+                        levelSet = true;
+                        nextSceneToTransition = nextScene.nextScene;
+                        initLevelChange();
+                    }
+
                 }
             }
         }
