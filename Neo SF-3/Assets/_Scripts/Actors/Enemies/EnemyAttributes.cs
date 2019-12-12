@@ -32,6 +32,11 @@ public class EnemyAttributes : MonoBehaviour
 
     [HideInInspector] public AudioSource audioSource;
 
+    // private variables
+    // component references
+    private SpriteRenderer sprite;
+    private BoxCollider2D box2d;
+
     #endregion
 
     // Private methods
@@ -50,6 +55,8 @@ public class EnemyAttributes : MonoBehaviour
 
         // component
         audioSource = GetComponent<AudioSource>();
+        box2d = GetComponent<BoxCollider2D>();
+        sprite = GetComponent<SpriteRenderer>();
     }
 
     #endregion
@@ -88,15 +95,24 @@ public class EnemyAttributes : MonoBehaviour
                 Instantiate(newItem.itemDrop.gameObject, transform.position, Quaternion.identity);
             }
             audioSource.PlayOneShot(death);
+            box2d.enabled = false;
+            sprite.enabled = false;
 
-            // Destroy this object
-            Destroy(this.gameObject);
+
+            Invoke("enemyDeath", 1.0f);
         }
         else
         {
             audioSource.PlayOneShot(takingDamage);
         }
 
+    }
+
+
+    public void enemyDeath()
+    {
+        // Destroy this object
+        Destroy(this.gameObject);
     }
 
     #endregion

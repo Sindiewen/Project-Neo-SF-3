@@ -145,19 +145,19 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6844405014202232083}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &5822291308698055038
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -298,10 +298,14 @@ MonoBehaviour:
   atkSpeed: 5
   physDefense: 0
   enemyMoveSpeed: 1.5
+  attack: {fileID: 8300000, guid: 1fdb0b2c2a1583a47a2bffbd0e1dbd6e, type: 3}
+  takingDamage: {fileID: 8300000, guid: 0516e6dcf137d164ba8fccd37a4fca6f, type: 3}
+  death: {fileID: 8300000, guid: bb5b96485f313234da7c028107f67f63, type: 3}
   itemDrops:
   - itemDrop: {fileID: 3381427933113822655, guid: 69711f76f9b364b47818872e580c14c2,
       type: 3}
     itemDropRate: 75
+  audioSource: {fileID: 0}
 --- !u!114 &644893944
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -318,7 +322,7 @@ MonoBehaviour:
     Radius: 4
     Position: {x: 0, y: 0}
   followCircle:
-    Radius: 15
+    Radius: 12
     Position: {x: 0, y: 0}
   collisionMask:
     serializedVersion: 2

@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: -335465538116355554}
   - component: {fileID: 2105258513309770296}
   - component: {fileID: 3784627788938617384}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: StreetLife
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -33,7 +33,7 @@ Transform:
   m_GameObject: {fileID: 5604388704830307749}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.7, y: 1.7, z: 1}
   m_Children:
   - {fileID: 5604388704679160738}
   - {fileID: 5609158062014781761}
@@ -117,7 +117,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5604388704830307749}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2a857ff52570f8c479946076ced790ee, type: 3}
   m_Name: 
@@ -146,7 +146,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &6844285003756238278
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -287,10 +287,14 @@ MonoBehaviour:
   atkSpeed: 3
   physDefense: 0
   enemyMoveSpeed: 3
+  attack: {fileID: 8300000, guid: 1fdb0b2c2a1583a47a2bffbd0e1dbd6e, type: 3}
+  takingDamage: {fileID: 8300000, guid: 0516e6dcf137d164ba8fccd37a4fca6f, type: 3}
+  death: {fileID: 8300000, guid: 850fa4adef1a21749a9069eb258c40c0, type: 3}
   itemDrops:
   - itemDrop: {fileID: 3381427933113822655, guid: 69711f76f9b364b47818872e580c14c2,
       type: 3}
-    itemDropRate: 75
+    itemDropRate: 40
+  audioSource: {fileID: 0}
 --- !u!114 &3784627788938617384
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -307,7 +311,7 @@ MonoBehaviour:
     Radius: 2
     Position: {x: 0, y: 0}
   followCircle:
-    Radius: 12
+    Radius: 8
     Position: {x: 0, y: 0}
   collisionMask:
     serializedVersion: 2
@@ -323,6 +327,10 @@ PrefabInstance:
     - target: {fileID: 132792, guid: 311295c84286768408e3ae92a2ba93fe, type: 3}
       propertyPath: m_Name
       value: Male - Hair - Bumblebee (Brown)
+      objectReference: {fileID: 0}
+    - target: {fileID: 132792, guid: 311295c84286768408e3ae92a2ba93fe, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 474942, guid: 311295c84286768408e3ae92a2ba93fe, type: 3}
       propertyPath: m_LocalPosition.x
@@ -369,16 +377,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 21221688, guid: 311295c84286768408e3ae92a2ba93fe, type: 3}
-      propertyPath: m_SortingOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 21221688, guid: 311295c84286768408e3ae92a2ba93fe, type: 3}
       propertyPath: m_SortingLayerID
       value: 831263577
       objectReference: {fileID: 0}
     - target: {fileID: 21221688, guid: 311295c84286768408e3ae92a2ba93fe, type: 3}
       propertyPath: m_SortingLayer
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 21221688, guid: 311295c84286768408e3ae92a2ba93fe, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11436784, guid: 311295c84286768408e3ae92a2ba93fe, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 311295c84286768408e3ae92a2ba93fe, type: 3}
@@ -398,6 +410,10 @@ PrefabInstance:
     - target: {fileID: 1407276997465256, guid: 1530a36eb5627e841b4071dc5608e7dc, type: 3}
       propertyPath: m_Name
       value: Male - Outfits - Pants
+      objectReference: {fileID: 0}
+    - target: {fileID: 1407276997465256, guid: 1530a36eb5627e841b4071dc5608e7dc, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4084443684365340, guid: 1530a36eb5627e841b4071dc5608e7dc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -442,6 +458,21 @@ PrefabInstance:
     - target: {fileID: 4084443684365340, guid: 1530a36eb5627e841b4071dc5608e7dc, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114847189156899570, guid: 1530a36eb5627e841b4071dc5608e7dc,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212619409988865594, guid: 1530a36eb5627e841b4071dc5608e7dc,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: 831263577
+      objectReference: {fileID: 0}
+    - target: {fileID: 212619409988865594, guid: 1530a36eb5627e841b4071dc5608e7dc,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 212619409988865594, guid: 1530a36eb5627e841b4071dc5608e7dc,
         type: 3}
@@ -463,16 +494,6 @@ PrefabInstance:
       propertyPath: m_Color.b
       value: 0.2000267
       objectReference: {fileID: 0}
-    - target: {fileID: 212619409988865594, guid: 1530a36eb5627e841b4071dc5608e7dc,
-        type: 3}
-      propertyPath: m_SortingLayerID
-      value: 831263577
-      objectReference: {fileID: 0}
-    - target: {fileID: 212619409988865594, guid: 1530a36eb5627e841b4071dc5608e7dc,
-        type: 3}
-      propertyPath: m_SortingLayer
-      value: 3
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1530a36eb5627e841b4071dc5608e7dc, type: 3}
 --- !u!4 &5604812280156524127 stripped
@@ -491,6 +512,10 @@ PrefabInstance:
     - target: {fileID: 1210115502598510, guid: bfe931476128f554387a95e9743573ae, type: 3}
       propertyPath: m_Name
       value: Male - Outfits - Shirt
+      objectReference: {fileID: 0}
+    - target: {fileID: 1210115502598510, guid: bfe931476128f554387a95e9743573ae, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4910816917735388, guid: bfe931476128f554387a95e9743573ae, type: 3}
       propertyPath: m_LocalPosition.x
@@ -536,6 +561,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114800074584119270, guid: bfe931476128f554387a95e9743573ae,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212254331842234902, guid: bfe931476128f554387a95e9743573ae,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: 831263577
+      objectReference: {fileID: 0}
+    - target: {fileID: 212254331842234902, guid: bfe931476128f554387a95e9743573ae,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 212254331842234902, guid: bfe931476128f554387a95e9743573ae,
         type: 3}
       propertyPath: m_SortingOrder
@@ -556,16 +596,6 @@ PrefabInstance:
       propertyPath: m_Color.b
       value: 0.14462443
       objectReference: {fileID: 0}
-    - target: {fileID: 212254331842234902, guid: bfe931476128f554387a95e9743573ae,
-        type: 3}
-      propertyPath: m_SortingLayerID
-      value: 831263577
-      objectReference: {fileID: 0}
-    - target: {fileID: 212254331842234902, guid: bfe931476128f554387a95e9743573ae,
-        type: 3}
-      propertyPath: m_SortingLayer
-      value: 3
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bfe931476128f554387a95e9743573ae, type: 3}
 --- !u!4 &5609158062014781761 stripped
@@ -584,6 +614,10 @@ PrefabInstance:
     - target: {fileID: 133858, guid: 12d62a90171af0741b3631cbe6d75694, type: 3}
       propertyPath: m_Name
       value: Male - Eyes - Yellow
+      objectReference: {fileID: 0}
+    - target: {fileID: 133858, guid: 12d62a90171af0741b3631cbe6d75694, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 468382, guid: 12d62a90171af0741b3631cbe6d75694, type: 3}
       propertyPath: m_LocalPosition.x
@@ -630,16 +664,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 21279508, guid: 12d62a90171af0741b3631cbe6d75694, type: 3}
-      propertyPath: m_SortingOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 21279508, guid: 12d62a90171af0741b3631cbe6d75694, type: 3}
       propertyPath: m_SortingLayerID
       value: 831263577
       objectReference: {fileID: 0}
     - target: {fileID: 21279508, guid: 12d62a90171af0741b3631cbe6d75694, type: 3}
       propertyPath: m_SortingLayer
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 21279508, guid: 12d62a90171af0741b3631cbe6d75694, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11419786, guid: 12d62a90171af0741b3631cbe6d75694, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12d62a90171af0741b3631cbe6d75694, type: 3}
