@@ -2330,49 +2330,10 @@ MonoBehaviour:
   - ID: 
     Dimensions:
       serializedVersion: 2
-      x: -17.340473
-      y: 51.24669
-      width: 106.18999
-      height: 116.46
-    TransitionDuration: 1
-    TransitionEaseType: 0
-    ScaleCameraToFit: 0
-    Zoom: 0
-    ZoomScale: 1.5
-    InternalID: 0
-  - ID: 
-    Dimensions:
-      serializedVersion: 2
-      x: 74.26953
-      y: 69.14669
-      width: 77.02999
-      height: 80.25999
-    TransitionDuration: 1
-    TransitionEaseType: 0
-    ScaleCameraToFit: 0
-    Zoom: 0
-    ZoomScale: 1.5
-    InternalID: 0
-  - ID: 
-    Dimensions:
-      serializedVersion: 2
-      x: 74.61395
-      y: -22.697096
-      width: 77.48001
-      height: 103.14
-    TransitionDuration: 1
-    TransitionEaseType: 0
-    ScaleCameraToFit: 0
-    Zoom: 0
-    ZoomScale: 1.5
-    InternalID: 0
-  - ID: 
-    Dimensions:
-      serializedVersion: 2
-      x: -17.19064
-      y: -40.73514
-      width: 106.19001
-      height: 67.119995
+      x: 31.421558
+      y: -25.975515
+      width: 218.83998
+      height: 220.75002
     TransitionDuration: 1
     TransitionEaseType: 0
     ScaleCameraToFit: 0
@@ -22347,6 +22308,10 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 652945424, guid: b55d0dd1fe8d2774b96d09be4d61e694, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b55d0dd1fe8d2774b96d09be4d61e694, type: 3}
