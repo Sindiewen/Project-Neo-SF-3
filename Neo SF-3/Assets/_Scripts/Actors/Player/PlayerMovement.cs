@@ -68,10 +68,12 @@ public class PlayerMovement : MonoBehaviour
     /// </summary>
     public void initiatiteMovement(Vector2 moveDirection, bool isSprinting)
     {
-        
+
         // Move player position based on the current player position + the direction the player is moving,
         // Then multiply that by the speed the player will move, and then multiplay that by deltaTime to ensure
         // it's moving at realtime
+
+        anim.SetTrigger("isMoving");
 
         // Player moving and facing upwards, moving up diagonals left or right
         if (moveDirection.y > 0 && (moveDirection.x <= 0.5f || moveDirection.x >= -0.5f))
