@@ -76,7 +76,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 831263577
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300256, guid: 37596e7f63b20894fb4d02ca5a7cbb39, type: 3}
   m_Color: {r: 1, g: 0.9858491, b: 0.9858491, a: 1}
@@ -269,6 +269,11 @@ MonoBehaviour:
   atkSpeed: 2
   physDefense: 0
   enemyMoveSpeed: 2.5
+  uiPrefab: {fileID: 8714987196686966317, guid: 077380a6e320c154bb4a4663c8483815,
+    type: 3}
+  uiPrefabSpawnLoc: {x: 0, y: -0.5, z: 0}
+  healthCanvasParent: {fileID: 0}
+  uiPrefabClone: {fileID: 0}
   attack: {fileID: 8300000, guid: 1fdb0b2c2a1583a47a2bffbd0e1dbd6e, type: 3}
   takingDamage: {fileID: 8300000, guid: 0516e6dcf137d164ba8fccd37a4fca6f, type: 3}
   death: {fileID: 8300000, guid: f712daaf240fc534c94fe327a20e017e, type: 3}
@@ -284,7 +289,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2858300135298332775}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 17e86ed978ccd8248af9729e2240c934, type: 3}
   m_Name: 
@@ -368,7 +373,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 21272404, guid: f88bceb473f761d409c819bb4f33cc4b, type: 3}
       propertyPath: m_SortingLayer
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 21272404, guid: f88bceb473f761d409c819bb4f33cc4b, type: 3}
       propertyPath: m_SortingOrder
@@ -459,7 +464,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 21258992, guid: 740ef0ecc531cfb4795566ad77f6815e, type: 3}
       propertyPath: m_SortingLayer
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 21258992, guid: 740ef0ecc531cfb4795566ad77f6815e, type: 3}
       propertyPath: m_SortingOrder
@@ -542,7 +547,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 21279508, guid: 12d62a90171af0741b3631cbe6d75694, type: 3}
       propertyPath: m_SortingLayer
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 21279508, guid: 12d62a90171af0741b3631cbe6d75694, type: 3}
       propertyPath: m_SortingOrder

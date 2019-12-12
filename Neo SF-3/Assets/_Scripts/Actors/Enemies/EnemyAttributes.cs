@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using TMPro;
 
 [System.Serializable]
 public class itemDrops
@@ -21,6 +22,17 @@ public class EnemyAttributes : MonoBehaviour
     public float atkSpeed;          // How fast the enemy can attack per second
     public int physDefense;         // How much damage the enemy will resist
     public float enemyMoveSpeed;
+
+    [Header("World space UI")]
+    public GameObject uiPrefab;
+    public Vector3 uiPrefabSpawnLoc;
+    public RectTransform healthCanvasParent;
+
+    private SimpleHealthBar enemyHealthBar;
+    private TextMeshProUGUI curHP;
+    private TextMeshProUGUI maxHP;
+    private RectTransform uiTransform;
+    public GameObject uiPrefabClone;
 
     [Header("Sounds")]
     public AudioClip attack;
@@ -57,8 +69,36 @@ public class EnemyAttributes : MonoBehaviour
         audioSource = GetComponent<AudioSource>();
         box2d = GetComponent<BoxCollider2D>();
         sprite = GetComponent<SpriteRenderer>();
+
+
+        healthCanvasParent = GameObject.FindGameObjectWithTag("enemyUIHealthParent").GetComponent<RectTransform>();
+        // create ui
+        // -------------------------------------------------------------------------------------
+        // Gets, instantiates the UI prefab at above the actor and sets the parent to the world space canvas
+        uiPrefabClone = Instantiate(uiPrefab, transform.position, Quaternion.identity);
+        uiTransform = uiPrefabClone.GetComponent<RectTransform>();
+        uiPrefabClone.transform.SetParent(healthCanvasParent, false);
+        uiTransform.position = uiPrefabSpawnLoc + transform.position;
+
+        // Sets the respective component references for the UI 
+        enemyHealthBar = uiPrefabClone.transform.GetChild(0).GetChild(0).GetComponent<SimpleHealthBar>();
+        curHP = uiPrefabClone.transform.GetChild(0).GetChild(1).GetChild(1).GetComponent<TextMeshProUGUI>();
+        maxHP = uiPrefabClone.transform.GetChild(0).GetChild(1).GetChild(3).GetComponent<TextMeshProUGUI>();
+        updateEnemyUI();
+
     }
 
+    private void Update()
+    {
+        uiTransform.position = transform.position + uiPrefabSpawnLoc;
+    }
+
+    private void updateEnemyUI()
+    {
+        enemyHealthBar.UpdateBar(curHealth, maxHealth);
+        curHP.text = curHealth.ToString();
+        maxHP.text = maxHealth.ToString();  
+    }
     #endregion
 
     #region public Methods
@@ -81,6 +121,8 @@ public class EnemyAttributes : MonoBehaviour
             Debug.Log(this.name + " is taking 1 damage");
             curHealth -= 1;
         }
+
+        updateEnemyUI();
 
         // Check for enemy knockout
         if (curHealth <= 0)
@@ -112,6 +154,7 @@ public class EnemyAttributes : MonoBehaviour
     public void enemyDeath()
     {
         // Destroy this object
+        Destroy(uiPrefabClone);
         Destroy(this.gameObject);
     }
 
