@@ -1,0 +1,27 @@
+I was getting the following error: 
+MissingReferenceException: The object of type 'SceneTransitionChecker' has been destroyed but you are still trying to access it.
+Your script should either check if it is null or you should not destroy the object.
+SceneTransitionChecker.hasHitPlayer () (at Assets/_Scripts/System/Scene Management/SceneTransitionChecker.cs:25)
+SceneTransitionManager.Update () (at Assets/_Scripts/System/Scene Management/SceneTransitionManager.cs:66)
+
+I added "if (transitionChecker[i] != null)" at Assets/_Scripts/System/Scene Management/SceneTransitionManager.cs:66, and that seems to have cleared the above error without causing any other problems.
+
+Also added isMoving bool to Cyril_Animation to clear the warning re: isMoving from console.
+
+
+Change Player_2_final RigidBody 2D Body Type from Kinemetic to Dynamic (no effect, switched back)
+
+Cyril is not interacting with obstacles in the environment.
+
+Unchecking Player_2_final isTrigger in Box Collider 2D allows Cyril to interact with obstacles, but it also causes both heros to interact with each other as obstacles. If one bumps into the other, they start to drift without move input from controllers.
+
+Barrels are not obstacles.
+
+Turns out that when enemies bump into active player is causes the player to start drifiting.
+
+
+
+
+
+
+

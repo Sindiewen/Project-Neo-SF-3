@@ -51,9 +51,28 @@ public class PlayerMovement : MonoBehaviour
         //_tether = GetComponent<PlayerTetherController>();
 
         // Setting facing direction
-        facingDirection = PLAYER_FACING_DIRECTION.UP;
-        anim.SetFloat("Vertical", 1);
-        anim.SetFloat("Horizontal", 0);
+        // Player moving and facing upwards, moving up diagonals left or right
+        if (facingDirection == PLAYER_FACING_DIRECTION.UP)
+        {
+            anim.SetFloat("Horizontal", 0);
+            anim.SetFloat("Vertical", 1);
+        }
+        else if (facingDirection == PLAYER_FACING_DIRECTION.DOWN)
+        {
+            anim.SetFloat("Horizontal", 0);
+            anim.SetFloat("Vertical", -1);
+        }
+        // If player if moving and facing right, moving right diagonals up or down
+        else if (facingDirection == PLAYER_FACING_DIRECTION.RIGHT)
+        {
+            anim.SetFloat("Horizontal", 1);
+            anim.SetFloat("Vertical", 0);
+        }
+        else if (facingDirection == PLAYER_FACING_DIRECTION.LEFT)
+        {
+            anim.SetFloat("Horizontal", -1);
+            anim.SetFloat("Vertical", 0);
+        }
     }
 
     #endregion
