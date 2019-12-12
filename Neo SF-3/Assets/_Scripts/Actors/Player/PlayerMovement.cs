@@ -73,7 +73,7 @@ public class PlayerMovement : MonoBehaviour
         // Then multiply that by the speed the player will move, and then multiplay that by deltaTime to ensure
         // it's moving at realtime
 
-        anim.SetTrigger("isMoving");
+        
 
         // Player moving and facing upwards, moving up diagonals left or right
         if (moveDirection.y > 0 && (moveDirection.x <= 0.5f || moveDirection.x >= -0.5f))
@@ -120,10 +120,11 @@ public class PlayerMovement : MonoBehaviour
 
         
         // Move the player
-        if (tempMove != Vector2.zero)// && movementAllowed(ref tempMove))
+        if (moveDirection != Vector2.zero)// && movementAllowed(ref tempMove))
         {
             // Sets position, moves player
             rb2d.MovePosition(tempMove);
+            anim.SetTrigger("isMoving");
         }
 
 
