@@ -8,6 +8,7 @@ TagManager:
   - playerHolder
   - Enemy
   - Pickups
+  - enemyUIHealthParent
   layers:
   - Default
   - TransparentFX
