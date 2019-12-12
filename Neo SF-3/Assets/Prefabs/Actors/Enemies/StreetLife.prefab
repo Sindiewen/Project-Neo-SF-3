@@ -78,7 +78,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 831263577
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300256, guid: 2a37380d76fc45b4ab8ee3bdfdfd1764, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -286,7 +286,7 @@ MonoBehaviour:
   atkStrength: 5
   atkSpeed: 3
   physDefense: 0
-  enemyMoveSpeed: 3
+  enemyMoveSpeed: 2
   attack: {fileID: 8300000, guid: 1fdb0b2c2a1583a47a2bffbd0e1dbd6e, type: 3}
   takingDamage: {fileID: 8300000, guid: 0516e6dcf137d164ba8fccd37a4fca6f, type: 3}
   death: {fileID: 8300000, guid: 850fa4adef1a21749a9069eb258c40c0, type: 3}
@@ -382,7 +382,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 21221688, guid: 311295c84286768408e3ae92a2ba93fe, type: 3}
       propertyPath: m_SortingLayer
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 21221688, guid: 311295c84286768408e3ae92a2ba93fe, type: 3}
       propertyPath: m_SortingOrder
@@ -472,7 +472,7 @@ PrefabInstance:
     - target: {fileID: 212619409988865594, guid: 1530a36eb5627e841b4071dc5608e7dc,
         type: 3}
       propertyPath: m_SortingLayer
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 212619409988865594, guid: 1530a36eb5627e841b4071dc5608e7dc,
         type: 3}
@@ -574,7 +574,7 @@ PrefabInstance:
     - target: {fileID: 212254331842234902, guid: bfe931476128f554387a95e9743573ae,
         type: 3}
       propertyPath: m_SortingLayer
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 212254331842234902, guid: bfe931476128f554387a95e9743573ae,
         type: 3}
@@ -669,7 +669,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 21279508, guid: 12d62a90171af0741b3631cbe6d75694, type: 3}
       propertyPath: m_SortingLayer
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 21279508, guid: 12d62a90171af0741b3631cbe6d75694, type: 3}
       propertyPath: m_SortingOrder
