@@ -51,12 +51,12 @@ TagManager:
   - name: Floor
     uniqueID: 3361414463
     locked: 0
+  - name: FloorDecor
+    uniqueID: 1874065017
+    locked: 0
   - name: Actors
     uniqueID: 831263577
     locked: 0
   - name: Obstacles
     uniqueID: 2385772713
-    locked: 0
-  - name: AboveFloor
-    uniqueID: 1874065017
     locked: 0
