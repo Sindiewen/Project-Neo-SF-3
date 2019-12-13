@@ -306,7 +306,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2906482919093692383}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 17e86ed978ccd8248af9729e2240c934, type: 3}
   m_Name: 
@@ -425,14 +425,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2906482919093941833}
     m_Modifications:
-    - target: {fileID: 1779869088753672, guid: 12299246180c06a46b3b2d2ba9d27a6e, type: 3}
-      propertyPath: m_Name
-      value: Female - Outfits - Paladin Armor
-      objectReference: {fileID: 0}
-    - target: {fileID: 1779869088753672, guid: 12299246180c06a46b3b2d2ba9d27a6e, type: 3}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
     - target: {fileID: 4630541610277326, guid: 12299246180c06a46b3b2d2ba9d27a6e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -476,6 +468,14 @@ PrefabInstance:
     - target: {fileID: 4630541610277326, guid: 12299246180c06a46b3b2d2ba9d27a6e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1779869088753672, guid: 12299246180c06a46b3b2d2ba9d27a6e, type: 3}
+      propertyPath: m_Name
+      value: Female - Outfits - Paladin Armor
+      objectReference: {fileID: 0}
+    - target: {fileID: 1779869088753672, guid: 12299246180c06a46b3b2d2ba9d27a6e, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 114295402173683204, guid: 12299246180c06a46b3b2d2ba9d27a6e,
         type: 3}
