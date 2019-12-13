@@ -244,7 +244,15 @@ MonoBehaviour:
   atkSpeed: 2
   physDefense: 0
   enemyMoveSpeed: 2
+  uiPrefab: {fileID: 0}
+  uiPrefabSpawnLoc: {x: 0, y: 0, z: 0}
+  healthCanvasParent: {fileID: 0}
+  uiPrefabClone: {fileID: 0}
+  attack: {fileID: 0}
+  takingDamage: {fileID: 0}
+  death: {fileID: 0}
   itemDrops: []
+  audioSource: {fileID: 0}
 --- !u!114 &8699305339501696783
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -299,6 +299,9 @@ MonoBehaviour:
   - itemDrop: {fileID: 3381427933113822655, guid: 69711f76f9b364b47818872e580c14c2,
       type: 3}
     itemDropRate: 40
+  - itemDrop: {fileID: 3381427933113822655, guid: 027f642c266d0914cbe2e370f14caa9e,
+      type: 3}
+    itemDropRate: 40
   audioSource: {fileID: 0}
 --- !u!114 &3784627788938617384
 MonoBehaviour:
@@ -307,7 +310,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5604388704830307749}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 17e86ed978ccd8248af9729e2240c934, type: 3}
   m_Name: 
@@ -329,6 +332,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5604388704829854671}
     m_Modifications:
+    - target: {fileID: 132792, guid: 311295c84286768408e3ae92a2ba93fe, type: 3}
+      propertyPath: m_Name
+      value: Male - Hair - Bumblebee (Brown)
+      objectReference: {fileID: 0}
+    - target: {fileID: 132792, guid: 311295c84286768408e3ae92a2ba93fe, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 474942, guid: 311295c84286768408e3ae92a2ba93fe, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -372,14 +383,6 @@ PrefabInstance:
     - target: {fileID: 474942, guid: 311295c84286768408e3ae92a2ba93fe, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 132792, guid: 311295c84286768408e3ae92a2ba93fe, type: 3}
-      propertyPath: m_Name
-      value: Male - Hair - Bumblebee (Brown)
-      objectReference: {fileID: 0}
-    - target: {fileID: 132792, guid: 311295c84286768408e3ae92a2ba93fe, type: 3}
-      propertyPath: m_Layer
-      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 21221688, guid: 311295c84286768408e3ae92a2ba93fe, type: 3}
       propertyPath: m_SortingLayerID
