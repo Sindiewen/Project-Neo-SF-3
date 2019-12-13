@@ -7739,8 +7739,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks: []
-  selectedCommands:
-  - {fileID: 737898213}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -32243,10 +32242,6 @@ PrefabInstance:
     - target: {fileID: 6081397554420875556, guid: b55d0dd1fe8d2774b96d09be4d61e694,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 12436837, guid: b55d0dd1fe8d2774b96d09be4d61e694, type: 3}
-      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

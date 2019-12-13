@@ -145,6 +145,10 @@ public class PlayerMovement : MonoBehaviour
             rb2d.MovePosition(tempMove);
             anim.SetTrigger("isMoving");
         }
+        else
+        {
+            rb2d.MovePosition(transform.position);
+        }
 
 
     }

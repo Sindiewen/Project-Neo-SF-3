@@ -3495,7 +3495,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6081397554420875579}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cccd82484939d5442a50f374f0ce8038, type: 3}
   m_Name: 
@@ -4207,6 +4207,11 @@ PrefabInstance:
       propertyPath: partner
       value: 
       objectReference: {fileID: 1125009643396303804}
+    - target: {fileID: 6670154161898740591, guid: 3fd4559e8fbf672418cdeed3e63df3aa,
+        type: 3}
+      propertyPath: m_BodyType
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8615391039847509286, guid: 3fd4559e8fbf672418cdeed3e63df3aa,
         type: 3}
       propertyPath: m_LocalPosition.z
@@ -4302,6 +4307,11 @@ PrefabInstance:
     - target: {fileID: 7056353834178387660, guid: bfb467114bf6b0842ae8258cbc144c69,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7056353834178387666, guid: bfb467114bf6b0842ae8258cbc144c69,
+        type: 3}
+      propertyPath: m_BodyType
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7056353834178387667, guid: bfb467114bf6b0842ae8258cbc144c69,

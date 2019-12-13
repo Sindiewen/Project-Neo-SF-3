@@ -48,7 +48,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7056353834178387663}
-  m_BodyType: 0
+  m_BodyType: 2
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -235,11 +235,13 @@ MonoBehaviour:
   P1_curHPText: {fileID: 0}
   P1_MaxHPText: {fileID: 0}
   P1_Respawn_Text: {fileID: 0}
+  p1_strText: {fileID: 0}
   P2_Health_Bar: {fileID: 0}
   P2_healthTextHolder: {fileID: 0}
   P2_curHPText: {fileID: 0}
   P2_maxHPText: {fileID: 0}
   P2_Respawn_Text: {fileID: 0}
+  p2_strText: {fileID: 0}
   AttackStrength: 10
   partner: {fileID: 0}
   audioSource: {fileID: 0}
