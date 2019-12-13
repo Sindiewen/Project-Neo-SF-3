@@ -63,8 +63,8 @@ public class SceneTransitionManager : MonoBehaviour
         {
             for (int i = 0; i < transitionChecker.Length; i++)
             {
-                if (transitionChecker[i] != null)
-                {
+                //if (transitionChecker[i] != null)
+                //{
                     nextScene = transitionChecker[i].hasHitPlayer();
                     // If player has been hit, change level
                     if (transitionChecker[i].hasHitPlayer() != null)
@@ -75,7 +75,7 @@ public class SceneTransitionManager : MonoBehaviour
                         initLevelChange();
                     }
 
-                }
+                //}
             }
         }
         

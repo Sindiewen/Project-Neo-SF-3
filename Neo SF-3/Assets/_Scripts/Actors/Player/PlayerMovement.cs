@@ -151,6 +151,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void followPartner(PlayerAttributesController playerAttributes)
     {
+        anim.SetBool("isMoving", true);
 
         // FOllow player 1
         Vector3 moveDirection = (playerAttributes.partner.transform.position) - transform.position;
