@@ -278,9 +278,15 @@ MonoBehaviour:
   takingDamage: {fileID: 8300000, guid: 0516e6dcf137d164ba8fccd37a4fca6f, type: 3}
   death: {fileID: 8300000, guid: f712daaf240fc534c94fe327a20e017e, type: 3}
   itemDrops:
-  - itemDrop: {fileID: 3381427933113822655, guid: 69711f76f9b364b47818872e580c14c2,
+  - itemDrop: {fileID: 3381427933113822655, guid: 027f642c266d0914cbe2e370f14caa9e,
       type: 3}
     itemDropRate: 20
+  - itemDrop: {fileID: 3381427933113822655, guid: c4bd8d09adad7e44ba13697eb2b3b3ef,
+      type: 3}
+    itemDropRate: 60
+  - itemDrop: {fileID: 3381427933113822655, guid: 3072febc48c87d64ea6f2f8ec1a17700,
+      type: 3}
+    itemDropRate: 45
   audioSource: {fileID: 0}
 --- !u!114 &1703597558724912676
 MonoBehaviour:

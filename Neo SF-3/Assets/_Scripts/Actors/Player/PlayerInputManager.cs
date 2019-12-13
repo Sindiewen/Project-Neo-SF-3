@@ -56,6 +56,7 @@ public class PlayerInputManager : MonoBehaviour
     private bool isAttacking;
     private bool isSprinting;
     private bool killPlayer;
+    private bool killPlayerP2;
 
     // Timers
     private float flashTimer = 1.0f;
@@ -145,6 +146,7 @@ public class PlayerInputManager : MonoBehaviour
                 cInput.SetKey("Attack_p2", Keys.Comma, Keys.Xbox2X);
                 cInput.SetKey("Sprint_p2", Keys.Period, Keys.Xbox2TriggerRight);
                 cInput.SetKey("DropOut", Keys.RightBracket, Keys.Xbox2Back);
+                cInput.SetKey("p2_kill", Keys.P);
 
                 cInput.SetAxis("Horizontal_p2", "Left_p2", "Right_p2");
                 cInput.SetAxis("Vertical_p2", "Down_p2", "Up_p2");
@@ -229,6 +231,7 @@ public class PlayerInputManager : MonoBehaviour
                 isAttacking = cInput.GetKeyDown("Attack_p2");
                 isSprinting = cInput.GetKey("Sprint_p2");
                 dropOutPlayer = cInput.GetKeyDown("DropOut");
+                killPlayerP2 = cInput.GetKeyDown("p2_kill");
 
                 // To drop out player 2
                 if (dropOutPlayer)
@@ -326,6 +329,11 @@ public class PlayerInputManager : MonoBehaviour
     public bool KillPlayer
     {
         get { return killPlayer; }
+    }
+
+    public bool KillPlayer2
+    {
+        get { return killPlayerP2; }
     }
 
     #endregion
