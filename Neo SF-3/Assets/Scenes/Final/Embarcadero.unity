@@ -7707,6 +7707,7 @@ GameObject:
   - component: {fileID: 737898211}
   - component: {fileID: 737898212}
   - component: {fileID: 737898213}
+  - component: {fileID: 737898200}
   m_Layer: 0
   m_Name: Cutscene
   m_TagString: cutscene
@@ -7730,7 +7731,7 @@ MonoBehaviour:
   scrollPos: {x: -166.28223, y: 143.31459}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 404
+  blockViewHeight: 623
   zoom: 0.7000002
   scrollViewRect:
     serializedVersion: 2
@@ -7738,8 +7739,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 737898186}
+  selectedCommands:
+  - {fileID: 737898211}
   variables: []
   description: 
   stepPause: 0
@@ -7839,6 +7842,7 @@ MonoBehaviour:
   - {fileID: 737898203}
   - {fileID: 737898208}
   - {fileID: 737898206}
+  - {fileID: 737898200}
   - {fileID: 737898207}
   - {fileID: 737898184}
   - {fileID: 737898213}
@@ -7856,8 +7860,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 12
   indentLevel: 0
-  storyText: It's all over your face dude I can tell. but nevermind that. What's most
-    important is we get home.
+  storyText: Call it "A hunch", but nevermind that. What's most important is we get
+    home.
   description: 
   character: {fileID: 102413652}
   portrait: {fileID: -829488309857445243, guid: 4a2e4736dd425094fa42291756e2db1d,
@@ -7885,8 +7889,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 11
   indentLevel: 0
-  storyText: Yes. But who care what the people upstairs think? I like cute girls and
-    you dress up as a girl sometimes and we're still friends.
+  storyText: Yes. But who cares what the people upstairs think? I like cute girls
+    and you dress up as a girl sometimes and we're still friends.
   description: 
   character: {fileID: 102413652}
   portrait: {fileID: -829488309857445243, guid: 4a2e4736dd425094fa42291756e2db1d,
@@ -7944,7 +7948,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 9
   indentLevel: 0
-  storyText: Yeah we are! Fighting our way through this hipster mad-max hell hole,
+  storyText: Yeah we are! Fighting our way through this hipster mad-max hellhole,
     Through the 2nd layer's slums back to our home on the top layer.
   description: 
   character: {fileID: 102413652}
@@ -7973,7 +7977,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 8
   indentLevel: 0
-  storyText: 'We''re climbing back up? Back up to the top of Neo SF?
+  storyText: 'We''re climbing back up?
+
+    Back up to the top of Neo SF?
 
     Back to Neo SF-3?'
   description: 
@@ -8004,7 +8010,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: 'SAME THING SILLY BOY!
 
-    Lets fight our way back up! That''s our only chance of survival!'
+    Let''s fight our way back up! It''s our only chance!'
   description: 
   character: {fileID: 102413652}
   portrait: {fileID: -829488309857445243, guid: 4a2e4736dd425094fa42291756e2db1d,
@@ -8032,10 +8038,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 6
   indentLevel: 0
-  storyText: 'Fist off, well look at these odds! were outnumbered! We cant survive
-    this.
+  storyText: 'Firstly, We''re outnumbered! We cant survive this.
 
-    Secondly, it''s Seppuku not sudoku'
+    Secondly, it''s Seppuku not Sudoku'
   description: 
   character: {fileID: 1375471248}
   portrait: {fileID: 21300000, guid: 6f5e14dd96dac8741a9cd88d77e620f5, type: 3}
@@ -8062,7 +8067,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 5
   indentLevel: 0
-  storyText: Dude! no commiting sudoku! What the hell, we're not going to die here!
+  storyText: Dude! No commiting Sudoku! We are NOT going to die here!
   description: 
   character: {fileID: 102413652}
   portrait: {fileID: -829488309857445243, guid: 4a2e4736dd425094fa42291756e2db1d,
@@ -8090,8 +8095,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 4
   indentLevel: 0
-  storyText: I don't like this at all... I don't wana die here like this! Let's jump
-    into the bay! I'd rather let the water take us instead of these guys.
+  storyText: 'I don''t like this one bit...
+
+    Jump into the water! I''d rather drown than go against these guys.'
   description: 
   character: {fileID: 1375471248}
   portrait: {fileID: 21300000, guid: 6f5e14dd96dac8741a9cd88d77e620f5, type: 3}
@@ -8118,8 +8124,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 3
   indentLevel: 0
-  storyText: Yeah! I'm fine, but we're surrounded! Those ground dwellers have us pinned
-    here!
+  storyText: I'm fine, but we're surrounded! Those ground dwellers got us pinned!
   description: 
   character: {fileID: 102413652}
   portrait: {fileID: -829488309857445243, guid: 4a2e4736dd425094fa42291756e2db1d,
@@ -8147,7 +8152,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2
   indentLevel: 0
-  storyText: Laura! Are you ok over there?
+  storyText: Laura! Are you OKI?
   description: 
   character: {fileID: 1375471248}
   portrait: {fileID: 21300000, guid: 6f5e14dd96dac8741a9cd88d77e620f5, type: 3}
@@ -8199,6 +8204,34 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 737898198}
   commandList: []
+--- !u!114 &737898200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 737898182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 27
+  indentLevel: 0
+  storyText: Ass!
+  description: 
+  character: {fileID: 102413652}
+  portrait: {fileID: -829488309857445243, guid: 4a2e4736dd425094fa42291756e2db1d,
+    type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &737898203
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -8268,8 +8301,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 14
   indentLevel: 0
-  storyText: 'You''re so stubborn, and embarassing sometimes Laura... But I guess
-    that''s why you''re my best friend.
+  storyText: 'You''re so stubborn sometimes Laura...
+
+    But I guess that''s why you''re my best friend.
 
     Do you have a plan?'
   description: 
@@ -8298,7 +8332,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 22
   indentLevel: 0
-  storyText: Ass.
+  storyText: Some.
   description: 
   character: {fileID: 102413652}
   portrait: {fileID: -829488309857445243, guid: 4a2e4736dd425094fa42291756e2db1d,
@@ -8326,8 +8360,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 21
   indentLevel: 0
-  storyText: Well.. I guess thats a plan. You're the smartest one of the group (and
-    somewhat bossy too but whos complaining?), so I trust you.
+  storyText: Well, That's a plan. You're the smartest one of the group (and somewhat
+    bossy too but whos complaining?), so I trust you.
   description: 
   character: {fileID: 1375471248}
   portrait: {fileID: 21300000, guid: 6f5e14dd96dac8741a9cd88d77e620f5, type: 3}
@@ -8382,9 +8416,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 23
   indentLevel: 0
-  storyText: 'Dude that''s supposed to be a secret! Don''t say it out loud!
-
-    Also... how did you know? I haven''t told anyone?'
+  storyText: "Yea- Wait what...?\n How did you know that!? It was supposed to be a
+    secret! "
   description: 
   character: {fileID: 1375471248}
   portrait: {fileID: 21300000, guid: 6f5e14dd96dac8741a9cd88d77e620f5, type: 3}
@@ -8411,8 +8444,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 24
   indentLevel: 0
-  storyText: I was in the middle of my visual novel "Super cutie lovers DX - Hearts
-    Kiss Edition", then they throw us here! I WANT TO SEE MY GIRLS KISS AAAAAAAAAAAAAAAAAAAAAA
+  storyText: I was in the middle of  "Super cutie lovers DX - Hearts Kiss Edition",
+    and then this! I WANNA TO SEE MY GIRLS KISS
   description: 
   character: {fileID: 102413652}
   portrait: {fileID: -829488309857445243, guid: 4a2e4736dd425094fa42291756e2db1d,
