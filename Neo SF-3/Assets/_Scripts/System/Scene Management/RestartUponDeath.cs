@@ -10,20 +10,27 @@ public class RestartUponDeath : MonoBehaviour
     private SceneTransitionManager sceneManager;
     private rsManager rsmanager;
     private bool restartRan = false;
+    private bool myStart = true;
     #endregion
 
     #region private variables
 
     private void Start()
     {
-        sceneManager = GetComponent<SceneTransitionManager>();
-        rsmanager = GameObject.FindGameObjectWithTag("rsManager").GetComponent<rsManager>();
+
+
     }
 
     private void Update()
     {
+        if (myStart && curFrameCount >= 20)
+        {
+            myStart = false;
+            sceneManager = GetComponent<SceneTransitionManager>();
+            rsmanager = GameObject.FindGameObjectWithTag("rsManager").GetComponent<rsManager>();
+        }
         // Every 20 frames, check if players dead
-        if (curFrameCount >= 20)
+        if (curFrameCount >= 20 && !myStart)
         {
             curFrameCount = 0;
             // If both players died, restart scene
