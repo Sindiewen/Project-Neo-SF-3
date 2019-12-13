@@ -10,6 +10,7 @@ public class MainMenu : MonoBehaviour
     // ---------------------------------
     public GameObject mainMenuUI;
     public GameObject playerUI;
+    public bool playCutscene = true;
 
     // private variables
     // ---------------------------------
@@ -59,11 +60,15 @@ public class MainMenu : MonoBehaviour
         // Play curLevelMusic
         musicManager.playMusic(sceneManager.curSceneName);
 
-        // execute first cutscene
-        cutscene.ExecuteBlock("OnPlay");
+        if (playCutscene)
+        {
+            // execute first cutscene
+            cutscene.ExecuteBlock("OnPlay");
 
-        // execute cutscene, prevent input
-        pauseManager.executeCutscene();
+            // execute cutscene, prevent input
+            pauseManager.executeCutscene();
+        }
+        
     }
 
 
