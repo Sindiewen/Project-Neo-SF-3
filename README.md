@@ -3,6 +3,8 @@ This is the github repo for the Neo SF-3 group project for the class CS177 fall 
 
 As of December 13th 2019, the project is complete and active development will cease (the semester is ending so not much after this). If you want to work on this project, feel free to fork and create a pull request.
 
+## Download link:
+https://sindiewen.itch.io/neo-sf-3
 
 ## Dependancies
 - Unity 2019.2.11f1
