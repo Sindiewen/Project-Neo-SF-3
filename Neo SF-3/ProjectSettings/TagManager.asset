@@ -9,6 +9,7 @@ TagManager:
   - Enemy
   - Pickups
   - enemyUIHealthParent
+  - cutscene
   layers:
   - Default
   - TransparentFX

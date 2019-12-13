@@ -17,6 +17,7 @@ public class PlayerInputController : MonoBehaviour
     private PlayerMovement playerMovement;
     private PlayerCombatController playerCombat;
     private PlayerAttributesController playerAttributes;
+    private pauseManager pauseManager;
 
     #endregion
 
@@ -36,6 +37,7 @@ public class PlayerInputController : MonoBehaviour
         playerMovement = GetComponent<PlayerMovement>();
         playerCombat = GetComponent<PlayerCombatController>();
         playerAttributes = GetComponent<PlayerAttributesController>();
+        pauseManager = transform.parent.GetComponent<pauseManager>();
 
         // Sending the current player number to the attribues controlelr
         playerAttributes.currentPlayerNumber = (int)inputManager.player_number;
@@ -48,16 +50,18 @@ public class PlayerInputController : MonoBehaviour
     /// </summary>
     private void Update()
     {
-        // If player attacks, initiate atttack
-        if (inputManager.IsAttacking)
-            playerCombat.initiateAttack(playerMovement.FacingDirection);
+        if (!pauseManager.isInCutscene && !pauseManager.isPaused)
+        {
+            // If player attacks, initiate atttack
+            if (inputManager.IsAttacking)
+                playerCombat.initiateAttack(playerMovement.FacingDirection);
 
-        if (!inputManager.IsAttacking || playerCombat.cooldownTimer <= 0 || !playerAttributes.playerStaggered || !playerAttributes.PlayerDied)
-            playerCombat.FacingDir = playerMovement.FacingDirection;
+            if (!inputManager.IsAttacking || playerCombat.cooldownTimer <= 0 || !playerAttributes.playerStaggered || !playerAttributes.PlayerDied)
+                playerCombat.FacingDir = playerMovement.FacingDirection;
 
-        if (inputManager.KillPlayer)
-            playerAttributes.takeDamage(99999);
-
+            if (inputManager.KillPlayer)
+                playerAttributes.takeDamage(99999);
+        }
     }
 
     /// <summary>
@@ -68,16 +72,19 @@ public class PlayerInputController : MonoBehaviour
     /// </summary>
     private void FixedUpdate()
     {
-        // Iniitate player movement (NOTE: Unity Physics must be kept inside of FixedUpdate()
-        // to ensure physics are not tied to the frame rate)
-        if ((inputManager.CanMove) && (!inputManager.IsAttacking && playerCombat.cooldownTimer <= 0 && !playerAttributes.playerStaggered && !playerAttributes.PlayerDied))
-            playerMovement.initiatiteMovement(inputManager.MoveDirection, inputManager.IsSprinting);
-        // If player 2 not control yet
-        else if (!inputManager.CanMove && !inputManager.P2ControlState && (Vector3.Distance(transform.position, playerAttributes.partner.transform.position) > 2))
-            playerMovement.followPartner(playerAttributes);
-        // No input given to player, no move
-        else
-            playerMovement.initiatiteMovement(Vector2.zero, false);
+        if (!pauseManager.isInCutscene && !pauseManager.isPaused)
+        {
+            // Iniitate player movement (NOTE: Unity Physics must be kept inside of FixedUpdate()
+            // to ensure physics are not tied to the frame rate)
+            if ((inputManager.CanMove) && (!inputManager.IsAttacking && playerCombat.cooldownTimer <= 0 && !playerAttributes.playerStaggered && !playerAttributes.PlayerDied))
+                playerMovement.initiatiteMovement(inputManager.MoveDirection, inputManager.IsSprinting);
+            // If player 2 not control yet
+            else if (!inputManager.CanMove && !inputManager.P2ControlState && (Vector3.Distance(transform.position, playerAttributes.partner.transform.position) > 2))
+                playerMovement.followPartner(playerAttributes);
+            // No input given to player, no move
+            else
+                playerMovement.initiatiteMovement(Vector2.zero, false);
+        }
     }
 
 

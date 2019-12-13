@@ -24,11 +24,13 @@ public class PlayerAttributesController : MonoBehaviour
     public TextMeshProUGUI P1_curHPText;
     public TextMeshProUGUI P1_MaxHPText;
     public TextMeshProUGUI P1_Respawn_Text;
+    public TextMeshProUGUI p1_strText;
     public SimpleHealthBar P2_Health_Bar;
     public GameObject P2_healthTextHolder;
     public TextMeshProUGUI P2_curHPText;
     public TextMeshProUGUI P2_maxHPText;
     public TextMeshProUGUI P2_Respawn_Text;
+    public TextMeshProUGUI p2_strText;
 
     [Header("Player Combat Values")]
     public int AttackStrength;          // Player attack strength
@@ -363,12 +365,14 @@ public class PlayerAttributesController : MonoBehaviour
             P1_Health_Bar.UpdateBar(playerHealth, playerHealthMax);
             P1_curHPText.text = playerHealth.ToString();
             P1_MaxHPText.text = playerHealthMax.ToString();
+            p1_strText.text = AttackStrength.ToString();
         }
         else
         {
             P2_Health_Bar.UpdateBar(playerHealth, playerHealthMax);
             P2_curHPText.text = playerHealth.ToString();
             P2_maxHPText.text = playerHealthMax.ToString();
+            p2_strText.text = AttackStrength.ToString();
         }
     }
 
