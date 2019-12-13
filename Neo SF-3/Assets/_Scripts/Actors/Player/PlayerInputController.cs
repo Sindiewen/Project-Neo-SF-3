@@ -59,7 +59,7 @@ public class PlayerInputController : MonoBehaviour
             if (!inputManager.IsAttacking || playerCombat.cooldownTimer <= 0 || !playerAttributes.playerStaggered || !playerAttributes.PlayerDied)
                 playerCombat.FacingDir = playerMovement.FacingDirection;
 
-            if (inputManager.KillPlayer)
+            if (inputManager.KillPlayer || inputManager.KillPlayer2)
                 playerAttributes.takeDamage(99999);
         }
     }

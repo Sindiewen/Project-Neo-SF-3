@@ -10,6 +10,7 @@ TagManager:
   - Pickups
   - enemyUIHealthParent
   - cutscene
+  - rsManager
   layers:
   - Default
   - TransparentFX
