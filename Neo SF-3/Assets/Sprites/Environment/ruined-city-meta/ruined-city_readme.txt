@@ -1,0 +1,1 @@
+This asset is a paid asset that we can't redistribute like this. So I have to remove it. But i'm going to backup the meta files so if you get the asset and import it, just drop the meta files into the project and you should be able to just get it working.
