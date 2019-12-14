@@ -26,11 +26,17 @@ World environment sprites
 ## Credits
 Me and my teammates who helped make this project a thing:
     - Rachel Vancleave - Director, Lead Game Design, Writer, Lead Engineer
+
     - Milo Cespedes - Music and Sound design                         
+    
     - Justin Ino - Game Design
+    
     - Steve Han - Art/Animation, Gameplay Engineer
+    
     - Todd Elkins  - Art/Animation, Gameplay Engineer
+    
     - KiraSergeyevna Ugai - Design
+    
     - Anna Bolkhovitina - Design
 
 You guys did a wonderful job, thank you so much!
