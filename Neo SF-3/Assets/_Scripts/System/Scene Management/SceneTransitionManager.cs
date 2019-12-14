@@ -32,7 +32,6 @@ public class SceneTransitionManager : MonoBehaviour
 
     #endregion
 
-
     #region private Methods
 
     /// <summary>
@@ -149,6 +148,12 @@ public class SceneTransitionManager : MonoBehaviour
         {
             musicManager.playMusic(curSceneName);
         }
+
+    }
+
+    public void restartGame(int sceneToLoad)
+    {
+        SceneManager.LoadScene(sceneToLoad);
     }
 
     #endregion

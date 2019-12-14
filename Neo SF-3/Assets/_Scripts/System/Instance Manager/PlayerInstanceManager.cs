@@ -9,6 +9,7 @@
 public class PlayerInstanceManager : MonoBehaviour {
 
     public GameObject lumi;
+    public bool destroyGameObjectUponLoad = false;
 
     private static PlayerInstanceManager instance;        // Static reference to the instance
 

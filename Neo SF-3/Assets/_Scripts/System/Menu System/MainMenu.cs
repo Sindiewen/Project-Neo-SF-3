@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using Fungus;
 
 public class MainMenu : MonoBehaviour
 {
@@ -9,12 +10,15 @@ public class MainMenu : MonoBehaviour
     // ---------------------------------
     public GameObject mainMenuUI;
     public GameObject playerUI;
+    public bool playCutscene = true;
 
     // private variables
     // ---------------------------------
     // Component references
     private SceneTransitionManager sceneManager;
     private WorldMusicManager musicManager;
+    private pauseManager pauseManager;
+    private Flowchart cutscene;
 
     private bool isPaused = true;
 
@@ -29,6 +33,8 @@ public class MainMenu : MonoBehaviour
         // get components
         sceneManager = GetComponent<SceneTransitionManager>();
         musicManager = GetComponent<WorldMusicManager>();
+        pauseManager = GetComponent<pauseManager>();
+        cutscene = GameObject.FindGameObjectWithTag("cutscene").GetComponent<Flowchart>();
     }
 
 
@@ -53,6 +59,16 @@ public class MainMenu : MonoBehaviour
 
         // Play curLevelMusic
         musicManager.playMusic(sceneManager.curSceneName);
+
+        if (playCutscene)
+        {
+            // execute first cutscene
+            cutscene.ExecuteBlock("OnPlay");
+
+            // execute cutscene, prevent input
+            pauseManager.executeCutscene();
+        }
+        
     }
 
 
