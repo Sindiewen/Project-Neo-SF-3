@@ -5,6 +5,10 @@
 [Bb]uilds/
 Assets/AssetStoreTools*
 
+# Dependencies
+cMonkeys/
+Retro 2D Characters/
+
 # Visual Studio cache directory
 .vs/
 

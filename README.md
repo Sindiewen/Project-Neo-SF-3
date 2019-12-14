@@ -12,6 +12,8 @@ https://sindiewen.itch.io/neo-sf-3
 This is the Input manager we're using.
 - Fungus - http://fungusgames.com/
 This is for the cutscenes that are used
+- Retro 2D Characters - https://assetstore.unity.com/packages/2d/characters/retro-2d-characters-17847#content
+For the player character sprites
 
 ## Special Thanks
 My teammates who helped make this project a thing:
