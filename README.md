@@ -7,13 +7,21 @@ As of December 13th 2019, the project is complete and active development will ce
 https://sindiewen.itch.io/neo-sf-3
 
 ## Dependancies
+### Free:
+These are the free things we used in this project. You can download and use them freely in the game with no problem.
 - Unity 2019.2.11f1
-- cInput - https://assetstore.unity.com/packages/tools/input-management/cinput-pro-3129
-This is the Input manager we're using.
 - Fungus - http://fungusgames.com/
 This is for the cutscenes that are used
+
+### Paid:
+This is where it's tricky. We can't just release the project as is because we're using assets that are paid and we cant just push them to the project repository as is. We needed to remove them from the project. THere are the links to them.
+- cInput - https://assetstore.unity.com/packages/tools/input-management/cinput-pro-3129
+This is the Input manager we're using.
 - Retro 2D Characters - https://assetstore.unity.com/packages/2d/characters/retro-2d-characters-17847#content
 For the player character sprites
+- Ruined City - https://graphicriver.net/item/ruined-city-big-game-top-down-town-tileset/23118918
+World environment sprites
+
 
 ## Special Thanks
 My teammates who helped make this project a thing:
