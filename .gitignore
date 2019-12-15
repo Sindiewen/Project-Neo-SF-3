@@ -6,9 +6,9 @@
 Assets/AssetStoreTools*
 
 # Dependencies
-/cMonkeys/
-/Retro 2D Characters/
-/ruined-city/
+cMonkeys/
+Retro 2D Characters/
+ruined-city/
 
 # Visual Studio cache directory
 .vs/
